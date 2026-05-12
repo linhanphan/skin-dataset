@@ -4,23 +4,36 @@ from scipy.stats import fisher_exact
 ice = pd.read_csv("ICE_105_endpoint_presence_from_raw.csv")
 skin = pd.read_csv("Skin_209_endpoint_presence_from_raw.csv")
 
-required = ["KE1_call","KE2_call","KE3_call","LLNA_call","misclassified"]
+call_cols = ["KE1_call", "KE2_call", "KE3_call", "LLNA_call"]
 
 def make_pattern_df(df, cas_col, chem_col):
-    d = df[df[required].notna().all(axis=1)].copy()
-    d["pattern"] = d[["KE1_call","KE2_call","KE3_call"]].astype(int).astype(str).agg("".join, axis=1)
+    missing = [c for c in call_cols if c not in df.columns]
+    if missing:
+        raise KeyError(f"Missing required call columns: {missing}")
+
+    d = df[df[call_cols].notna().all(axis=1)].copy()
+    d[call_cols] = d[call_cols].astype(int)
+    d["misclassified"] = (
+        d[["KE1_call", "KE2_call", "KE3_call"]]
+        .ne(d["LLNA_call"], axis=0)
+        .any(axis=1)
+        .astype(int)
+    )
+    d["pattern"] = d[["KE1_call","KE2_call","KE3_call"]].astype(str).agg("".join, axis=1)
     d["concordant"] = d["pattern"].isin(["000","111"])
     d["n_pos"] = d[["KE1_call","KE2_call","KE3_call"]].sum(axis=1).astype(int)
     d["CAS"] = d[cas_col]
     d["Chemical"] = d[chem_col]
     return d
 
-icep = make_pattern_df(ice, "CASRN", "Chemical_Name")
-skinp = make_pattern_df(skin, "CAS No", "Chemical_Name")
+icep = make_pattern_df(ice, "CAS", "Chemical")
+skinp = make_pattern_df(skin, "CAS", "Chemical")
 
 def or_ci(a,b,c,d):
-    OR = (a*d)/(b*c)
-    se = math.sqrt(1/a + 1/b + 1/c + 1/d)
+    # Use a small continuity correction for the Wald CI when any cell is zero.
+    aa, bb, cc, dd = (a, b, c, d) if min(a, b, c, d) > 0 else (a + 0.5, b + 0.5, c + 0.5, d + 0.5)
+    OR = (aa * dd) / (bb * cc)
+    se = math.sqrt(1 / aa + 1 / bb + 1 / cc + 1 / dd)
     return OR, math.exp(math.log(OR)-1.96*se), math.exp(math.log(OR)+1.96*se)
 
 def concordance_stats(d):

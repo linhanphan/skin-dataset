@@ -20,9 +20,9 @@ SkinSensDB,Pretilachlor,51218-49-6,,1.0,,,,0,1.39,1,,0,,0,0
 SkinSensDB,Glufosinate ammonium,77182-82-2,,,,,,0,,0,,0,,0,0
 SkinSensDB,Amphoterycin B,1397-89-3,,,,,,0,,0,,0,,0,0
 SkinSensDB,Minocycline,10118-90-8,,,,,,0,,0,,0,,0,0
-SkinSensDB,Methotrexate,1959-05-02 00:00:00,,,,,,0,,0,,0,,0,0
+SkinSensDB,Methotrexate,59-05-2,,,,,,0,,0,,0,,0,0
 SkinSensDB,Digoxin,20830-75-5,,,,,,0,,0,,0,,0,0
-SkinSensDB,Trichloroethylene,1979-01-06 00:00:00,,,,,,0,,0,,0,,0,0
+SkinSensDB,Trichloroethylene,79-01-6,,,,,,0,,0,,0,,0,0
 SkinSensDB,Hexachlorobenzene,118-74-1,,,,,,0,,0,,0,,0,0
 SkinSensDB,Lead(ll) acetate,301-04-2,,,,,,0,,0,,0,,0,0
 SkinSensDB,Hydrogen peroxide,7722-84-1,,,,,,0,,0,,0,,0,0
@@ -31,7 +31,7 @@ SkinSensDB,Cyclosporine A,59865-13-3,,,,,,0,,0,,0,,0,0
 SkinSensDB,Cyclophosphamide,50-18-0,,,,,,0,,0,,0,,0,0
 SkinSensDB,Dapsone,80-08-0,,,,,,0,,0,,0,,0,0
 SkinSensDB,FR167653,158876-65-4,,,,,,0,,0,,0,,0,0
-SkinSensDB,Chloroquine,1954-05-07 00:00:00,,,,,,0,,0,,0,,0,0
+SkinSensDB,Chloroquine,54-05-7,,,,,,0,,0,,0,,0,0
 SkinSensDB,Chloroplatinic acid,16941-12-1,,,,,,0,,0,,0,,0,0
 SkinSensDB,Lithium carbonate,554-13-2,,,,,,0,,0,,0,,0,0
 SkinSensDB,Lutetium (III) chloride hexahydrate,15230-79-2,,,,,,0,,0,,0,,0,0
@@ -86,7 +86,7 @@ SkinSensDB,Octamethylcyclotetrasiloxane,556-67-2,0.0,,,,0.145,1,,0,,0,,0,0
 SkinSensDB,"2,2,4-Trimethyl-1,3-pentanediol monoisobutyrate",25265-77-4,0.0,,,,1.21,1,,0,,0,,0,0
 SkinSensDB,Diethylene glycol monoethyl ether,111-90-0,0.0,,,,0.9049999999999999,1,,0,,0,,0,0
 SkinSensDB,Propylene glycol monomethyl ether,107-98-2,0.0,,,,2.13,1,,0,,0,,0,0
-SkinSensDB,Butyl glycidyl ether,2426-08-06 00:00:00,,,,,,0,,0,,0,,0,0
+SkinSensDB,Butyl glycidyl ether,2426-08-6,,,,,,0,,0,,0,,0,0
 SkinSensDB,Actinomycin D,50-76-0,,,,,,0,,0,,0,,0,0
 SkinSensDB,Propylene glycol monoethyl ether,1569-02-4,0.0,,,,-0.0050000000000000044,1,,0,,0,,0,0
 SkinSensDB,Dodecamethylcyclohexasiloxane,540-97-6,0.0,,,,0.065,1,,0,,0,,0,0
@@ -121,7 +121,7 @@ SkinSensDB,"HC BLUE No,14",99788-75-7,1.0,1.0,1.0,,53.8,1,109.0,1,13.8,1,,0,0
 SkinSensDB,"HC YELLOW No,10",109023-83-8,0.0,0.0,0.0,,2.55,1,2000.0,1,200.0,1,,0,0
 SkinSensDB,Cetrimide,57-09-0,0.0,,1.0,,1.95,1,,0,0.8,1,,0,0
 SkinSensDB,ACID VIOLET 43,4430-18-6,1.0,0.0,1.0,,79.8,1,2000.0,1,47.3,1,,0,0
-SkinSensDB,Tocopherol,1959-02-09 00:00:00,0.0,1.0,0.0,1.0,3.55,1,114.6,1,200.0,1,7.4,1,1
+SkinSensDB,Tocopherol,59-02-9,0.0,1.0,0.0,1.0,3.55,1,114.6,1,200.0,1,7.4,1,1
 SkinSensDB,3-methylamino-4-nitrophenoxyethanol,59820-63-2,0.0,1.0,0.0,,3.8000000000000003,1,90.0,1,200.0,1,,0,0
 SkinSensDB,"2,2'-[(4-Aminophenyl)imino]diethanol sulfate (1:1)",54381-16-7,1.0,1.0,1.0,1.0,67.55,1,0.9,1,7.7,1,1.04,1,1
 SkinSensDB,dihydroxyindole,3131-52-0,1.0,0.0,1.0,1.0,99.6,1,2000.0,1,0.4,1,0.17,1,1
@@ -144,11 +144,11 @@ SkinSensDB,Phenylglycidylether,122-60-1,,1.0,,1.0,,0,16.1,1,,0,0.46,1,0
 SkinSensDB,Decylphenolpolyethylene glycol ether,14409-72-4,,0.0,,1.0,,0,4000.0,1,,0,1.984251,1,0
 SkinSensDB,Diethylene glycol monohexadecyl ether,5274-61-3,,0.0,,1.0,,0,4000.0,1,,0,1.153025,1,0
 SkinSensDB,2-(Phenylthiomethyl)oxirane,5296-21-9,,1.0,,1.0,,0,48.1,1,,0,0.581,1,0
-SkinSensDB,Bisphenol F diglycidylether,2095-03-06 00:00:00,,1.0,,1.0,,0,6.5,1,,0,1.1232,1,0
+SkinSensDB,Bisphenol F diglycidylether,2095-03-6,,1.0,,1.0,,0,6.5,1,,0,1.1232,1,0
 SkinSensDB,Tetraethylene glycol monotetradecyl ether,39034-24-7,0.0,0.0,1.0,1.0,1.0,1,4000.0,1,23.09,1,2.8,1,1
 SkinSensDB,p-Nitroaniline,100-01-6,,,,,,0,,0,,0,,0,0
 SkinSensDB,Hexaethylene glycol monododecyl ether,3055-96-7,0.0,0.0,1.0,1.0,4.25,1,4000.0,1,15.25,1,7.4,1,1
-SkinSensDB,Benzyl-glycidylether,2930-05-04 00:00:00,,1.0,,1.0,,0,27.2,1,,0,2.8,1,0
+SkinSensDB,Benzyl-glycidylether,2930-05-4,,1.0,,1.0,,0,27.2,1,,0,2.8,1,0
 SkinSensDB,"2-(tert-butyl)-5-methyl-2-propyl-2,5-dihydrofuran",871465-49-5,,0.0,,1.0,,0,4000.0,1,,0,48.0,1,0
 SkinSensDB,Methylaminosiloxane with glycidyl trimethylammonium chloride,495403-02-6,0.0,,,,-1.6,1,,0,,0,,0,0
 SkinSensDB,Hexyl 2-methylbutanoate,10032-15-2,,0.0,,,,0,4000.0,1,,0,,0,0
@@ -191,11 +191,11 @@ SkinSensDB,Lactic acid (LA),306-23-0,,,,,,0,,0,,0,,0,0
 SkinSensDB,3-(4-Methyl-3-cyclohexenyl) butanol,15760-18-6,,1.0,1.0,1.0,,0,126.69,1,30.75,1,20.0,1,0
 SkinSensDB,2-Methyldecanal,19009-56-4,,1.0,,1.0,,0,0.0,1,,0,23.6,1,0
 SkinSensDB,3-Phenylbutanal,16251-77-7,,1.0,1.0,,,0,0.0,1,3.14,1,,0,0
-SkinSensDB,4-Methoxy-a-methyl benzenpropanal,5462-06-06 00:00:00,,1.0,1.0,1.0,,0,54.25,1,5.49,1,23.6,1,0
+SkinSensDB,4-Methoxy-a-methyl benzenpropanal,5462-06-6,,1.0,1.0,1.0,,0,54.25,1,5.49,1,23.6,1,0
 SkinSensDB,omega-Pentadecalactone,106-02-5,,1.0,1.0,1.0,,0,0.0,1,16.78,1,16.6,1,0
 SkinSensDB,beta-Farnesene,18794-84-8,,1.0,1.0,0.0,,0,20.96,1,4.0,1,0.0,1,0
 SkinSensDB,Longifolene,475-20-7,,1.0,,1.0,,0,0.0,1,,0,1.75,1,0
-SkinSensDB,1-Octen-3-yl acetate,2442-10-06 00:00:00,,0.0,,0.0,,0,4000.0,1,,0,0.0,1,0
+SkinSensDB,1-Octen-3-yl acetate,2442-10-6,,0.0,,0.0,,0,4000.0,1,,0,0.0,1,0
 SkinSensDB,"2-Methyl-4-(2,6,6-trimethylcyclohex-1-en-1-yl)-2-butenal",3155-71-3,,,1.0,1.0,,0,,0,6.2,1,11.9,1,0
 SkinSensDB,"2-Hexyl-1,3-dioxolane",1708-34-5,,1.0,,1.0,,0,0.0,1,,0,64.98,1,0
 SkinSensDB,Diethanolamin,111-42-2,0.0,0.0,1.0,1.0,4.050000000000001,1,2000.0,1,26.0,1,40.0,1,1
@@ -218,7 +218,7 @@ SkinSensDB,"Methyl 2,4-dihydroxy-m-toluate",33662-58-7,,1.0,1.0,1.0,,0,202.62,1,
 SkinSensDB,Tea Leaf Absolute,84650-60-2,1.0,,1.0,,79.785,1,,0,51.9,1,,0,0
 SkinSensDB,Ytterbium (III) chloride hexahydrate,10035-01-5,,,,,,0,,0,,0,,0,0
 SkinSensDB,3-Methyl-5-phenylpent-2-enenitrile,93893-89-1,,,1.0,1.0,,0,,0,14.21,1,0.77,1,0
-SkinSensDB,Mitomycin C,1950-07-07 00:00:00,,,,,,0,,0,,0,,0,0
+SkinSensDB,Mitomycin C,50-07-7,,,,,,0,,0,,0,,0,0
 SkinSensDB,2-Isobutyl-4-methyltetrahydro-2H-pyran-4-ol,63500-71-0,,0.0,0.0,0.0,,0,2000.0,1,188.8,1,0.0,1,0
 SkinSensDB,"Propanedioic acid, 1-(3,3-dimethylcyclohexyl) ethyl, ethyl ester",478695-70-4,,0.0,1.0,0.0,,0,2000.0,1,38.9,1,0.0,1,0
 SkinSensDB,Zinc oxide,1314-13-2,0.0,,,,4.925,1,,0,,0,,0,0
@@ -275,7 +275,7 @@ SkinSensDB,"4,4,4-Trifluoro-1-phenylbutane-1,3-dione",362-06-7,,,,1.0,,0,,0,,0,2
 SkinSensDB,Produkt P-4G,185461-17-0,,,,,,0,,0,,0,,0,0
 SkinSensDB,Ovalbumin,9006-59-1,,,,1.0,,0,,0,,0,19.0,1,0
 SkinSensDB,Palmarosa oil,8014-19-5,,,,1.0,,0,,0,,0,9.6,1,0
-SkinSensDB,Lemongrass oil,8007-02-01 00:00:00,,,,1.0,,0,,0,,0,6.5,1,0
+SkinSensDB,Lemongrass oil,8007-02-1,,,,1.0,,0,,0,,0,6.5,1,0
 SkinSensDB,Litsea cubeb oil,68855-99-2,,,,1.0,,0,,0,,0,8.4,1,0
 SkinSensDB,Morpholine,110-91-8,0.0,,,,1.585,1,,0,,0,,0,0
 SkinSensDB,Jasmine absolute (Grandiflorum),92457-01-7,,,,1.0,,0,,0,,0,5.9,1,0
@@ -286,13 +286,13 @@ SkinSensDB,Benzyl Alcohol,100-51-6,,1.0,0.0,1.0,,0,308.98,1,175.6,1,50.0,1,0
 SkinSensDB,"(r,s)-3-Amino-2,3,4,5-tetrahydro-n-(1-methylethyl)-2,4-dioxo-n,5-diphenyl-1h-1,5-benzodiazepine-1-acetamide",184944-86-3,,,,,,0,,0,,0,,0,0
 SkinSensDB,C4 Azalactone,176664-99-6,,,,1.0,,0,,0,,0,1.8,1,0
 SkinSensDB,5-Chlorosalicylanilide,4638-48-6,,,,1.0,,0,,0,,0,5.0,1,0
-SkinSensDB,Dimethyl formamide,1968-12-02 00:00:00,0.0,0.0,,0.0,4.71,1,4000.0,1,,0,0.0,1,0
+SkinSensDB,Dimethyl formamide,68-12-2,0.0,0.0,,0.0,4.71,1,4000.0,1,,0,0.0,1,0
 SkinSensDB,Glyceryl monothioglycolate,30618-84-9,1.0,1.0,1.0,1.0,9.600000000000001,1,158.7,1,6.0,1,4.7,1,1
 SkinSensDB,"1,2-Bromo-1-dodecanol",3344-77-2,1.0,,1.0,1.0,7.700000000000001,1,,0,1.0,1,6.9,1,0
 SkinSensDB,2-Ethylhexyl methacrylate,688-84-6,,,1.0,,,0,,0,24.2,1,,0,0
 SkinSensDB,3-nitro-p-hydroxyethylaminophenol,65235-31-6,1.0,1.0,1.0,1.0,99.5,1,6.0,1,1.0,1,0.07,1,1
 SkinSensDB,Hydroxytyrosol,10597-60-1,1.0,1.0,1.0,1.0,69.7,1,88.87,1,3.37,1,0.61,1,1
-SkinSensDB,Colophonium; colophony; rosin (not oxidized),8050-09-07 00:00:00,,,,,,0,,0,,0,,0,0
+SkinSensDB,Colophonium; colophony; rosin (not oxidized),8050-09-7,,,,,,0,,0,,0,,0,0
 SkinSensDB,C6 Azalactone,176665-02-4,,,,1.0,,0,,0,,0,1.3,1,0
 SkinSensDB,Imidazoidinyl urea,39236-46-9,1.0,1.0,1.0,1.0,47.650000000000006,1,29.9,1,11.0,1,24.0,1,1
 SkinSensDB,"2,4-Diaminotoluene",95-80-7,1.0,,,,37.125,1,,0,,0,,0,0
@@ -306,7 +306,7 @@ SkinSensDB,"2,2-Azobis phenol",2050-14-8,0.0,,,1.0,3.595,1,,0,,0,27.9,1,0
 SkinSensDB,"2,4,6,-Trinitro-benzene-sulfonic acid (TNBS)",2508-19-2,1.0,,1.0,1.0,99.84,1,,0,9.5,1,0.3,1,0
 SkinSensDB,"3,4-Dinitrophenol",577-71-9,,1.0,,1.0,,0,6.23,1,,0,2.6,1,0
 SkinSensDB,Jasmine Absolute (Sambac),91770-14-8/1034798-23,,,,1.0,,0,,0,,0,36.4,1,0
-SkinSensDB,2-Phenylethyl alcohol,1960-12-08 00:00:00,0.0,0.0,,,2.41,1,4000.0,1,,0,,0,0
+SkinSensDB,2-Phenylethyl alcohol,60-12-8,0.0,0.0,,,2.41,1,4000.0,1,,0,,0,0
 SkinSensDB,Formulation 23,57213-69-1/55335-06-3,,,,,,0,,0,,0,,0,0
 SkinSensDB,"1-Thioglycerol(3-mercapto-1 ,2-propanediol)",96-27-5,1.0,0.0,1.0,1.0,27.85,1,2000.0,1,82.0,1,3.55,1,1
 SkinSensDB,Ethylene glycol,107-21-1,0.0,,,,2.625,1,,0,,0,,0,0
@@ -325,7 +325,7 @@ SkinSensDB,Dipropylene glycol (mixture of isomers),110-98-5,0.0,,,,0.915,1,,0,,0
 SkinSensDB,3-Hydroxy-4-nitrobenzoic acid,619-14-7,,0.0,,,,0,2000.0,1,,0,,0,0
 SkinSensDB,"3,4-Dihydrocoumarin",119-84-6,1.0,0.0,0.0,1.0,55.6,1,2000.0,1,200.0,1,3.3,1,1
 SkinSensDB,Formulation 33,150114-71-9/1702-17-6/1918-02-1,,,,,,0,,0,,0,,0,0
-SkinSensDB,Saccharin,1981-07-02 00:00:00,1.0,0.0,0.0,,24.35,1,2000.0,1,200.0,1,,0,0
+SkinSensDB,Saccharin,81-07-2,1.0,0.0,0.0,,24.35,1,2000.0,1,200.0,1,,0,0
 SkinSensDB,Benzaldehyde,100-52-7,,1.0,1.0,1.0,,0,443.1,1,84.9,1,25.0,1,0
 SkinSensDB,Co3O4,1308-06-1,,1.0,,,,0,0.0,1,,0,,0,0
 SkinSensDB,2-Hydroxybenzothiaziole,934-34-9,,1.0,,,,0,127.26,1,,0,,0,0
@@ -339,7 +339,7 @@ SkinSensDB,Ylang ylang (Extra),68606-83-7/8006-81-3,,,,1.0,,0,,0,,0,6.8,1,0
 SkinSensDB,Oakmoss,90028-68-5,1.0,1.0,1.0,1.0,73.6,1,7.66,1,10.89,1,3.88,1,1
 SkinSensDB,3-Phenylpropenal,104-55-2or14371-10-9,,1.0,1.0,1.0,,0,2.7,1,1.0,1,0.5,1,0
 SkinSensDB,4-Amino-3-nitrophenyl thiocyanate,54029-45-7,,,,1.0,,0,,0,,0,0.8,1,0
-SkinSensDB,Manganese chloride,7773-01-05 00:00:00,,,,,,0,,0,,0,,0,0
+SkinSensDB,Manganese chloride,7773-01-5,,,,,,0,,0,,0,,0,0
 SkinSensDB,Formulation 30,34256-82-1/57754-85-5/98967-40-9,,,,1.0,,0,,0,,0,9.4,1,0
 SkinSensDB,Jasmine Absolute (Grandiflorum),8022-96-6/84776-64-7,,,1.0,1.0,,0,,0,5.58,1,5.9,1,0
 SkinSensDB,Cannabidiol,13956-29-1,1.0,,1.0,,9.19,1,,0,6.6,1,,0,0
@@ -416,7 +416,7 @@ SkinSensDB,Formulation 26,1702-17-6/64700-56-7,,,,1.0,,0,,0,,0,18.3,1,0
 SkinSensDB,Neomycin sulfate,1405-10-3,0.0,0.0,0.0,,3.1,1,4000.0,1,429.1,1,,0,0
 SkinSensDB,Farnesol,4602-84-0,,1.0,1.0,1.0,,0,10.98,1,8.0,1,4.8,1,0
 SkinSensDB,Ethyl benzoyl acetate,94-02-0,1.0,1.0,0.0,,6.55,1,62.98,1,200.0,1,,0,0
-SkinSensDB,CD-3,1992-09-01 00:00:00,,,,1.0,,0,,0,,0,0.2,1,0
+SkinSensDB,CD-3,92-09-1,,,,1.0,,0,,0,,0,0.2,1,0
 SkinSensDB,Methylnitrosourea,684-93-5,,,1.0,1.0,,0,,0,13.0,1,0.05,1,0
 SkinSensDB,Colchicine,64-86-8,,,,,,0,,0,,0,,0,0
 SkinSensDB,"3-Ethoxy-1-(2',3',4',5'-tetramethylphenyl)propane-1,3-dione",170928-69-5,,,,1.0,,0,,0,,0,33.0,1,0
@@ -427,7 +427,7 @@ SkinSensDB,"Phenylmethyl 2-(4-fluoro-2-methylphenyl)-4-oxo-3,4-dihydro-1(2h)-pyr
 SkinSensDB,Methanol,67-56-1,,,,,,0,,0,,0,,0,0
 SkinSensDB,"N-[(1,1-Dimethylethoxy)-carbonyl]-l-tyrosine, ethyl ester",72594-77-5,,,,,,0,,0,,0,,0,0
 SkinSensDB,Propyl 4-hydroxybenzoate,94-13-3,1.0,1.0,1.0,1.0,11.05,1,5.0,1,23.9,1,50.0,1,1
-SkinSensDB,Benzocaine,1994-09-07 00:00:00,0.0,1.0,1.0,1.0,2.1,1,18.2,1,74.2,1,1.8,1,1
+SkinSensDB,Benzocaine,94-09-7,0.0,1.0,1.0,1.0,2.1,1,18.2,1,74.2,1,1.8,1,1
 SkinSensDB,TiO2,13463-67-7,0.0,,,,2.29,1,,0,,0,,0,0
 SkinSensDB,paraformaldehyde (PFA),30525-89-4,,,,,,0,,0,,0,,0,0
 SkinSensDB,Steptomycine sulfate,3810-74-0,0.0,0.0,0.0,1.0,2.25,1,4000.0,1,1823.6,1,33.3,1,1
@@ -472,7 +472,7 @@ SkinSensDB,Octanoic acid,124-07-2,,0.0,1.0,1.0,,0,2000.0,1,37.5,1,50.0,1,0
 SkinSensDB,1-Bromoheptadecane,3508-00-7,,,,1.0,,0,,0,,0,4.8,1,0
 SkinSensDB,C11 Azalactone,176665-06-8,,,,1.0,,0,,0,,0,16.0,1,0
 SkinSensDB,Methyl dodecanesulfonate,2374-65-4,,,,1.0,,0,,0,,0,0.39,1,0
-SkinSensDB,3-Chloro-4-methoxybenzaldehyde,4903-09-07 00:00:00,1.0,0.0,1.0,,37.6,1,2000.0,1,31.2,1,,0,0
+SkinSensDB,3-Chloro-4-methoxybenzaldehyde,4903-09-7,1.0,0.0,1.0,,37.6,1,2000.0,1,31.2,1,,0,0
 SkinSensDB,1-Iodononane,4282-42-2,,,,1.0,,0,,0,,0,24.0,1,0
 SkinSensDB,1-Chlorononane,2473-01-0,,,,,,0,,0,,0,,0,0
 SkinSensDB,"2,2'-oxybisethanol",111-46-6,0.0,0.0,,,0.815,1,4000.0,1,,0,,0,0
@@ -506,13 +506,13 @@ SkinSensDB,Benzalchonium chloride,8001-54-5,0.0,,1.0,1.0,1.8499999999999999,1,,0
 SkinSensDB,Nonanoylamidocaproylacidoxybenzenesulfonate,168151-92-6,,,,1.0,,0,,0,,0,14.2,1,0
 SkinSensDB,"1,2-Hexanediol",6920-22-5,,,,,,0,,0,,0,,0,0
 SkinSensDB,1-Bromododecane,143-15-7,,1.0,,1.0,,0,44.0,1,,0,18.0,1,0
-SkinSensDB,1-Chlorohexadecane,4860-03-01 00:00:00,,,,1.0,,0,,0,,0,9.1,1,0
+SkinSensDB,1-Chlorohexadecane,4860-03-1,,,,1.0,,0,,0,,0,9.1,1,0
 SkinSensDB,Terbium (III) chloride hexahydrate,13798-24-8,,,,,,0,,0,,0,,0,0
 SkinSensDB,7-Bromotetradecane,74036-97-8,,,,1.0,,0,,0,,0,21.0,1,0
 SkinSensDB,Hexahydroxyplatinate,51850-20-5,,,,,,0,,0,,0,,0,0
 SkinSensDB,"3,4-Dichloroaniline hydrochloride",95-76-1,,,,1.0,,0,,0,,0,0.14,1,0
 SkinSensDB,Formulation 22,57213-69-1/81406-37-3,,,,1.0,,0,,0,,0,52.3,1,0
-SkinSensDB,Dexamethasone,1950-02-02 00:00:00,,,,,,0,,0,,0,,0,0
+SkinSensDB,Dexamethasone,50-02-2,,,,,,0,,0,,0,,0,0
 SkinSensDB,Dinocap,39300-45-3,,,,1.0,,0,,0,,0,0.8,1,0
 SkinSensDB,M-Chloropropiophenone,34841-35-5,,,,,,0,,0,,0,,0,0
 SkinSensDB,1 -Bromobutane,109-65-9,1.0,0.0,0.0,,24.400000000000002,1,1842.37,1,200.0,1,,0,0
@@ -549,7 +549,7 @@ SkinSensDB,Formulation 38,709-98-8,,,,1.0,,0,,0,,0,15.9,1,0
 SkinSensDB,Formulation 32,88671-89-0,,,,1.0,,0,,0,,0,4.3,1,0
 SkinSensDB,"2,4-Dinitrothiocyanatobenzene",1594-56-5,,1.0,,1.0,,0,4.08,1,,0,0.047,1,0
 SkinSensDB,Alachlor,15972-60-8,,,,1.0,,0,,0,,0,2.4,1,0
-SkinSensDB,Formulation 13,1928-43-4,,,,1.0,,0,,0,,0,8.7,1,0
+SkinSensDB,Formulation 13,28-43-4,,,,1.0,,0,,0,,0,8.7,1,0
 SkinSensDB,"N-(2,6-Difluorophenyl)-5-methyl-[1,2,4]triazolo[1,5-a]pyrimidine-2-sulfonamide",98967-40-9,,,,,,0,,0,,0,,0,0
 SkinSensDB,Isobutyl methacrylate,97-86-9,,,0.0,,,0,,0,265.4,1,,0,0
 SkinSensDB,8-Acetoxycarvotanacetone,87578-93-6,,,,,,0,,0,,0,,0,0
@@ -573,13 +573,13 @@ SkinSensDB,Toluene diamine bismaleimide,6422-83-9,,,,,,0,,0,,0,,0,0
 SkinSensDB,Veratraldehyde,120-14-9,,,,1.0,,0,,0,,0,3.2,1,0
 SkinSensDB,Sulfasalazine,599-79-1,,,,,,0,,0,,0,,0,0
 SkinSensDB,"Toluene 2,4-diisocyanate",584-84-9,1.0,1.0,1.0,1.0,38.75,1,135.0,1,127.9,1,0.02,1,1
-SkinSensDB,2-(4-Amino-2nitro-phenylamino)-ethanol,2871-01-04 00:00:00,1.0,,1.0,1.0,55.15,1,,0,107.47,1,2.2,1,0
+SkinSensDB,2-(4-Amino-2nitro-phenylamino)-ethanol,2871-01-4,1.0,,1.0,1.0,55.15,1,,0,107.47,1,2.2,1,0
 SkinSensDB,(+)-trans-p-Menth-2-ene,5113-93-9,,,,,,0,,0,,0,,0,0
 SkinSensDB,"1-(3',4',5'-Tetramethoxyphenyl)-4-dimethylpentane-1,3-dione",135099-98-8,,,,,,0,,0,,0,,0,0
 SkinSensDB,"6-(Trifluoro-methyl)-2,3-dihydro-5-methyl-1h-indole, hydrochloride",280121-24-6,,,,,,0,,0,,0,,0,0
 SkinSensDB,"5-Chloro-2,6-dimethoxy-4-methylquinoline",189746-19-8,,,,,,0,,0,,0,,0,0
 SkinSensDB,6-Methoxynaphthalene-2-carbaldehyde,3453-33-6,,0.0,,,,0,4000.0,1,,0,,0,0
-SkinSensDB,Methylhydrocinnamal,5406-12-02 00:00:00,,,,1.0,,0,,0,,0,13.7,1,0
+SkinSensDB,Methylhydrocinnamal,5406-12-2,,,,1.0,,0,,0,,0,13.7,1,0
 SkinSensDB,"(4S,5R)-1-[(1R,2R,3S)-3-(1,3-Benzodioxol-5-yl)-1-(2-benzyloxy-4-methoxyphenyl)-1-hydroxy-6-propoxy-2-indanoyl]-3,4-dimethyl-5-phenyl-2-imidazolidinone",190965-47-0,,,,,,0,,0,,0,,0,0
 SkinSensDB,Formulation 7,88671-89-0/124495-18-7,,,,1.0,,0,,0,,0,73.3,1,0
 SkinSensDB,"(4R,5S)-(-)-1,5-Dimethyl-4-phenyl-2-imidazolidinone",92841-65-1,,,,,,0,,0,,0,,0,0
@@ -614,7 +614,7 @@ SkinSensDB,5-Methyleugenol,186743-25-9,,,,1.0,,0,,0,,0,13.0,1,0
 SkinSensDB,6-Methy1coumarin,92-48-8,0.0,1.0,1.0,,3.15,1,6.0,1,24.0,1,,0,0
 SkinSensDB,Diethyl fumarate,623-91-6,1.0,,,,73.1,1,,0,,0,,0,0
 SkinSensDB,Ethyl vaniline,121-32-4,,1.0,1.0,,,0,161.7,1,66.0,1,,0,0
-SkinSensDB,Atrazine,1912-24-9,,,,1.0,,0,,0,,0,31.3,1,0
+SkinSensDB,Atrazine,12-24-9,,,,1.0,,0,,0,,0,31.3,1,0
 SkinSensDB,CeO2,1306-38-3,0.0,,,,1.94,1,,0,,0,,0,0
 SkinSensDB,Penicillin,61-33-6,1.0,0.0,0.0,1.0,7.15,1,1308.6,1,200.0,1,1.6,1,1
 SkinSensDB,Ethyl Salicylate,118-61-6,0.0,,,,1.23,1,,0,,0,,0,0
@@ -641,7 +641,7 @@ SkinSensDB,DL-lactic acid,50-21-5or598-82-3,1.0,0.0,0.0,1.0,7.665,1,2000.0,1,200
 SkinSensDB,Amyl cinnamal (cis/trans),122-40-7,,1.0,1.0,1.0,,0,14.39803414,1,13.0,1,10.6,1,0
 SkinSensDB,beta-Phellandrene,555-10-2,,,,1.0,,0,,0,,0,5.6,1,0
 SkinSensDB,8-Amino-6-methoxy-4-methyl-quinoline,57514-21-3,,,,,,0,,0,,0,,0,0
-SkinSensDB,2-(Cyclohexyloxymethyl)oxirane,3681-02-05 00:00:00,,1.0,,1.0,,0,52.1,1,,0,5.2,1,0
+SkinSensDB,2-(Cyclohexyloxymethyl)oxirane,3681-02-5,,1.0,,1.0,,0,52.1,1,,0,5.2,1,0
 SkinSensDB,Cobalt chloride,7791-13-1,,,,,,0,,0,,0,,0,0
 SkinSensDB,Dodecyl methanesulfonate,51323-71-8,,0.0,,1.0,,0,4000.0,1,,0,8.8,1,0
 SkinSensDB,"(3r,3as,6ar)-Hexahydrofuro-[2,3-b]furan-3-yl [(1s,2r)-3-[(1,3-benzodioxol-5-ylsulfonyl)(2-methylpropyl)-amino]-2-hydroxy-1-[[4-[(2-methyl-4-thiazolyl)methoxy]phenyl]methyl]-propyl]carbamate",313682-08-5,,,,,,0,,0,,0,,0,0
@@ -679,7 +679,7 @@ SkinSensDB,Isononanoyl chloride,57077-36-8,,,,1.0,,0,,0,,0,2.7,1,0
 SkinSensDB,Reaction products of vinyltriacetoxysilane and glycidoxypropyltri-methoxy silane,154518-41-9,1.0,1.0,1.0,,31.35,1,69.8,1,1.06,1,,0,0
 SkinSensDB,1-Bromohexane,111-25-1,1.0,1.0,0.0,1.0,41.15,1,128.1,1,200.0,1,10.0,1,1
 SkinSensDB,"2-(Benzyl)tert-butyl)amino)-1-(alpha,4-dihydroxy-m-tolyl)ethane",24085-03-8,,,,,,0,,0,,0,,0,0
-SkinSensDB,4-Acryloylmorpholine,5117-12-04 00:00:00,,1.0,,,,0,97.76,1,,0,,0,0
+SkinSensDB,4-Acryloylmorpholine,5117-12-4,,1.0,,,,0,97.76,1,,0,,0,0
 SkinSensDB,Dicyclohexyl carbodiimide,538-75-0,,,,1.0,,0,,0,,0,0.057,1,0
 SkinSensDB,1-butyl-3-methylimidazolium chloride,79917-90-1,0.0,0.0,0.0,,3.85,1,1012.23,1,962.0,1,,0,0
 SkinSensDB,Formulation 39,422556-08-9/99607-70-2,,,,1.0,,0,,0,,0,17.5,1,0
@@ -687,7 +687,7 @@ SkinSensDB,2-Amino-phenol,95-55-6,1.0,1.0,1.0,1.0,60.35,1,1.06,1,0.1,1,0.4,1,1
 SkinSensDB,Abietic acid,514-10-3,1.0,1.0,1.0,1.0,65.05,1,16.56,1,36.0,1,11.0,1,1
 SkinSensDB,alpha-Terpinene,99-86-5,,,,1.0,,0,,0,,0,8.9,1,0
 SkinSensDB,Azithromycin,83905-01-5,,,,,,0,,0,,0,,0,0
-SkinSensDB,Petrolatum,8009-03-08 00:00:00,,,,,,0,,0,,0,,0,0
+SkinSensDB,Petrolatum,8009-03-8,,,,,,0,,0,,0,,0,0
 SkinSensDB,6-Methoxy-4-methyl-2(1H)-quinolinone,5342-23-4,,,,,,0,,0,,0,,0,0
 SkinSensDB,p-Chlorophenethylic alcohol,1875-88-3,,,,1.0,,0,,0,,0,31.25,1,0
 SkinSensDB,DihydroeugenoI(2-Methoxy-4-propyIphenoI),2785-87-7,0.0,1.0,1.0,1.0,6.15000155,1,462.0,1,23.0,1,6.8,1,1
@@ -746,7 +746,7 @@ SkinSensDB,4-ChIoroaniIine,106-47-8,0.0,1.0,1.0,1.0,1.495,1,4.317404823,1,1.0,1,
 SkinSensDB,4-Chloro-6-iodoquinazoline,98556-31-1,,,,,,0,,0,,0,,0,0
 SkinSensDB,Diethylene glycol monobutyl ether,112-34-5,0.0,,,,3.3049999999999997,1,,0,,0,,0,0
 SkinSensDB,"1,5-Diisocyanatonaphthalene",3173-72-6,,,,1.0,,0,,0,,0,0.01,1,0
-SkinSensDB,BGE,2426-08-06 00:00:00,1.0,1.0,1.0,1.0,67.3,1,59.4,1,148.9,1,28.0,1,1
+SkinSensDB,BGE,2426-08-6,1.0,1.0,1.0,1.0,67.3,1,59.4,1,148.9,1,28.0,1,1
 SkinSensDB,Pyridine,110-86-1,0.0,0.0,0.0,1.0,1.0,1,1300.0,1,200.0,1,72.0,1,1
 SkinSensDB,"1 ,2-BenzisothiazoIin-3-one",2634-33-5,1.0,1.0,1.0,1.0,99.9,1,3.156334043,1,0.4,1,2.3,1,1
 SkinSensDB,Aniline,62-53-3,1.0,1.0,1.0,1.0,26.95,1,2.0,1,62.5,1,13.25,1,1
@@ -759,7 +759,7 @@ SkinSensDB,C.I. Reactive yellow 174,106359-91-5,,,,1.0,,0,,0,,0,0.3,1,0
 SkinSensDB,Equol,531-95-3,,,,,,0,,0,,0,,0,0
 SkinSensDB,2-Bromo-5-hydroxy-benzaldehyde,2973-80-0,,,,1.0,,0,,0,,0,2.6,1,0
 SkinSensDB,Dipropylene triamine,56-18-8,,,,1.0,,0,,0,,0,0.9,1,0
-SkinSensDB,"N, N-Dimethylacrylamide",2680-03-07 00:00:00,,1.0,,,,0,485.56,1,,0,,0,0
+SkinSensDB,"N, N-Dimethylacrylamide",2680-03-7,,1.0,,,,0,485.56,1,,0,,0,0
 SkinSensDB,4-Iodo-1-phthalimido-pentane,63460-47-9,,,,1.0,,0,,0,,0,5.0,1,0
 SkinSensDB,Formulation 41,150114-71-9/145701-23-1,,,,1.0,,0,,0,,0,54.5,1,0
 SkinSensDB,(R)-(-)-Carvone,6485-40-1,,1.0,1.0,1.0,,0,96.6,1,19.4,1,12.9,1,0
@@ -770,7 +770,7 @@ SkinSensDB,Dimethyl carbonate,616-38-6,,,,,,0,,0,,0,,0,0
 SkinSensDB,3-Fluoro-5-(3-pyridinyl)benzen-amine,181633-36-3,,,,1.0,,0,,0,,0,14.7,1,0
 SkinSensDB,Formulation 50,34494-04-7/NA,,,,1.0,,0,,0,,0,35.0,1,0
 SkinSensDB,1-Vinyl pyridine,1337-81-1,1.0,,1.0,1.0,50.2,1,,0,13.2,1,1.6,1,0
-SkinSensDB,5-Amino-2-methylbenzene-sulfonamide,6973-09-07 00:00:00,,,,,,0,,0,,0,,0,0
+SkinSensDB,5-Amino-2-methylbenzene-sulfonamide,6973-09-7,,,,,,0,,0,,0,,0,0
 SkinSensDB,"Dicyclohexylmethane 4,4'-diisocyanate",5124-30-1,,,1.0,1.0,,0,,0,5.7,1,0.06,1,0
 SkinSensDB,1-(4-Ethoxy-phenyl)-2-[4-(methyl-sulfonyl)phenyl]-ethanone,346413-00-1,,,,,,0,,0,,0,,0,0
 SkinSensDB,"1,3-Bis-(2,4-diaminophenoxy)propane 4 HCl (tetrahydrochloride)",74918-21-1,1.0,1.0,1.0,1.0,61.6,1,5.4,1,6.23,1,12.3,1,1
@@ -802,7 +802,7 @@ SkinSensDB,Pyrogallol,87-66-1,,,1.0,1.0,,0,,0,10.09,1,0.4,1,0
 SkinSensDB,"1,1-Dimethylethyl 3-[[[[(3s)-2,3,4,5-tetrahydro-1-[2-[(1-methylethyl)phenylamino]-2-oxoethyl]-2,4-dioxo-5-phenyl-1h-1,5-benzodiazepin-3-yl]amino]carbonyl]amino]benzoate",305366-94-3,,,,1.0,,0,,0,,0,37.5,1,0
 SkinSensDB,Triethanolamine,102-71-6,0.0,0.0,1.0,0.0,1.865,1,2000.0,1,112.0,1,0.0,1,1
 SkinSensDB,"1-(2,3-Epoxypropoxy)-2,2-bis[(2,3-epoxypropoxy)methylbutane",3454-29-3,,,,1.0,,0,,0,,0,1.4,1,0
-SkinSensDB,"2,6-Dimethoxyphenol",1991-10-01 00:00:00,,1.0,,,,0,358.13,1,,0,,0,0
+SkinSensDB,"2,6-Dimethoxyphenol",91-10-1,,1.0,,,,0,358.13,1,,0,,0,0
 SkinSensDB,Oxadiazon,19666-30-9,,,,,,0,,0,,0,,0,0
 SkinSensDB,Benzyl Cinnamate,103-41-3,,1.0,0.0,1.0,,0,10.98,1,176.6,1,18.4,1,0
 SkinSensDB,Hydrocortisone,50-23-7,1.0,1.0,0.0,,61.0,1,692.96,1,200.0,1,,0,0
@@ -927,7 +927,7 @@ SkinSensDB,Acetic acid,64-19-7,1.0,,,,7.765000000000001,1,,0,,0,,0,0
 SkinSensDB,2-Aminoethyl-methylsulfone,49773-20-8,,,,,,0,,0,,0,,0,0
 SkinSensDB,Triton X-100,9002-93-1,,,,1.0,,0,,0,,0,7.5,1,0
 SkinSensDB,Ammonium tetrachloroplatinate,13820-41-2,,,,,,0,,0,,0,,0,0
-SkinSensDB,n-Octyl methacrylate,2157-01-09 00:00:00,,,1.0,,,0,,0,121.1,1,,0,0
+SkinSensDB,n-Octyl methacrylate,2157-01-9,,,1.0,,,0,,0,121.1,1,,0,0
 SkinSensDB,2-Methylundecanal,110-41-8,1.0,1.0,1.0,1.0,61.0,1,24.2,1,60.8,1,10.0,1,1
 SkinSensDB,Methyl hexadecyl sulfonate,4230-15-3,,,,,,0,,0,,0,,0,0
 SkinSensDB,Cobalt (II) chloride,7646-79-9,1.0,1.0,1.0,1.0,30.3,1,75.0,1,35.5,1,0.4,1,1
@@ -976,7 +976,7 @@ SkinSensDB,Thulium (III) chloride anhydrous,13537-18-3,,,,,,0,,0,,0,,0,0
 SkinSensDB,2-Chloro-6-methoxy-4-methylquinoline,6340-55-2,,,,,,0,,0,,0,,0,0
 SkinSensDB,(5-chloro)-methyl-isothiazolinone,26172-55-4,1.0,1.0,1.0,1.0,65.7,1,0.8,1,14.0,1,0.009,1,1
 SkinSensDB,Xylene,1330-20-7,0.0,0.0,0.0,1.0,5.215,1,2000.0,1,200.0,1,95.8,1,1
-SkinSensDB,2.4-Dinitrobenzene sulfonic acid,1989-02-01 00:00:00,,,,1.0,,0,,0,,0,0.8,1,0
+SkinSensDB,2.4-Dinitrobenzene sulfonic acid,89-02-1,,,,1.0,,0,,0,,0,0.8,1,0
 SkinSensDB,Quinoxyfen,124495-18-7,,,,,,0,,0,,0,,0,0
 SkinSensDB,2-Benzyl-tert-butylamino-3'-hydroxymethyl-4'-hydroxyaceto-phenone hydrochloride,24085-08-3,,,,1.0,,0,,0,,0,21.8,1,0
 SkinSensDB,ethyl orsellinate,2524-37-0,1.0,,,,15.1,1,,0,,0,,0,0
@@ -1011,8 +1011,8 @@ SkinSensDB,"1,2-Butanediol",584-03-2,0.0,,,,0.605,1,,0,,0,,0,0
 SkinSensDB,2-Chloro-1-[(3-fluorophenyl)-methoxy]-4-nitrobenzene,443882-99-3,,,,1.0,,0,,0,,0,19.5,1,0
 SkinSensDB,SDS,151-21-3,1.0,1.0,1.0,1.0,67.95,1,33.9,1,53.9,1,1.5,1,1
 SkinSensDB,2-(4-tert-Amylcyclohexyl)acetaldehyde,620159-84-4,,,,1.0,,0,,0,,0,37.0,1,0
-SkinSensDB,Formulation 56,1929-82-4,,,,1.0,,0,,0,,0,4.2,1,0
-SkinSensDB,2-Amino-6-chloro-4-nitrophenol,6358-09-04 00:00:00,,1.0,1.0,1.0,,0,986.65,1,79.7,1,2.16,1,0
+SkinSensDB,Formulation 56,29-82-4,,,,1.0,,0,,0,,0,4.2,1,0
+SkinSensDB,2-Amino-6-chloro-4-nitrophenol,6358-09-4,,1.0,1.0,1.0,,0,986.65,1,79.7,1,2.16,1,0
 SkinSensDB,Dibutyl fumarate,105-75-9,1.0,,,,55.35,1,,0,,0,,0,0
 SkinSensDB,Diethylene glycol monobutyl ether acetate,124-17-4,0.0,,,,1.005,1,,0,,0,,0,0
 SkinSensDB,"1-Phenyl-1 ,2-propanedione",579-07-7,1.0,1.0,1.0,1.0,43.95,1,55.5,1,35.0,1,1.3,1,1
@@ -1031,7 +1031,7 @@ SkinSensDB,3-iodoprop-1-ynyl N-butylcarbamate,87977-28-4,,,,1.0,,0,,0,,0,0.9,1,0
 SkinSensDB,Damascenone,23696-85-7,1.0,1.0,,1.0,49.95,1,2.84,1,,0,1.22,1,0
 SkinSensDB,Lanthanum (III) chloride heptahydrate,10025-84-0,,,,,,0,,0,,0,,0,0
 SkinSensDB,Thimerosal,54-64-8,,,,,,0,,0,,0,,0,0
-SkinSensDB,(s)-2-Hydroxy-2-methylsuccinic acid,6236-09-05 00:00:00,,0.0,,,,0,4000.0,1,,0,,0,0
+SkinSensDB,(s)-2-Hydroxy-2-methylsuccinic acid,6236-09-5,,0.0,,,,0,4000.0,1,,0,,0,0
 SkinSensDB,2-Bromo-5-propoxybenzoic acid,190965-43-6,,,,,,0,,0,,0,,0,0
 SkinSensDB,"(4R,5S)-1,5-Dimethyl-3-(1-oxo-2-propenyl)-4-phenyl-2-imidazo-lidinone",139109-23-2,,,,1.0,,0,,0,,0,0.004,1,0
 SkinSensDB,Gold (III) chloride,13453-07-1,,,1.0,,,0,,0,0.1,1,,0,0
@@ -1040,255 +1040,255 @@ SkinSensDB,"(1R)-1,2,3,4-Tetrahydro-6,7-dimethoxy-2-methyl-1-[(3,4,5-trimethoxyp
 SkinSensDB,3-Methyleugenol,186743-26-0,,,,1.0,,0,,0,,0,32.0,1,0
 SkinSensDB,"1,2-Cyclohexane dicarboxylic anhydride",85-42-7,1.0,0.0,0.0,1.0,51.0,1,2000.0,1,200.0,1,0.84,1,1
 SkinSensDB,"2,3-Butanediol",513-85-9,0.0,,,,0.51,1,,0,,0,,0,0
-SkinSensDB,Piperazine,nan,0.0,,,,-0.19999999999999996,1,,0,,0,,0,0
-SkinSensDB,Chlorhexidine,nan,0.0,,,,-1.6,1,,0,,0,,0,0
-SkinSensDB,Methyldibromo glutaronitrile,nan,1.0,1.0,1.0,,51.849999999999994,1,7.0,1,39.0,1,,0,0
-SkinSensDB,Reactive yellow,nan,1.0,,,,80.69999999999999,1,,0,,0,,0,0
-SkinSensDB,Tetrachlorophthalic anhydride,nan,1.0,,,,43.3,1,,0,,0,,0,0
+SkinSensDB,Piperazine,,0.0,,,,-0.19999999999999996,1,,0,,0,,0,0
+SkinSensDB,Chlorhexidine,,0.0,,,,-1.6,1,,0,,0,,0,0
+SkinSensDB,Methyldibromo glutaronitrile,,1.0,1.0,1.0,,51.849999999999994,1,7.0,1,39.0,1,,0,0
+SkinSensDB,Reactive yellow,,1.0,,,,80.69999999999999,1,,0,,0,,0,0
+SkinSensDB,Tetrachlorophthalic anhydride,,1.0,,,,43.3,1,,0,,0,,0,0
 SkinSensDB,"3,4-Epoxyclohexylethyl-cyclopolymethylsiloxane",121225-98-7,,,,,,0,,0,,0,,0,0
-SkinSensDB,Orange 3R reactive dye,nan,1.0,,,,95.4,1,,0,,0,,0,0
-SkinSensDB,a-Hexyl-cinnamic aldehyde,nan,0.0,,1.0,,1.0,1,,0,98.0,1,,0,0
-SkinSensDB,"Toluene 2,6-diisocyanate",nan,1.0,,,,56.85,1,,0,,0,,0,0
-SkinSensDB,Black GR reactive dye,nan,1.0,,,,88.4,1,,0,,0,,0,0
-SkinSensDB,Tetrachlorosalicylanilide,nan,1.0,,,,52.75,1,,0,,0,,0,0
-SkinSensDB,Methyl-2-nonynoate,nan,1.0,,,,51.6,1,,0,,0,,0,0
-SkinSensDB,"2,4,6-Trinitrobenzenesulfonic acid",nan,1.0,1.0,1.0,,61.150000000000006,1,23.0,1,71.0,1,,0,0
-SkinSensDB,Oxazolone,nan,1.0,,,,69.45,1,,0,,0,,0,0
-SkinSensDB,Basic blue 99,nan,1.0,,,,28.9,1,,0,,0,,0,0
-SkinSensDB,"Cinnamaldehyde, positive control",nan,,1.0,,,,0,10.26,1,,0,,0,0
-SkinSensDB,Diesel exhaust particles,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,Oakmoss absolute,nan,,1.0,,,,0,2.68,1,,0,,0,0
-SkinSensDB,"German chamomile, ethanol extract",nan,,1.0,,,,0,21.23,1,,0,,0,0
-SkinSensDB,30~40 nm Zinc Oxide Nanoparticles,nan,,,1.0,,,0,,0,9.0,1,,0,0
-SkinSensDB,50nm Silver Nanoparticles,nan,,,1.0,,,0,,0,6.0,1,,0,0
-SkinSensDB,Hexamethylene diisocyanate,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,"Dicyclohexylmethane 4,4'-diisocyanate",nan,,,1.0,,,0,,0,5.7,1,,0,0
-SkinSensDB,"Tolylene-2,4-diisocyanate",nan,,,1.0,,,0,,0,127.9,1,,0,0
-SkinSensDB,Poly(styrene),nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,Poly (ethylene glycol),nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,Vinyl sulfone-PEG5K-Vinyl sulfone,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,"2,7-Heptadienal",nan,1.0,,,,60.599999999999994,1,,0,,0,,0,0
-SkinSensDB,Poly(ethylene glycol) diglycidyl ether,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,Glycerol ester of Octanoyl Amino Acid,nan,0.0,,,,3.5,1,,0,,0,,0,0
-SkinSensDB,"Methylenediphenyl 4,4'-diisocyanate",nan,,,1.0,,,0,,0,71.5,1,,0,0
-SkinSensDB,Benzalkonium chloride,nan,0.0,,,,1.5,1,,0,,0,,0,0
-SkinSensDB,German chamomile ethanol sub-fraction,nan,,1.0,,,,0,0.471,1,,0,,0,0
-SkinSensDB,Octanoyl Amino Acid,nan,0.0,,0.0,,1.5,1,,0,1139.66,1,,0,0
-SkinSensDB,Isosorbide ester of Undecylenoyl Amino Acid,nan,0.0,0.0,,,1.5,1,2158.0,1,,0,,0,0
-SkinSensDB,tetradecyl sugar lipid,nan,0.0,1.0,,,0.0,1,4.91,1,,0,,0,0
-SkinSensDB,Tetradecyl and behenyl sugar lipid,nan,0.0,,,,0.0,1,,0,,0,,0,0
-SkinSensDB,"2-Octyl, dodecyl sugar lipid",nan,0.0,1.0,,,0.0,1,2.67,1,,0,,0,0
-SkinSensDB,Stearylglyceryl sugar lipid,nan,0.0,,1.0,,1.0,1,,0,24.0,1,,0,0
-SkinSensDB,Citral:EG (7:3),nan,1.0,,,,24.945,1,,0,,0,,0,0
-SkinSensDB,DDAC:EG (1:4),nan,0.0,,1.0,,2.015,1,,0,8.3,1,,0,0
-SkinSensDB,SiO2 DQ12,nan,0.0,,,,0.305,1,,0,,0,,0,0
-SkinSensDB,DDAC:EG (7:3),nan,0.0,,1.0,,4.585,1,,0,0.9,1,,0,0
-SkinSensDB,PEGylated nanomaterials for AuNMs.,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,silver nanomaterials (AgNMs),nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,Brazilian green propolis (BGP).,nan,,,,1.0,,0,,0,,0,1.7,1,0
-SkinSensDB,OA66,nan,0.0,1.0,1.0,1.0,1.15,1,6.3,1,45.6,1,11.49,1,1
-SkinSensDB,OA70,nan,1.0,1.0,1.0,,41.300000000000004,1,5.6,1,5.9,1,,0,0
-SkinSensDB,gold nanomaterials (AuNMs),nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,OA65,nan,0.0,1.0,1.0,1.0,0.5,1,12.3,1,100.0,1,39.43,1,1
-SkinSensDB,Polysorbate 80,nan,0.0,0.0,,,5.0,1,11547.0,1,,0,,0,0
-SkinSensDB,OA59,nan,1.0,1.0,1.0,1.0,19.85,1,105.2,1,25.4,1,5.02,1,1
-SkinSensDB,OA63,nan,1.0,1.0,1.0,1.0,67.6,1,12.7,1,1.9,1,0.37,1,1
-SkinSensDB,Cocamidopropyl Betainamide MEA Chloride,nan,0.0,,1.0,,0.0,1,,0,6.8,1,,0,0
-SkinSensDB,OA58,nan,0.0,0.0,0.0,,1.7,1,2000.0,1,200.0,1,,0,0
-SkinSensDB,OA57,nan,1.0,1.0,1.0,1.0,82.0,1,3.2,1,5.0,1,0.45,1,1
-SkinSensDB,OA55,nan,1.0,1.0,1.0,,98.1,1,276.6,1,70.3,1,,0,0
-SkinSensDB,OA56,nan,1.0,1.0,1.0,1.0,67.0,1,32.0,1,11.1,1,0.1,1,1
-SkinSensDB,OA53,nan,1.0,1.0,1.0,1.0,91.3,1,4.3,1,0.9,1,0.313,1,1
-SkinSensDB,OA52,nan,1.0,1.0,0.0,,6.55,1,428.3,1,200.0,1,,0,0
-SkinSensDB,copper chloride,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,OA50,nan,1.0,0.0,1.0,,54.1,1,2000.0,1,82.9,1,,0,0
-SkinSensDB,OA48,nan,1.0,0.0,1.0,1.0,48.6,1,2000.0,1,40.4,1,0.23,1,1
-SkinSensDB,OA67,nan,1.0,1.0,1.0,,76.45,1,624.4,1,67.7,1,,0,0
-SkinSensDB,OA47,nan,1.0,1.0,1.0,1.0,61.15,1,37.3,1,50.6,1,1.15,1,1
-SkinSensDB,OA45,nan,1.0,1.0,1.0,1.0,95.0,1,17.0,1,5.3,1,2.9,1,1
-SkinSensDB,OA42,nan,0.0,0.0,0.0,,2.6,1,2000.0,1,161.4,1,,0,0
-SkinSensDB,OA44,nan,1.0,1.0,1.0,1.0,61.0,1,4.0,1,0.1,1,0.5,1,1
-SkinSensDB,GMA,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,OA41,nan,1.0,1.0,0.0,,42.650000000000006,1,855.0,1,200.0,1,,0,0
-SkinSensDB,Isosorbide ester of Octanoyl Amino Acid,nan,0.0,,,,0.5,1,,0,,0,,0,0
-SkinSensDB,Oleyl Alcanol Amide,nan,0.0,1.0,1.0,,0.5,1,11.98,1,41.18,1,,0,0
-SkinSensDB,OA38,nan,1.0,1.0,0.0,,100.0,1,206.0,1,200.0,1,,0,0
-SkinSensDB,OA64,nan,1.0,1.0,1.0,1.0,60.2,1,22.1,1,0.1,1,4.06,1,1
-SkinSensDB,OA37,nan,0.0,1.0,1.0,,1.7,1,403.0,1,103.0,1,,0,0
-SkinSensDB,OA36,nan,1.0,1.0,1.0,,6.6499999999999995,1,4.0,1,57.4,1,,0,0
-SkinSensDB,OA34,nan,1.0,1.0,1.0,1.0,87.2,1,4.0,1,17.9,1,2.11,1,1
-SkinSensDB,OA35,nan,0.0,0.0,0.0,1.0,2.35,1,2000.0,1,200.0,1,17.0,1,1
-SkinSensDB,OA33,nan,0.0,1.0,1.0,1.0,1.7,1,50.0,1,69.7,1,1.7,1,1
-SkinSensDB,OA32,nan,1.0,1.0,1.0,1.0,24.2,1,24.0,1,4.2,1,9.12,1,1
-SkinSensDB,OA31,nan,1.0,1.0,1.0,1.0,86.8,1,3.0,1,13.3,1,2.53,1,1
-SkinSensDB,OA30,nan,0.0,0.0,1.0,,3.0,1,2000.0,1,63.2,1,,0,0
-SkinSensDB,OA29,nan,1.0,1.0,1.0,1.0,89.4,1,22.0,1,31.0,1,8.37,1,1
-SkinSensDB,OA28,nan,1.0,1.0,1.0,1.0,50.5,1,47.0,1,5.2,1,5.97,1,1
-SkinSensDB,Citral:EG (1:4),nan,1.0,,1.0,,18.855,1,,0,5.4,1,,0,0
-SkinSensDB,OA27,nan,1.0,1.0,1.0,1.0,60.0,1,1.0,1,0.1,1,1.7,1,1
-SkinSensDB,20nm Silver Nanoparticles,nan,,,1.0,,,0,,0,8.0,1,,0,0
-SkinSensDB,OA25,nan,1.0,1.0,1.0,1.0,71.95,1,20.0,1,64.8,1,6.13,1,1
-SkinSensDB,OA24,nan,0.0,1.0,1.0,1.0,2.2,1,6.0,1,25.0,1,2.6,1,1
-SkinSensDB,OA39,nan,1.0,1.0,1.0,1.0,56.65,1,2.0,1,2.7,1,0.1,1,1
-SkinSensDB,Cocamidopropyl betaine,nan,0.0,1.0,,,2.0,1,5.27,1,,0,,0,0
-SkinSensDB,OA54,nan,1.0,0.0,1.0,1.0,56.15,1,2000.0,1,90.2,1,9.9,1,1
-SkinSensDB,OA17,nan,1.0,1.0,1.0,1.0,63.45,1,1.0,1,10.0,1,0.36,1,1
-SkinSensDB,OA18,nan,1.0,1.0,1.0,1.0,55.25,1,3.0,1,0.9,1,0.07,1,1
-SkinSensDB,OA16,nan,1.0,1.0,1.0,1.0,25.0,1,2.0,1,29.2,1,0.1,1,1
-SkinSensDB,OA11,nan,0.0,1.0,0.0,,0.1,1,13.3,1,200.0,1,,0,0
-SkinSensDB,OA49,nan,1.0,1.0,1.0,1.0,66.05,1,17.0,1,2.9,1,1.2,1,1
-SkinSensDB,OA8,nan,0.0,1.0,0.0,,0.0,1,116.4,1,200.0,1,,0,0
-SkinSensDB,OA6,nan,1.0,1.0,1.0,1.0,80.75,1,0.0,1,0.3,1,0.8,1,1
-SkinSensDB,"Roman chamomile, ethanol extract",nan,,1.0,,,,0,0.72,1,,0,,0,0
-SkinSensDB,OA5,nan,0.0,0.0,0.0,,2.9000000000000004,1,2000.0,1,200.0,1,,0,0
-SkinSensDB,OA4,nan,1.0,0.0,0.0,,20.2,1,2000.0,1,200.0,1,,0,0
-SkinSensDB,OA68,nan,0.0,0.0,1.0,,0.55,1,2000.0,1,56.5,1,,0,0
-SkinSensDB,OA21,nan,0.0,0.0,0.0,,2.2,1,2000.0,1,200.0,1,,0,0
-SkinSensDB,OA2,nan,0.0,1.0,1.0,,0.4,1,34.0,1,1.3,1,,0,0
-SkinSensDB,Dextran,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,OA1,nan,,1.0,1.0,1.0,,0,6.0,1,11.0,1,0.34,1,0
-SkinSensDB,2-(Phenethoxymethyl)oxirane,nan,,1.0,,1.0,,0,41.2,1,,0,1.5,1,0
-SkinSensDB,Undecylenoyl Amino Acid,nan,0.0,0.0,,,3.0,1,6338.0,1,,0,,0,0
-SkinSensDB,(E)-2-((But-2-enyloxy)methyl)oxirane,nan,,1.0,,1.0,,0,55.8,1,,0,14.0,1,0
-SkinSensDB,OA40,nan,1.0,1.0,0.0,1.0,51.85,1,63.0,1,200.0,1,8.5,1,1
-SkinSensDB,OA19,nan,1.0,1.0,1.0,1.0,45.85,1,1.0,1,0.9,1,0.01,1,1
-SkinSensDB,Fx + Me EW 69,nan,,,,1.0,,0,,0,,0,25.2,1,0
-SkinSensDB,OA61,nan,1.0,1.0,1.0,1.0,68.15,1,10.3,1,1.3,1,3.0,1,1
-SkinSensDB,Precursor surfactant 2,nan,,,,1.0,,0,,0,,0,24.0,1,0
-SkinSensDB,Formulation 9,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,DU-11A,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,Unsaturated fatty acid ester,nan,,,,1.0,,0,,0,,0,27.1,1,0
-SkinSensDB,Saturated diglycerin,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,TW-25B,nan,,,,1.0,,0,,0,,0,32.9,1,0
-SkinSensDB,OA62,nan,1.0,1.0,1.0,1.0,66.85,1,1.0,1,0.1,1,9.0,1,1
-SkinSensDB,DU-5B,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,C19 Azalactone,nan,,,,1.0,,0,,0,,0,26.0,1,0
-SkinSensDB,DU-2F,nan,,,,1.0,,0,,0,,0,15.6,1,0
-SkinSensDB,OA43,nan,1.0,1.0,1.0,1.0,99.7,1,9.0,1,32.2,1,0.67,1,1
-SkinSensDB,Precursor surfactant 1,nan,,,,1.0,,0,,0,,0,60.7,1,0
-SkinSensDB,"Roman chamomile, hexane fraction",nan,,1.0,,,,0,2.66,1,,0,,0,0
-SkinSensDB,PEG-di-p-Tosylates,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,Royco 634,nan,,,,1.0,,0,,0,,0,31.7,1,0
-SkinSensDB,Isononyl glucoside,nan,,1.0,,1.0,,0,785.3,1,,0,25.75758,1,0
-SkinSensDB,(5R)-5-Isopropenyl-2-methyl-1-methylene-2-cyclohexane,nan,,,,1.0,,0,,0,,0,7.3,1,0
-SkinSensDB,DU-2B,nan,,,,1.0,,0,,0,,0,12.4,1,0
-SkinSensDB,"(1R,4R)-4-Isopropenyl-1-methyl-2-methylenecyclohexane",nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,Laurylglycerin derivative,nan,,,,1.0,,0,,0,,0,24.3,1,0
-SkinSensDB,4-methyl-7-(prop-1-en-2-yl)-1-oxaspiro[2.5]oct-4-ene,nan,,1.0,,1.0,,0,52.0,1,,0,0.4,1,0
-SkinSensDB,Non-ionic surfactant 6,nan,,,,1.0,,0,,0,,0,34.4,1,0
-SkinSensDB,Linalool alcohol,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,Non-ionic surfactant 1,nan,,,,1.0,,0,,0,,0,27.5,1,0
-SkinSensDB,NAVY 14 08 723,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,2-Isocyanatoethyl Acrylate,nan,,,1.0,,,0,,0,12.6,1,,0,0
-SkinSensDB,Non-ionic surfactant 9,nan,,,,1.0,,0,,0,,0,10.5,1,0
-SkinSensDB,Non-ionic surfactant 8,nan,,,,1.0,,0,,0,,0,45.7,1,0
-SkinSensDB,Non-ionic surfactant 4,nan,,,,1.0,,0,,0,,0,0.012,1,0
-SkinSensDB,Linalool aldehyde,nan,,,,1.0,,0,,0,,0,9.5,1,0
-SkinSensDB,OA12,nan,1.0,0.0,0.0,,6.45,1,2000.0,1,200.0,1,,0,0
-SkinSensDB,Non-ionic surfactant 7,nan,,,,1.0,,0,,0,,0,23.7,1,0
-SkinSensDB,cobalt chloride,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,DU-7,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,80nm Silver Nanoparticles,nan,,,1.0,,,0,,0,8.0,1,,0,0
-SkinSensDB,Maleimide-PEG2K-Maleimide,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,Break-Free CLP,nan,,,,1.0,,0,,0,,0,30.8,1,0
-SkinSensDB,A SC600,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,FAR01060-00,nan,,,,1.0,,0,,0,,0,88.5,1,0
-SkinSensDB,FAR01042-00,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,Sodium lauryl sulfate / sodium dodecyl sulfate (SDS),nan,1.0,,,,48.5,1,,0,,0,,0,0
-SkinSensDB,4-Isopropyl-1-methylenecyclohexane,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,DU-5A,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,DU-11C,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,"German chamomile, hexane fraction",nan,,1.0,,,,0,0.67,1,,0,,0,0
-SkinSensDB,Formulation 54,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,OA9,nan,0.0,0.0,0.0,,2.4499999999999997,1,2000.0,1,200.0,1,,0,0
-SkinSensDB,(5R)-5-Isopropenyl-2-methyl-1-methylene-2-cyclohexene,nan,,,,1.0,,0,,0,,0,7.3,1,0
-SkinSensDB,F & Fo WG 50 + 25,nan,,,,1.0,,0,,0,,0,0.003,1,0
-SkinSensDB,OA15,nan,0.0,1.0,1.0,,4.8,1,1.0,1,25.0,1,,0,0
-SkinSensDB,OA69,nan,1.0,1.0,1.0,1.0,55.45,1,15.0,1,2.4,1,0.01,1,1
-SkinSensDB,Isopropylricinoleamide,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,2-(2-Phenoxyethyl)oxirane,nan,,1.0,,1.0,,0,57.1,1,,0,2.2,1,0
-SkinSensDB,Non-ionic surfactant 2,nan,,,,1.0,,0,,0,,0,47.1,1,0
-SkinSensDB,OA13,nan,0.0,1.0,1.0,,2.6,1,209.6,1,23.1,1,,0,0
-SkinSensDB,Fatty acid glutamate,nan,,,,1.0,,0,,0,,0,75.0,1,0
-SkinSensDB,OA10,nan,0.0,0.0,0.0,,1.75,1,2000.0,1,200.0,1,,0,0
-SkinSensDB,isopropyl haematommate,nan,1.0,,,,92.155,1,,0,,0,,0,0
-SkinSensDB,Pluronic L92,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,Citral:EG (7:3,nan,,,1.0,,,0,,0,1.2,1,,0,0
-SkinSensDB,Hexadecyltrimethylammonium bromide (Cetrimide),nan,0.0,,1.0,,1.0,1,,0,3.92,1,,0,0
-SkinSensDB,OA26,nan,1.0,1.0,1.0,1.0,78.75,1,4.0,1,50.1,1,2.2,1,1
-SkinSensDB,EXP 11120 A,nan,,,,1.0,,0,,0,,0,64.9,1,0
-SkinSensDB,OA46,nan,,1.0,1.0,1.0,,0,9.0,1,12.5,1,0.9,1,0
-SkinSensDB,EXP 10810 A,nan,,,,1.0,,0,,0,,0,2.1,1,0
-SkinSensDB,OA22,nan,1.0,1.0,1.0,1.0,67.35,1,4.0,1,31.8,1,2.82,1,1
-SkinSensDB,BASF SC-1,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,DU-8A,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,m-Xylylene diisocyanate,nan,,,1.0,,,0,,0,62.7,1,,0,0
-SkinSensDB,DU-6,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,DU-8B,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,DU-9A,nan,,,,1.0,,0,,0,,0,2.65,1,0
-SkinSensDB,Dibenzopyrene,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,DU-13A,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,Poly(glycidyl methacrylate),nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,Fatty alcohol #2,nan,,,,1.0,,0,,0,,0,8.6,1,0
-SkinSensDB,"Toluene 2,4/2,6-diisocyanate",nan,1.0,,,,17.2,1,,0,,0,,0,0
-SkinSensDB,Unsaturated fatty acid,nan,,,,1.0,,0,,0,,0,22.2,1,0
-SkinSensDB,DU-2C,nan,,,,1.0,,0,,0,,0,62.9,1,0
-SkinSensDB,DU-2E,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,(4Z)-2-Methyl-6-methyleneoct-4-ene,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,DU-1C,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,Fatty alcohol #1,nan,,,,1.0,,0,,0,,0,7.6,1,0
-SkinSensDB,DU-12,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,Dodecyl gallate,nan,1.0,1.0,1.0,,50.0,1,1.11,1,5.97,1,,0,0
-SkinSensDB,DU-1B,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,DU-9B,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,DU-2A,nan,,,,1.0,,0,,0,,0,1.2,1,0
-SkinSensDB,OA51,nan,0.0,1.0,1.0,1.0,0.95,1,140.0,1,48.9,1,1.3,1,1
-SkinSensDB,DU-2D,nan,,,,1.0,,0,,0,,0,2.5,1,0
-SkinSensDB,10-20 nm Silica Nanoparticles,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,1-methyl-2-methylene-4-(prop-1-en-2-yl)-7-oxabicyclo[4.1.0]heptane,nan,,1.0,,1.0,,0,100.2,1,,0,10.3,1,0
-SkinSensDB,OA60,nan,1.0,1.0,1.0,1.0,39.05,1,123.3,1,15.8,1,33.31,1,1
-SkinSensDB,DU-1A,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,BASF #1,nan,,,,1.0,,0,,0,,0,31.2,1,0
-SkinSensDB,OA14,nan,1.0,1.0,1.0,1.0,78.8,1,77.3,1,32.4,1,0.01,1,1
-SkinSensDB,DU-13B,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,BASF #3,nan,,,,1.0,,0,,0,,0,1.6,1,0
-SkinSensDB,DU-5C,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,DU-4,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,DU-10,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,Acrylate-PEG3500-Acrylate,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,DU-1D,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,Crotonyl thioglycerol,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,DU-11B,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,MC-2500,nan,,,,1.0,,0,,0,,0,5.0,1,0
-SkinSensDB,D EW 15,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,BASF SE-1,nan,,,,1.0,,0,,0,,0,5.5,1,0
-SkinSensDB,Sultone C12,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,BASF #5,nan,,,,1.0,,0,,0,,0,36.9,1,0
-SkinSensDB,OA20,nan,1.0,1.0,1.0,,7.05,1,11.0,1,33.2,1,,0,0
-SkinSensDB,Non-ionic surfactant 3,nan,,,,1.0,,0,,0,,0,19.8,1,0
-SkinSensDB,AE F016382 00 TK71 A101,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,"1-(2',3',4',5'-Tetramethylphenyl)-3-(4'-tetrabutylphenyl)-propane-1,3-dione",nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,OA3,nan,1.0,1.0,1.0,1.0,43.05,1,3.9,1,1.2,1,0.01,1,1
-SkinSensDB,BASF #4,nan,,,,1.0,,0,,0,,0,14.1,1,0
-SkinSensDB,"PEGylated nanomaterials for  AgNMs,",nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,"bis-1,3-(2',5'-dimethylphenyl)-propane-1,3-dione",nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,D EC25,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,"Poly(propylene glycol), toluene 2,4-diisocyanate terminated",nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,Bakelite EPR 164,nan,,,,1.0,,0,,0,,0,0.2,1,0
-SkinSensDB,Formulation 1,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,Bakelite EPR 162,nan,,,,1.0,,0,,0,,0,0.1,1,0
-SkinSensDB,OA7,nan,0.0,0.0,1.0,,3.5500000000000003,1,2000.0,1,56.6,1,,0,0
-SkinSensDB,DU-3,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,BASF #6,nan,,,,1.0,,0,,0,,0,3.3,1,0
-SkinSensDB,BASF #2,nan,,,,1.0,,0,,0,,0,29.7,1,0
-SkinSensDB,Dispersionsrot 2754,nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,N-p-benzonitrile menthanecarboxamide,nan,,0.0,,,,0,4000.0,1,,0,,0,0
-SkinSensDB,OA23,nan,1.0,1.0,1.0,1.0,35.7,1,30.0,1,5.0,1,0.1,1,1
-SkinSensDB,C.I. Reactive red 231,nan,,,,1.0,,0,,0,,0,0.6,1,0
-SkinSensDB,Bakelite EPR 161,nan,,,,1.0,,0,,0,,0,0.7,1,0
-SkinSensDB,MC-25,nan,,,,1.0,,0,,0,,0,45.0,1,0
-SkinSensDB,Methyl(2-sulfomethyl) octadecanoate,nan,,,,1.0,,0,,0,,0,2.0,1,0
-SkinSensDB,2-((4-(4-(2-Methoxyethoxy)benzyl)phenoxy)methyl)oxirane,nan,,1.0,,1.0,,0,5.68,1,,0,2.3,1,0
-SkinSensDB,Dibenzodioxocin,nan,,,,1.0,,0,,0,,0,7.5,1,0
-SkinSensDB,"(1R,4R)-Isopropenyl-1-methyl-2-methylene-2-cyclohexane",nan,,,,,,0,,0,,0,,0,0
-SkinSensDB,Non-ionic surfactant 5,nan,,,,1.0,,0,,0,,0,37.5,1,0
+SkinSensDB,Orange 3R reactive dye,,1.0,,,,95.4,1,,0,,0,,0,0
+SkinSensDB,a-Hexyl-cinnamic aldehyde,,0.0,,1.0,,1.0,1,,0,98.0,1,,0,0
+SkinSensDB,"Toluene 2,6-diisocyanate",,1.0,,,,56.85,1,,0,,0,,0,0
+SkinSensDB,Black GR reactive dye,,1.0,,,,88.4,1,,0,,0,,0,0
+SkinSensDB,Tetrachlorosalicylanilide,,1.0,,,,52.75,1,,0,,0,,0,0
+SkinSensDB,Methyl-2-nonynoate,,1.0,,,,51.6,1,,0,,0,,0,0
+SkinSensDB,"2,4,6-Trinitrobenzenesulfonic acid",,1.0,1.0,1.0,,61.150000000000006,1,23.0,1,71.0,1,,0,0
+SkinSensDB,Oxazolone,,1.0,,,,69.45,1,,0,,0,,0,0
+SkinSensDB,Basic blue 99,,1.0,,,,28.9,1,,0,,0,,0,0
+SkinSensDB,"Cinnamaldehyde, positive control",,,1.0,,,,0,10.26,1,,0,,0,0
+SkinSensDB,Diesel exhaust particles,,,,,,,0,,0,,0,,0,0
+SkinSensDB,Oakmoss absolute,,,1.0,,,,0,2.68,1,,0,,0,0
+SkinSensDB,"German chamomile, ethanol extract",,,1.0,,,,0,21.23,1,,0,,0,0
+SkinSensDB,30~40 nm Zinc Oxide Nanoparticles,,,,1.0,,,0,,0,9.0,1,,0,0
+SkinSensDB,50nm Silver Nanoparticles,,,,1.0,,,0,,0,6.0,1,,0,0
+SkinSensDB,Hexamethylene diisocyanate,,,,,,,0,,0,,0,,0,0
+SkinSensDB,"Dicyclohexylmethane 4,4'-diisocyanate",,,,1.0,,,0,,0,5.7,1,,0,0
+SkinSensDB,"Tolylene-2,4-diisocyanate",,,,1.0,,,0,,0,127.9,1,,0,0
+SkinSensDB,Poly(styrene),,,,,,,0,,0,,0,,0,0
+SkinSensDB,Poly (ethylene glycol),,,,,,,0,,0,,0,,0,0
+SkinSensDB,Vinyl sulfone-PEG5K-Vinyl sulfone,,,,,,,0,,0,,0,,0,0
+SkinSensDB,"2,7-Heptadienal",,1.0,,,,60.599999999999994,1,,0,,0,,0,0
+SkinSensDB,Poly(ethylene glycol) diglycidyl ether,,,,,,,0,,0,,0,,0,0
+SkinSensDB,Glycerol ester of Octanoyl Amino Acid,,0.0,,,,3.5,1,,0,,0,,0,0
+SkinSensDB,"Methylenediphenyl 4,4'-diisocyanate",,,,1.0,,,0,,0,71.5,1,,0,0
+SkinSensDB,Benzalkonium chloride,,0.0,,,,1.5,1,,0,,0,,0,0
+SkinSensDB,German chamomile ethanol sub-fraction,,,1.0,,,,0,0.471,1,,0,,0,0
+SkinSensDB,Octanoyl Amino Acid,,0.0,,0.0,,1.5,1,,0,1139.66,1,,0,0
+SkinSensDB,Isosorbide ester of Undecylenoyl Amino Acid,,0.0,0.0,,,1.5,1,2158.0,1,,0,,0,0
+SkinSensDB,tetradecyl sugar lipid,,0.0,1.0,,,0.0,1,4.91,1,,0,,0,0
+SkinSensDB,Tetradecyl and behenyl sugar lipid,,0.0,,,,0.0,1,,0,,0,,0,0
+SkinSensDB,"2-Octyl, dodecyl sugar lipid",,0.0,1.0,,,0.0,1,2.67,1,,0,,0,0
+SkinSensDB,Stearylglyceryl sugar lipid,,0.0,,1.0,,1.0,1,,0,24.0,1,,0,0
+SkinSensDB,Citral:EG (7:3),,1.0,,,,24.945,1,,0,,0,,0,0
+SkinSensDB,DDAC:EG (1:4),,0.0,,1.0,,2.015,1,,0,8.3,1,,0,0
+SkinSensDB,SiO2 DQ12,,0.0,,,,0.305,1,,0,,0,,0,0
+SkinSensDB,DDAC:EG (7:3),,0.0,,1.0,,4.585,1,,0,0.9,1,,0,0
+SkinSensDB,PEGylated nanomaterials for AuNMs.,,,,,,,0,,0,,0,,0,0
+SkinSensDB,silver nanomaterials (AgNMs),,,,,,,0,,0,,0,,0,0
+SkinSensDB,Brazilian green propolis (BGP).,,,,,1.0,,0,,0,,0,1.7,1,0
+SkinSensDB,OA66,,0.0,1.0,1.0,1.0,1.15,1,6.3,1,45.6,1,11.49,1,1
+SkinSensDB,OA70,,1.0,1.0,1.0,,41.300000000000004,1,5.6,1,5.9,1,,0,0
+SkinSensDB,gold nanomaterials (AuNMs),,,,,,,0,,0,,0,,0,0
+SkinSensDB,OA65,,0.0,1.0,1.0,1.0,0.5,1,12.3,1,100.0,1,39.43,1,1
+SkinSensDB,Polysorbate 80,,0.0,0.0,,,5.0,1,11547.0,1,,0,,0,0
+SkinSensDB,OA59,,1.0,1.0,1.0,1.0,19.85,1,105.2,1,25.4,1,5.02,1,1
+SkinSensDB,OA63,,1.0,1.0,1.0,1.0,67.6,1,12.7,1,1.9,1,0.37,1,1
+SkinSensDB,Cocamidopropyl Betainamide MEA Chloride,,0.0,,1.0,,0.0,1,,0,6.8,1,,0,0
+SkinSensDB,OA58,,0.0,0.0,0.0,,1.7,1,2000.0,1,200.0,1,,0,0
+SkinSensDB,OA57,,1.0,1.0,1.0,1.0,82.0,1,3.2,1,5.0,1,0.45,1,1
+SkinSensDB,OA55,,1.0,1.0,1.0,,98.1,1,276.6,1,70.3,1,,0,0
+SkinSensDB,OA56,,1.0,1.0,1.0,1.0,67.0,1,32.0,1,11.1,1,0.1,1,1
+SkinSensDB,OA53,,1.0,1.0,1.0,1.0,91.3,1,4.3,1,0.9,1,0.313,1,1
+SkinSensDB,OA52,,1.0,1.0,0.0,,6.55,1,428.3,1,200.0,1,,0,0
+SkinSensDB,copper chloride,,,,,,,0,,0,,0,,0,0
+SkinSensDB,OA50,,1.0,0.0,1.0,,54.1,1,2000.0,1,82.9,1,,0,0
+SkinSensDB,OA48,,1.0,0.0,1.0,1.0,48.6,1,2000.0,1,40.4,1,0.23,1,1
+SkinSensDB,OA67,,1.0,1.0,1.0,,76.45,1,624.4,1,67.7,1,,0,0
+SkinSensDB,OA47,,1.0,1.0,1.0,1.0,61.15,1,37.3,1,50.6,1,1.15,1,1
+SkinSensDB,OA45,,1.0,1.0,1.0,1.0,95.0,1,17.0,1,5.3,1,2.9,1,1
+SkinSensDB,OA42,,0.0,0.0,0.0,,2.6,1,2000.0,1,161.4,1,,0,0
+SkinSensDB,OA44,,1.0,1.0,1.0,1.0,61.0,1,4.0,1,0.1,1,0.5,1,1
+SkinSensDB,GMA,,,,,,,0,,0,,0,,0,0
+SkinSensDB,OA41,,1.0,1.0,0.0,,42.650000000000006,1,855.0,1,200.0,1,,0,0
+SkinSensDB,Isosorbide ester of Octanoyl Amino Acid,,0.0,,,,0.5,1,,0,,0,,0,0
+SkinSensDB,Oleyl Alcanol Amide,,0.0,1.0,1.0,,0.5,1,11.98,1,41.18,1,,0,0
+SkinSensDB,OA38,,1.0,1.0,0.0,,100.0,1,206.0,1,200.0,1,,0,0
+SkinSensDB,OA64,,1.0,1.0,1.0,1.0,60.2,1,22.1,1,0.1,1,4.06,1,1
+SkinSensDB,OA37,,0.0,1.0,1.0,,1.7,1,403.0,1,103.0,1,,0,0
+SkinSensDB,OA36,,1.0,1.0,1.0,,6.6499999999999995,1,4.0,1,57.4,1,,0,0
+SkinSensDB,OA34,,1.0,1.0,1.0,1.0,87.2,1,4.0,1,17.9,1,2.11,1,1
+SkinSensDB,OA35,,0.0,0.0,0.0,1.0,2.35,1,2000.0,1,200.0,1,17.0,1,1
+SkinSensDB,OA33,,0.0,1.0,1.0,1.0,1.7,1,50.0,1,69.7,1,1.7,1,1
+SkinSensDB,OA32,,1.0,1.0,1.0,1.0,24.2,1,24.0,1,4.2,1,9.12,1,1
+SkinSensDB,OA31,,1.0,1.0,1.0,1.0,86.8,1,3.0,1,13.3,1,2.53,1,1
+SkinSensDB,OA30,,0.0,0.0,1.0,,3.0,1,2000.0,1,63.2,1,,0,0
+SkinSensDB,OA29,,1.0,1.0,1.0,1.0,89.4,1,22.0,1,31.0,1,8.37,1,1
+SkinSensDB,OA28,,1.0,1.0,1.0,1.0,50.5,1,47.0,1,5.2,1,5.97,1,1
+SkinSensDB,Citral:EG (1:4),,1.0,,1.0,,18.855,1,,0,5.4,1,,0,0
+SkinSensDB,OA27,,1.0,1.0,1.0,1.0,60.0,1,1.0,1,0.1,1,1.7,1,1
+SkinSensDB,20nm Silver Nanoparticles,,,,1.0,,,0,,0,8.0,1,,0,0
+SkinSensDB,OA25,,1.0,1.0,1.0,1.0,71.95,1,20.0,1,64.8,1,6.13,1,1
+SkinSensDB,OA24,,0.0,1.0,1.0,1.0,2.2,1,6.0,1,25.0,1,2.6,1,1
+SkinSensDB,OA39,,1.0,1.0,1.0,1.0,56.65,1,2.0,1,2.7,1,0.1,1,1
+SkinSensDB,Cocamidopropyl betaine,,0.0,1.0,,,2.0,1,5.27,1,,0,,0,0
+SkinSensDB,OA54,,1.0,0.0,1.0,1.0,56.15,1,2000.0,1,90.2,1,9.9,1,1
+SkinSensDB,OA17,,1.0,1.0,1.0,1.0,63.45,1,1.0,1,10.0,1,0.36,1,1
+SkinSensDB,OA18,,1.0,1.0,1.0,1.0,55.25,1,3.0,1,0.9,1,0.07,1,1
+SkinSensDB,OA16,,1.0,1.0,1.0,1.0,25.0,1,2.0,1,29.2,1,0.1,1,1
+SkinSensDB,OA11,,0.0,1.0,0.0,,0.1,1,13.3,1,200.0,1,,0,0
+SkinSensDB,OA49,,1.0,1.0,1.0,1.0,66.05,1,17.0,1,2.9,1,1.2,1,1
+SkinSensDB,OA8,,0.0,1.0,0.0,,0.0,1,116.4,1,200.0,1,,0,0
+SkinSensDB,OA6,,1.0,1.0,1.0,1.0,80.75,1,0.0,1,0.3,1,0.8,1,1
+SkinSensDB,"Roman chamomile, ethanol extract",,,1.0,,,,0,0.72,1,,0,,0,0
+SkinSensDB,OA5,,0.0,0.0,0.0,,2.9000000000000004,1,2000.0,1,200.0,1,,0,0
+SkinSensDB,OA4,,1.0,0.0,0.0,,20.2,1,2000.0,1,200.0,1,,0,0
+SkinSensDB,OA68,,0.0,0.0,1.0,,0.55,1,2000.0,1,56.5,1,,0,0
+SkinSensDB,OA21,,0.0,0.0,0.0,,2.2,1,2000.0,1,200.0,1,,0,0
+SkinSensDB,OA2,,0.0,1.0,1.0,,0.4,1,34.0,1,1.3,1,,0,0
+SkinSensDB,Dextran,,,,,,,0,,0,,0,,0,0
+SkinSensDB,OA1,,,1.0,1.0,1.0,,0,6.0,1,11.0,1,0.34,1,0
+SkinSensDB,2-(Phenethoxymethyl)oxirane,,,1.0,,1.0,,0,41.2,1,,0,1.5,1,0
+SkinSensDB,Undecylenoyl Amino Acid,,0.0,0.0,,,3.0,1,6338.0,1,,0,,0,0
+SkinSensDB,(E)-2-((But-2-enyloxy)methyl)oxirane,,,1.0,,1.0,,0,55.8,1,,0,14.0,1,0
+SkinSensDB,OA40,,1.0,1.0,0.0,1.0,51.85,1,63.0,1,200.0,1,8.5,1,1
+SkinSensDB,OA19,,1.0,1.0,1.0,1.0,45.85,1,1.0,1,0.9,1,0.01,1,1
+SkinSensDB,Fx + Me EW 69,,,,,1.0,,0,,0,,0,25.2,1,0
+SkinSensDB,OA61,,1.0,1.0,1.0,1.0,68.15,1,10.3,1,1.3,1,3.0,1,1
+SkinSensDB,Precursor surfactant 2,,,,,1.0,,0,,0,,0,24.0,1,0
+SkinSensDB,Formulation 9,,,,,,,0,,0,,0,,0,0
+SkinSensDB,DU-11A,,,,,,,0,,0,,0,,0,0
+SkinSensDB,Unsaturated fatty acid ester,,,,,1.0,,0,,0,,0,27.1,1,0
+SkinSensDB,Saturated diglycerin,,,,,,,0,,0,,0,,0,0
+SkinSensDB,TW-25B,,,,,1.0,,0,,0,,0,32.9,1,0
+SkinSensDB,OA62,,1.0,1.0,1.0,1.0,66.85,1,1.0,1,0.1,1,9.0,1,1
+SkinSensDB,DU-5B,,,,,,,0,,0,,0,,0,0
+SkinSensDB,C19 Azalactone,,,,,1.0,,0,,0,,0,26.0,1,0
+SkinSensDB,DU-2F,,,,,1.0,,0,,0,,0,15.6,1,0
+SkinSensDB,OA43,,1.0,1.0,1.0,1.0,99.7,1,9.0,1,32.2,1,0.67,1,1
+SkinSensDB,Precursor surfactant 1,,,,,1.0,,0,,0,,0,60.7,1,0
+SkinSensDB,"Roman chamomile, hexane fraction",,,1.0,,,,0,2.66,1,,0,,0,0
+SkinSensDB,PEG-di-p-Tosylates,,,,,,,0,,0,,0,,0,0
+SkinSensDB,Royco 634,,,,,1.0,,0,,0,,0,31.7,1,0
+SkinSensDB,Isononyl glucoside,,,1.0,,1.0,,0,785.3,1,,0,25.75758,1,0
+SkinSensDB,(5R)-5-Isopropenyl-2-methyl-1-methylene-2-cyclohexane,,,,,1.0,,0,,0,,0,7.3,1,0
+SkinSensDB,DU-2B,,,,,1.0,,0,,0,,0,12.4,1,0
+SkinSensDB,"(1R,4R)-4-Isopropenyl-1-methyl-2-methylenecyclohexane",,,,,,,0,,0,,0,,0,0
+SkinSensDB,Laurylglycerin derivative,,,,,1.0,,0,,0,,0,24.3,1,0
+SkinSensDB,4-methyl-7-(prop-1-en-2-yl)-1-oxaspiro[2.5]oct-4-ene,,,1.0,,1.0,,0,52.0,1,,0,0.4,1,0
+SkinSensDB,Non-ionic surfactant 6,,,,,1.0,,0,,0,,0,34.4,1,0
+SkinSensDB,Linalool alcohol,,,,,,,0,,0,,0,,0,0
+SkinSensDB,Non-ionic surfactant 1,,,,,1.0,,0,,0,,0,27.5,1,0
+SkinSensDB,NAVY 14 08 723,,,,,,,0,,0,,0,,0,0
+SkinSensDB,2-Isocyanatoethyl Acrylate,,,,1.0,,,0,,0,12.6,1,,0,0
+SkinSensDB,Non-ionic surfactant 9,,,,,1.0,,0,,0,,0,10.5,1,0
+SkinSensDB,Non-ionic surfactant 8,,,,,1.0,,0,,0,,0,45.7,1,0
+SkinSensDB,Non-ionic surfactant 4,,,,,1.0,,0,,0,,0,0.012,1,0
+SkinSensDB,Linalool aldehyde,,,,,1.0,,0,,0,,0,9.5,1,0
+SkinSensDB,OA12,,1.0,0.0,0.0,,6.45,1,2000.0,1,200.0,1,,0,0
+SkinSensDB,Non-ionic surfactant 7,,,,,1.0,,0,,0,,0,23.7,1,0
+SkinSensDB,cobalt chloride,,,,,,,0,,0,,0,,0,0
+SkinSensDB,DU-7,,,,,,,0,,0,,0,,0,0
+SkinSensDB,80nm Silver Nanoparticles,,,,1.0,,,0,,0,8.0,1,,0,0
+SkinSensDB,Maleimide-PEG2K-Maleimide,,,,,,,0,,0,,0,,0,0
+SkinSensDB,Break-Free CLP,,,,,1.0,,0,,0,,0,30.8,1,0
+SkinSensDB,A SC600,,,,,,,0,,0,,0,,0,0
+SkinSensDB,FAR01060-00,,,,,1.0,,0,,0,,0,88.5,1,0
+SkinSensDB,FAR01042-00,,,,,,,0,,0,,0,,0,0
+SkinSensDB,Sodium lauryl sulfate / sodium dodecyl sulfate (SDS),,1.0,,,,48.5,1,,0,,0,,0,0
+SkinSensDB,4-Isopropyl-1-methylenecyclohexane,,,,,,,0,,0,,0,,0,0
+SkinSensDB,DU-5A,,,,,,,0,,0,,0,,0,0
+SkinSensDB,DU-11C,,,,,,,0,,0,,0,,0,0
+SkinSensDB,"German chamomile, hexane fraction",,,1.0,,,,0,0.67,1,,0,,0,0
+SkinSensDB,Formulation 54,,,,,,,0,,0,,0,,0,0
+SkinSensDB,OA9,,0.0,0.0,0.0,,2.4499999999999997,1,2000.0,1,200.0,1,,0,0
+SkinSensDB,(5R)-5-Isopropenyl-2-methyl-1-methylene-2-cyclohexene,,,,,1.0,,0,,0,,0,7.3,1,0
+SkinSensDB,F & Fo WG 50 + 25,,,,,1.0,,0,,0,,0,0.003,1,0
+SkinSensDB,OA15,,0.0,1.0,1.0,,4.8,1,1.0,1,25.0,1,,0,0
+SkinSensDB,OA69,,1.0,1.0,1.0,1.0,55.45,1,15.0,1,2.4,1,0.01,1,1
+SkinSensDB,Isopropylricinoleamide,,,,,,,0,,0,,0,,0,0
+SkinSensDB,2-(2-Phenoxyethyl)oxirane,,,1.0,,1.0,,0,57.1,1,,0,2.2,1,0
+SkinSensDB,Non-ionic surfactant 2,,,,,1.0,,0,,0,,0,47.1,1,0
+SkinSensDB,OA13,,0.0,1.0,1.0,,2.6,1,209.6,1,23.1,1,,0,0
+SkinSensDB,Fatty acid glutamate,,,,,1.0,,0,,0,,0,75.0,1,0
+SkinSensDB,OA10,,0.0,0.0,0.0,,1.75,1,2000.0,1,200.0,1,,0,0
+SkinSensDB,isopropyl haematommate,,1.0,,,,92.155,1,,0,,0,,0,0
+SkinSensDB,Pluronic L92,,,,,,,0,,0,,0,,0,0
+SkinSensDB,Citral:EG (7:3,,,,1.0,,,0,,0,1.2,1,,0,0
+SkinSensDB,Hexadecyltrimethylammonium bromide (Cetrimide),,0.0,,1.0,,1.0,1,,0,3.92,1,,0,0
+SkinSensDB,OA26,,1.0,1.0,1.0,1.0,78.75,1,4.0,1,50.1,1,2.2,1,1
+SkinSensDB,EXP 11120 A,,,,,1.0,,0,,0,,0,64.9,1,0
+SkinSensDB,OA46,,,1.0,1.0,1.0,,0,9.0,1,12.5,1,0.9,1,0
+SkinSensDB,EXP 10810 A,,,,,1.0,,0,,0,,0,2.1,1,0
+SkinSensDB,OA22,,1.0,1.0,1.0,1.0,67.35,1,4.0,1,31.8,1,2.82,1,1
+SkinSensDB,BASF SC-1,,,,,,,0,,0,,0,,0,0
+SkinSensDB,DU-8A,,,,,,,0,,0,,0,,0,0
+SkinSensDB,m-Xylylene diisocyanate,,,,1.0,,,0,,0,62.7,1,,0,0
+SkinSensDB,DU-6,,,,,,,0,,0,,0,,0,0
+SkinSensDB,DU-8B,,,,,,,0,,0,,0,,0,0
+SkinSensDB,DU-9A,,,,,1.0,,0,,0,,0,2.65,1,0
+SkinSensDB,Dibenzopyrene,,,,,,,0,,0,,0,,0,0
+SkinSensDB,DU-13A,,,,,,,0,,0,,0,,0,0
+SkinSensDB,Poly(glycidyl methacrylate),,,,,,,0,,0,,0,,0,0
+SkinSensDB,Fatty alcohol #2,,,,,1.0,,0,,0,,0,8.6,1,0
+SkinSensDB,"Toluene 2,4/2,6-diisocyanate",,1.0,,,,17.2,1,,0,,0,,0,0
+SkinSensDB,Unsaturated fatty acid,,,,,1.0,,0,,0,,0,22.2,1,0
+SkinSensDB,DU-2C,,,,,1.0,,0,,0,,0,62.9,1,0
+SkinSensDB,DU-2E,,,,,,,0,,0,,0,,0,0
+SkinSensDB,(4Z)-2-Methyl-6-methyleneoct-4-ene,,,,,,,0,,0,,0,,0,0
+SkinSensDB,DU-1C,,,,,,,0,,0,,0,,0,0
+SkinSensDB,Fatty alcohol #1,,,,,1.0,,0,,0,,0,7.6,1,0
+SkinSensDB,DU-12,,,,,,,0,,0,,0,,0,0
+SkinSensDB,Dodecyl gallate,,1.0,1.0,1.0,,50.0,1,1.11,1,5.97,1,,0,0
+SkinSensDB,DU-1B,,,,,,,0,,0,,0,,0,0
+SkinSensDB,DU-9B,,,,,,,0,,0,,0,,0,0
+SkinSensDB,DU-2A,,,,,1.0,,0,,0,,0,1.2,1,0
+SkinSensDB,OA51,,0.0,1.0,1.0,1.0,0.95,1,140.0,1,48.9,1,1.3,1,1
+SkinSensDB,DU-2D,,,,,1.0,,0,,0,,0,2.5,1,0
+SkinSensDB,10-20 nm Silica Nanoparticles,,,,,,,0,,0,,0,,0,0
+SkinSensDB,1-methyl-2-methylene-4-(prop-1-en-2-yl)-7-oxabicyclo[4.1.0]heptane,,,1.0,,1.0,,0,100.2,1,,0,10.3,1,0
+SkinSensDB,OA60,,1.0,1.0,1.0,1.0,39.05,1,123.3,1,15.8,1,33.31,1,1
+SkinSensDB,DU-1A,,,,,,,0,,0,,0,,0,0
+SkinSensDB,BASF #1,,,,,1.0,,0,,0,,0,31.2,1,0
+SkinSensDB,OA14,,1.0,1.0,1.0,1.0,78.8,1,77.3,1,32.4,1,0.01,1,1
+SkinSensDB,DU-13B,,,,,,,0,,0,,0,,0,0
+SkinSensDB,BASF #3,,,,,1.0,,0,,0,,0,1.6,1,0
+SkinSensDB,DU-5C,,,,,,,0,,0,,0,,0,0
+SkinSensDB,DU-4,,,,,,,0,,0,,0,,0,0
+SkinSensDB,DU-10,,,,,,,0,,0,,0,,0,0
+SkinSensDB,Acrylate-PEG3500-Acrylate,,,,,,,0,,0,,0,,0,0
+SkinSensDB,DU-1D,,,,,,,0,,0,,0,,0,0
+SkinSensDB,Crotonyl thioglycerol,,,,,,,0,,0,,0,,0,0
+SkinSensDB,DU-11B,,,,,,,0,,0,,0,,0,0
+SkinSensDB,MC-2500,,,,,1.0,,0,,0,,0,5.0,1,0
+SkinSensDB,D EW 15,,,,,,,0,,0,,0,,0,0
+SkinSensDB,BASF SE-1,,,,,1.0,,0,,0,,0,5.5,1,0
+SkinSensDB,Sultone C12,,,,,,,0,,0,,0,,0,0
+SkinSensDB,BASF #5,,,,,1.0,,0,,0,,0,36.9,1,0
+SkinSensDB,OA20,,1.0,1.0,1.0,,7.05,1,11.0,1,33.2,1,,0,0
+SkinSensDB,Non-ionic surfactant 3,,,,,1.0,,0,,0,,0,19.8,1,0
+SkinSensDB,AE F016382 00 TK71 A101,,,,,,,0,,0,,0,,0,0
+SkinSensDB,"1-(2',3',4',5'-Tetramethylphenyl)-3-(4'-tetrabutylphenyl)-propane-1,3-dione",,,,,,,0,,0,,0,,0,0
+SkinSensDB,OA3,,1.0,1.0,1.0,1.0,43.05,1,3.9,1,1.2,1,0.01,1,1
+SkinSensDB,BASF #4,,,,,1.0,,0,,0,,0,14.1,1,0
+SkinSensDB,"PEGylated nanomaterials for  AgNMs,",,,,,,,0,,0,,0,,0,0
+SkinSensDB,"bis-1,3-(2',5'-dimethylphenyl)-propane-1,3-dione",,,,,,,0,,0,,0,,0,0
+SkinSensDB,D EC25,,,,,,,0,,0,,0,,0,0
+SkinSensDB,"Poly(propylene glycol), toluene 2,4-diisocyanate terminated",,,,,,,0,,0,,0,,0,0
+SkinSensDB,Bakelite EPR 164,,,,,1.0,,0,,0,,0,0.2,1,0
+SkinSensDB,Formulation 1,,,,,,,0,,0,,0,,0,0
+SkinSensDB,Bakelite EPR 162,,,,,1.0,,0,,0,,0,0.1,1,0
+SkinSensDB,OA7,,0.0,0.0,1.0,,3.5500000000000003,1,2000.0,1,56.6,1,,0,0
+SkinSensDB,DU-3,,,,,,,0,,0,,0,,0,0
+SkinSensDB,BASF #6,,,,,1.0,,0,,0,,0,3.3,1,0
+SkinSensDB,BASF #2,,,,,1.0,,0,,0,,0,29.7,1,0
+SkinSensDB,Dispersionsrot 2754,,,,,,,0,,0,,0,,0,0
+SkinSensDB,N-p-benzonitrile menthanecarboxamide,,,0.0,,,,0,4000.0,1,,0,,0,0
+SkinSensDB,OA23,,1.0,1.0,1.0,1.0,35.7,1,30.0,1,5.0,1,0.1,1,1
+SkinSensDB,C.I. Reactive red 231,,,,,1.0,,0,,0,,0,0.6,1,0
+SkinSensDB,Bakelite EPR 161,,,,,1.0,,0,,0,,0,0.7,1,0
+SkinSensDB,MC-25,,,,,1.0,,0,,0,,0,45.0,1,0
+SkinSensDB,Methyl(2-sulfomethyl) octadecanoate,,,,,1.0,,0,,0,,0,2.0,1,0
+SkinSensDB,2-((4-(4-(2-Methoxyethoxy)benzyl)phenoxy)methyl)oxirane,,,1.0,,1.0,,0,5.68,1,,0,2.3,1,0
+SkinSensDB,Dibenzodioxocin,,,,,1.0,,0,,0,,0,7.5,1,0
+SkinSensDB,"(1R,4R)-Isopropenyl-1-methyl-2-methylene-2-cyclohexane",,,,,,,0,,0,,0,,0,0
+SkinSensDB,Non-ionic surfactant 5,,,,,1.0,,0,,0,,0,37.5,1,0

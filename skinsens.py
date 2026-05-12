@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import re
 
 SKIN_FILE = "RAW_SKINSENS_DB_complete.xls"
 OUTPUT_CSV = "Skin_209_endpoint_presence_from_raw.csv"
@@ -16,6 +17,25 @@ def first_nonnull(row, cols):
     return vals[0] if vals else np.nan
 
 
+def clean_cas(value):
+    if pd.isna(value):
+        return np.nan
+
+    s = str(value).strip()
+    if not s or s.lower() == "nan":
+        return np.nan
+
+    # Some CAS values are auto-converted by Excel into dates, e.g. 59-02-9
+    # becomes 1959-02-09 00:00:00. Recover the likely CAS format.
+    m = re.fullmatch(r"(\d{4})-(\d{1,2})-(\d{1,2})(?: 00:00:00)?", s)
+    if m:
+        year, month, day = (int(part) for part in m.groups())
+        prefix = year - 1900 if 1900 <= year <= 1999 else year
+        return f"{prefix}-{month:02d}-{day}"
+
+    return s
+
+
 # -----------------------------
 # Load SkinSensDB
 # -----------------------------
@@ -28,9 +48,9 @@ if len(df) > 0 and str(df.iloc[0, 0]).strip().lower() == str(df.columns[0]).stri
 
 # Standardize likely identifiers
 if "CAS" in df.columns:
-    df["CAS"] = df["CAS"].astype(str).str.strip()
+    df["CAS"] = df["CAS"].apply(clean_cas)
 elif "CASRN" in df.columns:
-    df["CAS"] = df["CASRN"].astype(str).str.strip()
+    df["CAS"] = df["CASRN"].apply(clean_cas)
 else:
     raise ValueError("No CAS/CASRN column found.")
 

@@ -11,6 +11,16 @@ def clean_cols(df):
     return df.loc[:, ~df.columns.duplicated()].copy()
 
 
+def clean_identifier(value):
+    if pd.isna(value):
+        return np.nan
+
+    s = str(value).strip()
+    if not s or s.lower() == "nan":
+        return np.nan
+    return s
+
+
 def normalize_call(series):
     vals = []
     for v in series:
@@ -48,7 +58,7 @@ df_invitro = clean_cols(pd.read_excel(ICE_FILE, sheet_name="Data_invitro"))
 df_invivo = clean_cols(pd.read_excel(ICE_FILE, sheet_name="Data_invivo"))
 
 for df in (df_invitro, df_invivo):
-    df["CASRN"] = df["CASRN"].astype(str).str.strip()
+    df["CASRN"] = df["CASRN"].apply(clean_identifier)
 
 # -----------------------------
 # Base chemical list
