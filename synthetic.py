@@ -83,16 +83,24 @@ skin_single = skin_pattern_errors.loc[["100","010","001"]]
 ice_ke3_fail = icep[(icep["pattern"]=="001") & (icep["misclassified"]==1)]
 skin_ke3_fail = skinp[(skinp["pattern"]=="001") & (skinp["misclassified"]==1)]
 
+quick_cols = [
+    "Dataset", "Chemical", "CAS",
+    "KE1_call", "KE2_call", "KE3_call", "LLNA_call",
+    "pattern", "n_pos", "concordant", "misclassified",
+]
+quick_view = pd.concat([icep[quick_cols], skinp[quick_cols]], ignore_index=True)
+quick_view.to_csv("analysis_quick_view.csv", index=False)
+
 with pd.ExcelWriter("analysis_outputs.xlsx") as writer:
-    icep.to_excel(writer, "ICE_complete_case", index=False)
-    skinp.to_excel(writer, "Skin_complete_case", index=False)
-    pd.DataFrame([ice_stats]).to_excel(writer, "ICE_concordance", index=False)
-    pd.DataFrame([skin_stats]).to_excel(writer, "Skin_concordance", index=False)
-    ice_pattern_errors.to_excel(writer, "ICE_pattern_errors")
-    skin_pattern_errors.to_excel(writer, "Skin_pattern_errors")
-    ice_pos_errors.to_excel(writer, "ICE_pos_errors")
-    skin_pos_errors.to_excel(writer, "Skin_pos_errors")
-    ice_single.to_excel(writer, "ICE_single_positive")
-    skin_single.to_excel(writer, "Skin_single_positive")
-    ice_ke3_fail.to_excel(writer, "ICE_KE3_only_fail", index=False)
-    skin_ke3_fail.to_excel(writer, "Skin_KE3_only_fail", index=False)
+    icep.to_excel(writer, sheet_name="ICE_complete_case", index=False)
+    skinp.to_excel(writer, sheet_name="Skin_complete_case", index=False)
+    pd.DataFrame([ice_stats]).to_excel(writer, sheet_name="ICE_concordance", index=False)
+    pd.DataFrame([skin_stats]).to_excel(writer, sheet_name="Skin_concordance", index=False)
+    ice_pattern_errors.to_excel(writer, sheet_name="ICE_pattern_errors")
+    skin_pattern_errors.to_excel(writer, sheet_name="Skin_pattern_errors")
+    ice_pos_errors.to_excel(writer, sheet_name="ICE_pos_errors")
+    skin_pos_errors.to_excel(writer, sheet_name="Skin_pos_errors")
+    ice_single.to_excel(writer, sheet_name="ICE_single_positive")
+    skin_single.to_excel(writer, sheet_name="Skin_single_positive")
+    ice_ke3_fail.to_excel(writer, sheet_name="ICE_KE3_only_fail", index=False)
+    skin_ke3_fail.to_excel(writer, sheet_name="Skin_KE3_only_fail", index=False)
