@@ -1,0 +1,43 @@
+Dataset,Chemical,CAS,KE1_call,KE2_call,KE3_call,Pattern,LLNA_call,Misclassified
+ICE,4'-Methoxyacetophenone,100-06-1,0,1,1,011,1,0
+ICE,4-Vinylpyridine,100-43-6,1,1,1,111,1,0
+ICE,3-Phenyl-2-propen-1-ol,104-54-1,1,1,1,111,1,0
+ICE,"1,4-Benzenediamine",106-50-3,1,1,1,111,1,0
+ICE,"2,5-Furandione",108-31-6,1,1,1,111,1,0
+ICE,Chlorobenzene,108-90-7,0,0,0,000,0,0
+ICE,Nonanoic acid,112-05-0,0,0,1,001,1,1
+ICE,Phenylacetaldehyde,122-78-1,1,1,1,111,1,0
+ICE,Chloramine-T,127-65-1,1,1,1,111,1,0
+ICE,"N,N-Dimethyl-4-nitrosoaniline",138-89-6,1,1,1,111,1,0
+ICE,Butyl acrylate,141-32-2,1,1,1,111,1,0
+ICE,2-Mercaptobenzothiazole,149-30-4,1,1,1,111,1,0
+ICE,4-Acetoxy benzoic acid,2345-34-8,1,0,0,100,1,1
+ICE,Trinitrobenzenesulfonic acid,2508-19-2,1,1,1,111,1,0
+ICE,2-Methyl-3(2H)-isothiazolone,2682-20-4,1,1,1,111,1,0
+ICE,5-Amino-2-methylphenol,2835-95-2,1,1,1,111,1,0
+ICE,Squaric acid,2892-51-5,1,0,0,100,1,1
+ICE,Imidazolidinyl urea,39236-46-9,1,1,1,111,1,0
+ICE,Farnesol,4602-84-0,0,1,1,011,1,0
+ICE,"3-Methyl-1,2-benzenediol",488-17-5,1,1,1,111,1,0
+ICE,alpha-Furil,492-94-4,1,1,0,110,0,1
+ICE,Formaldehyde,50-00-0,1,1,1,111,1,0
+ICE,Lactic acid,50-21-5,0,0,0,000,1,1
+ICE,Squaric acid diethyl ester,5231-87-8,0,0,0,000,1,1
+ICE,Tropolone,533-75-5,1,1,1,111,1,0
+ICE,"3,7-Dimethyl-2,6-octadienal",5392-40-5,1,1,1,111,1,0
+ICE,3-Iodo-2-propynyl-N-butylcarbamate,55406-53-6,1,1,1,111,1,0
+ICE,3-Aminophenol,591-27-5,0,0,1,001,1,1
+ICE,Sulfanilamide,63-74-1,0,0,0,000,0,0
+ICE,Isopropanol,67-63-0,0,0,0,000,0,0
+ICE,"N,N-Dimethylformamide",68-12-2,0,0,0,000,1,1
+ICE,1-Butanol,71-36-3,0,0,0,000,1,1
+ICE,Cobalt chloride,7646-79-9,1,1,1,111,1,0
+ICE,Linalool,78-70-6,0,0,1,001,1,1
+ICE,Methyl methacrylate,80-62-6,1,1,1,111,1,0
+ICE,Hexahydrophthalic anhydride,85-42-7,1,0,1,101,1,0
+ICE,"Benzenesulfonic acid, 2,4-dinitro-, sodium salt",885-62-1,1,1,1,111,1,0
+ICE,Phenyl benzoate,93-99-2,1,0,1,101,1,0
+ICE,Propylparaben,94-13-3,0,1,1,011,1,0
+ICE,Methyl acrylate,96-33-3,1,1,1,111,1,0
+ICE,"1-Chloro-2,4-dinitrobenzene",97-00-7,1,1,1,111,1,0
+ICE,Ethylene glycol dimethacrylate,97-90-5,1,1,1,111,1,0

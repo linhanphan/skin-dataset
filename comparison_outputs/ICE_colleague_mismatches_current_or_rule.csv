@@ -1,0 +1,5 @@
+CAS,Chemical,colleague_KE1_call,colleague_KE2_call,colleague_KE3_call,current_KE1_call,current_KE2_or_call,current_KE3_or_call,current_KE2_consensus_call,current_KE3_consensus_call,KS_call,LuSens_call,hCLAT_call,USENS_call,LLNA_call,LLNA_EC3,mismatch_column,colleague_value,current_or_value
+108-90-7,Chlorobenzene,0,0,0,0,0,1,0,0,Inactive,,Active,Inactive,0.0,,KE3_call,0,1
+62-53-3,Aniline,0,0,1,0,1,1,0,1,Active,Inactive,Active,Active,,33.3,KE2_call,0,1
+71-36-3,1-Butanol,0,0,0,0,0,1,0,0,Inactive,Inactive,Active,Inactive,0.0,20.0,KE3_call,0,1
+91-64-5,Coumarin,0,1,0,0,1,1,1,0,Active,,Inactive,Active,,32.45,KE3_call,0,1

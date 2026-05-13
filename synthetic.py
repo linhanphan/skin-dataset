@@ -1,8 +1,8 @@
 import pandas as pd, numpy as np, math
 from scipy.stats import fisher_exact
 
-ice = pd.read_csv("ICE_105_endpoint_presence_from_raw.csv")
-skin = pd.read_csv("Skin_209_endpoint_presence_from_raw.csv")
+ice = pd.read_csv("ICE_endpoint_presence_from_raw.csv")
+skin = pd.read_csv("Skin_endpoint_presence_from_raw.csv")
 
 call_cols = ["KE1_call", "KE2_call", "KE3_call", "LLNA_call"]
 

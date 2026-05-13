@@ -3,7 +3,8 @@ import numpy as np
 import re
 
 SKIN_FILE = "RAW_SKINSENS_DB_complete.xls"
-OUTPUT_CSV = "Skin_209_endpoint_presence_from_raw.csv"
+OUTPUT_CSV = "Skin_endpoint_presence_from_raw.csv"
+COMPLETE_CASE_CSV = "Skin_complete_cases_from_raw.csv"
 
 
 def clean_cols(df):
@@ -135,9 +136,9 @@ else:
 for col in ["KE1_metric", "KE2_metric", "KE3_metric", "LLNA_EC3"]:
     df[f"{col}__present"] = df[col].notna().astype(int)
 
-# Optional complete-case flag
-required = ["KE1_metric", "KE2_metric", "KE3_metric", "LLNA_EC3"]
-df["complete_case"] = df[required].notna().all(axis=1).astype(int)
+# Complete cases for downstream pattern analysis require all four calls.
+required_calls = ["KE1_call", "KE2_call", "KE3_call", "LLNA_call"]
+df["complete_case"] = df[required_calls].notna().all(axis=1).astype(int)
 
 # Final output
 keep = [
@@ -152,7 +153,12 @@ keep = [
 
 keep = [c for c in keep if c in df.columns]
 out = df[keep].copy()
+complete_cases = out[out["complete_case"].eq(1)].copy()
+
 out.to_csv(OUTPUT_CSV, index=False)
+complete_cases.to_csv(COMPLETE_CASE_CSV, index=False)
 
 print(f"Saved: {OUTPUT_CSV}")
+print(f"Saved complete cases: {COMPLETE_CASE_CSV}")
 print("Rows:", len(out))
+print("Complete cases:", len(complete_cases))

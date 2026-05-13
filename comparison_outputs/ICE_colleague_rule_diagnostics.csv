@@ -1,0 +1,106 @@
+CAS,Chemical,colleague_KE1_call,colleague_KE2_call,colleague_KE3_call,current_KE1_call,current_KE2_or_call,current_KE3_or_call,current_KE2_consensus_call,current_KE3_consensus_call,KS_call,LuSens_call,hCLAT_call,USENS_call,LLNA_call,LLNA_EC3
+100-06-1,4'-Methoxyacetophenone,0,1,1,0,1,1,1,1,Active,Active,Active,Active,0.0,50.0
+100-39-0,alpha-Bromotoluene,1,1,1,1,1,1,1,1,Active,,Active,Active,,0.2
+100-43-6,4-Vinylpyridine,1,1,1,1,1,1,1,1,Active,,,Active,1.0,1.6
+101-39-3,2-Methylcinnamic aldehyde,1,1,1,1,1,1,1,1,Active,,Active,Active,,4.5
+104-27-8,1-(4-Methoxyphenyl)-1-pentene-3-one,1,1,1,1,1,1,1,1,Active,,,Active,,9.3
+104-54-1,3-Phenyl-2-propen-1-ol,1,1,1,1,1,1,1,1,Active,Active,Active,Active,1.0,21.0
+104-55-2,3-Phenylprop-2-enal,1,1,1,1,1,1,1,1,Active,Active,Active,Active,,1.3
+106-22-9,Citronellol,1,0,1,1,0,1,0,1,Inactive,,Active,Active,,43.5
+106-24-1,Geraniol,0,1,1,0,1,1,1,1,Active,,Active,Active,,18.7
+106-50-3,"1,4-Benzenediamine",1,1,1,1,1,1,1,1,Active,Active,Active,Active,1.0,0.14
+106-51-4,"1,4-Benzoquinone",1,1,1,1,1,1,1,1,Active,Active,Active,Active,,0.0099
+107-22-2,Glyoxal,1,1,1,1,1,1,1,1,Active,Active,Active,Active,,1.4
+107-75-5,Hydroxycitronellal,1,1,1,1,1,1,1,1,Active,Active,Active,Active,,22.0
+108-31-6,"2,5-Furandione",1,1,1,1,1,1,1,1,Active,,Active,Active,1.0,0.16
+108-90-7,Chlorobenzene,0,0,0,0,0,1,0,0,Inactive,,Active,Inactive,0.0,
+109-55-7,3-(Dimethylamino)propylamine,0,1,1,0,1,1,1,1,Active,,Active,Active,,2.25
+110-41-8,2-Methylundecanal,1,1,1,1,1,1,1,1,Active,,,Active,,10.0
+111-12-6,Methyl 2-octynoate,1,1,1,1,1,1,1,1,Active,,Active,Active,,0.5
+111-30-8,Glutaraldehyde,1,1,1,1,1,1,1,1,Active,Active,Active,Active,,0.09
+111-40-0,Diethylenetriamine,0,0,0,0,0,0,0,0,Inactive,,Inactive,,,3.3
+111-80-8,Methyl 2-nonynoate,1,1,1,1,1,1,1,1,Active,,Active,Active,,2.5
+1118-71-4,Dipivaloylmethane,0,0,0,0,0,0,0,0,Inactive,,,Inactive,,27.0
+112-05-0,Nonanoic acid,0,0,1,0,0,1,0,1,Inactive,,Active,Active,0.0,60.0
+112-45-8,10-Undecen-1-al,0,1,0,0,1,0,1,0,Active,,Inactive,,,6.8
+1154-59-2,"3,5-Dichlorosalicyl-3,4-dichloroanilide",1,1,1,1,1,1,1,1,Active,,Active,Active,,0.04
+116-26-7,Safranal,1,1,1,1,1,1,1,1,Active,,,Active,,7.5
+1166-52-5,Lauryl gallate,1,1,1,1,1,1,1,1,Active,,Active,Active,,0.3
+120-51-4,Benzyl benzoate,0,1,0,0,1,0,1,0,Active,,Inactive,Inactive,,17.0
+122-57-6,Methyl styryl ketone,1,1,1,1,1,1,1,1,Active,Active,Active,Active,,3.7
+122-78-1,Phenylacetaldehyde,1,1,1,1,1,1,1,1,Active,,Active,Active,1.0,3.85
+123-31-9,Hydroquinone,1,1,1,1,1,1,1,1,Active,,Active,Active,,0.19
+127-51-5,Isomethyl-alpha-ionone,0,0,1,0,0,1,0,1,Inactive,,Active,Active,,21.8
+127-65-1,Chloramine-T,1,1,1,1,1,1,1,1,Active,,Active,,1.0,0.4
+137-26-8,Bis(dimethylaminothiocarbonyl) disulfide,1,1,1,1,1,1,1,1,Active,Active,Active,Active,,2.665
+13706-86-0,"5-Methyl-2,3-hexanedione",1,1,1,1,1,1,1,1,Active,,Active,Active,,25.8
+138-89-6,"N,N-Dimethyl-4-nitrosoaniline",1,1,1,1,1,1,1,1,Active,,,Active,1.0,0.48
+141-05-9,Diethyl maleate,1,1,1,1,1,1,1,1,Active,Active,Active,Active,,3.9
+141-32-2,Butyl acrylate,1,1,1,1,1,1,1,1,Active,Active,Active,Active,1.0,20.0
+149-30-4,2-Mercaptobenzothiazole,1,1,1,1,1,1,1,1,Active,Active,Active,Active,1.0,1.7
+15646-46-5,Oxazolone,1,1,1,1,1,1,1,1,Active,Active,Active,Active,,0.002
+1565-94-2,Bisphenol A glycidyl methacrylate,1,1,0,1,1,0,1,0,Active,,Inactive,,,45.3
+1675-54-3,Bisphenol A diglycidyl ether,1,1,1,1,1,1,1,1,Active,,Active,Active,,1.5
+1897-45-6,Chlorothalonil,1,1,1,1,1,1,1,1,Active,,Active,,,0.004
+20048-27-5,Bandrowski's base,1,1,1,1,1,1,1,1,Active,,Active,Active,,0.04
+2111-75-3,Perillaldehyde,1,1,1,1,1,1,1,1,Active,,Active,Active,,8.1
+2277-19-2,(Z)-Non-6-enal,0,1,1,0,1,1,1,1,Active,,,Active,,23.0
+2345-34-8,4-Acetoxy benzoic acid,1,0,0,1,0,0,0,0,Inactive,,,Inactive,1.0,30.0
+2508-19-2,Trinitrobenzenesulfonic acid,1,1,1,1,1,1,1,1,Active,Active,Active,,1.0,0.3
+25646-71-3,"Methanesulfonamide, N-[2-[(4-amino-3-methylphenyl)ethylamino]ethyl]-, sulfate (2:3)",1,1,1,1,1,1,1,1,Active,,Active,Active,,0.6
+2634-33-5,"1,2-Benzisothiazolin-3-one",1,1,1,1,1,1,1,1,Active,,Active,Active,,4.8
+2682-20-4,2-Methyl-3(2H)-isothiazolone,1,1,1,1,1,1,1,1,Active,,Active,Active,1.0,1.9
+2835-95-2,5-Amino-2-methylphenol,1,1,1,1,1,1,1,1,Active,,,Active,1.0,3.8
+2835-99-6,4-Amino-m-cresol,1,1,1,1,1,1,1,1,Active,,,Active,,1.5
+2892-51-5,Squaric acid,1,0,0,1,0,0,0,0,Inactive,,,Inactive,1.0,5.699999999999999
+31906-04-4,4-(4-Hydroxy-4-methylpentyl)cyclohex-3-ene-1-carbaldehyde,1,1,1,1,1,1,1,1,Active,,Active,Active,,17.0
+35691-65-7,"1,2-Dibromo-2,4-dicyanobutane",1,1,1,1,1,1,1,1,Active,Active,Active,Active,,0.9
+3810-74-0,Streptomycin sulfate (2:3),0,0,0,0,0,0,0,0,Inactive,,Inactive,Inactive,,33.3
+3913-71-1,2-Decenal,1,1,1,1,1,1,1,1,Active,,,Active,,2.5
+39236-46-9,Imidazolidinyl urea,1,1,1,1,1,1,1,1,Active,Active,Active,Active,1.0,24.0
+431-03-8,"2,3-Butanedione",1,1,1,1,1,1,1,1,Active,Active,Active,Active,,11.0
+4602-84-0,Farnesol,0,1,1,0,1,1,1,1,Active,,Active,Active,1.0,4.1
+488-17-5,"3-Methyl-1,2-benzenediol",1,1,1,1,1,1,1,1,Active,,,Active,1.0,0.02
+492-94-4,alpha-Furil,1,1,0,1,1,0,1,0,Active,,Inactive,,0.0,
+50-00-0,Formaldehyde,1,1,1,1,1,1,1,1,Active,Active,Active,Active,1.0,0.845
+50-21-5,Lactic acid,0,0,0,0,0,0,0,0,Inactive,Inactive,Inactive,Inactive,0.0,25.0
+5231-87-8,Squaric acid diethyl ester,0,0,0,0,0,0,0,0,Inactive,,,Inactive,1.0,0.9
+5307-14-2,"2-Nitro-1,4-phenylenediamine",1,1,1,1,1,1,1,1,Active,,Active,Active,,0.4
+533-75-5,Tropolone,1,1,1,1,1,1,1,1,Active,,Active,,1.0,4.35
+5392-40-5,"3,7-Dimethyl-2,6-octadienal",1,1,1,1,1,1,1,1,Active,Active,Active,Active,1.0,6.449999999999999
+55-55-0,"Phenol, p-(methylamino)-, sulfate (2:1) (salt)",1,1,1,1,1,1,1,1,Active,Active,Active,Active,,0.8
+55406-53-6,3-Iodo-2-propynyl-N-butylcarbamate,1,1,1,1,1,1,1,1,Active,,Active,Active,1.0,0.9
+57-97-6,"7,12-Dimethylbenz[a]anthracene",0,1,0,0,1,0,1,0,Active,,,Inactive,,0.006
+579-07-7,"1-Phenyl-1,2-propanedione",1,1,1,1,1,1,1,1,Active,,Active,Active,,1.3
+591-27-5,3-Aminophenol,0,0,1,0,0,1,0,1,Inactive,,Active,Active,1.0,1.8
+5910-85-0,"2,4-Heptadienal",1,1,1,1,1,1,1,1,Active,,Active,,,4.0
+5989-27-5,D-Limonene,1,0,1,1,0,1,0,1,Inactive,,Active,Active,,69.0
+600-22-6,Methylpyruvate,0,0,0,0,0,0,0,0,Inactive,,Inactive,,,2.4
+61-33-6,Penicillin G,1,0,1,1,0,1,0,1,Inactive,Inactive,Active,Active,,19.8
+613-29-6,"N,N-Dibutylaniline",0,0,0,0,0,0,0,0,Inactive,,Inactive,,,19.6
+615-50-9,"2,5-Diaminotoluene sulfate",1,1,1,1,1,1,1,1,Active,,Active,Active,,0.4
+62-53-3,Aniline,0,0,1,0,1,1,0,1,Active,Inactive,Active,Active,,33.3
+6259-76-3,Hexyl salicylate,0,0,1,0,0,1,0,1,Inactive,,Active,Active,,0.2
+63-74-1,Sulfanilamide,0,0,0,0,0,0,0,0,Inactive,Inactive,Inactive,Inactive,0.0,
+64-67-5,Ethyl sulfate (Et2SO4),1,1,1,1,1,1,1,1,Active,,Active,,,3.3
+6485-40-1,R-(-)-Carvone,1,1,1,1,1,1,1,1,Active,,Active,Active,,12.9
+67-63-0,Isopropanol,0,0,0,0,0,0,0,0,Inactive,Inactive,Inactive,Inactive,0.0,
+6728-26-3,(2E)-2-Hexenal,1,1,1,1,1,1,1,1,Active,,Active,Active,,5.5
+68-12-2,"N,N-Dimethylformamide",0,0,0,0,0,0,0,0,Inactive,,Inactive,,0.0,100.0
+71-36-3,1-Butanol,0,0,0,0,0,1,0,0,Inactive,Inactive,Active,Inactive,0.0,20.0
+7646-79-9,Cobalt chloride,1,1,1,1,1,1,1,1,Active,Active,Active,,1.0,0.6
+78-70-6,Linalool,0,0,1,0,0,1,0,1,Inactive,,Active,Active,1.0,42.5
+80-62-6,Methyl methacrylate,1,1,1,1,1,1,1,1,Active,Active,Active,Active,1.0,90.0
+818-61-1,2-Hydroxyethyl acrylate,1,1,1,1,1,1,1,1,Active,,Active,Active,,1.4
+85-42-7,Hexahydrophthalic anhydride,1,0,1,1,0,1,0,1,Inactive,,,Active,1.0,0.84
+87-86-5,Pentachlorophenol,1,0,1,1,0,1,0,1,Inactive,,Active,Active,,20.0
+885-62-1,"Benzenesulfonic acid, 2,4-dinitro-, sodium salt",1,1,1,1,1,1,1,1,Active,,,Active,1.0,2.0
+90-15-3,1-Naphthol,1,1,1,1,1,1,1,1,Active,,Active,Active,,1.3
+91-64-5,Coumarin,0,1,0,0,1,1,1,0,Active,,Inactive,Active,,32.45
+93-53-8,Hydratropaldehyde,1,1,1,1,1,1,1,1,Active,Active,Active,Active,,6.3
+93-99-2,Phenyl benzoate,1,0,1,1,0,1,0,1,Inactive,Inactive,Active,Active,1.0,15.350000000000001
+94-13-3,Propylparaben,0,1,1,0,1,1,1,1,Active,Active,Active,Active,0.0,50.0
+95-55-6,2-Aminophenol,1,1,1,1,1,1,1,1,Active,,Active,Active,,0.45
+96-33-3,Methyl acrylate,1,1,1,1,1,1,1,1,Active,Active,,Active,1.0,19.8
+97-00-7,"1-Chloro-2,4-dinitrobenzene",1,1,1,1,1,1,1,1,Active,Active,Active,Active,1.0,0.058499999999999996
+97-90-5,Ethylene glycol dimethacrylate,1,1,1,1,1,1,1,1,Active,Active,Active,Active,1.0,28.0

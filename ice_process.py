@@ -2,7 +2,8 @@ import pandas as pd
 import numpy as np
 
 ICE_FILE = "RAW_ICE_skin_sensitization.xlsx"
-OUTPUT_CSV = "ICE_105_endpoint_presence_from_raw.csv"
+OUTPUT_CSV = "ICE_endpoint_presence_from_raw.csv"
+COMPLETE_CASE_CSV = "ICE_complete_cases_from_raw.csv"
 
 
 def clean_cols(df):
@@ -201,6 +202,10 @@ def misclassified(row):
 
 out["Misclassified"] = out.apply(misclassified, axis=1)
 
+# Complete cases for downstream pattern analysis require all four calls.
+required_calls = ["KE1_call", "KE2_call", "KE3_call", "LLNA_call"]
+out["complete_case"] = out[required_calls].notna().all(axis=1).astype(int)
+
 # Final column order
 final_cols = [
     "Dataset", "Chemical", "CAS",
@@ -211,10 +216,16 @@ final_cols = [
     "hCLAT_call", "hCLAT_call__present",
     "USENS_call", "USENS_call__present",
     "LLNA_EC3", "LLNA_EC3__present",
+    "complete_case",
 ]
 
 out = out[final_cols]
+complete_cases = out[out["complete_case"].eq(1)].copy()
+
 out.to_csv(OUTPUT_CSV, index=False)
+complete_cases.to_csv(COMPLETE_CASE_CSV, index=False)
 
 print(f"Saved: {OUTPUT_CSV}")
+print(f"Saved complete cases: {COMPLETE_CASE_CSV}")
 print("Rows:", len(out))
+print("Complete cases:", len(complete_cases))

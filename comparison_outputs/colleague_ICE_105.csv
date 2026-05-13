@@ -1,0 +1,106 @@
+Dataset,Chemical,CAS,KE1_call,KE2_call,KE3_call,Pattern,LLNA_call,Misclassified
+ICE,4'-Methoxyacetophenone,100-06-1,0,1,1,011,1,0
+ICE,alpha-Bromotoluene,100-39-0,1,1,1,111,1,0
+ICE,4-Vinylpyridine,100-43-6,1,1,1,111,1,0
+ICE,2-Methylcinnamic aldehyde,101-39-3,1,1,1,111,1,0
+ICE,1-(4-Methoxyphenyl)-1-pentene-3-one,104-27-8,1,1,1,111,1,0
+ICE,3-Phenyl-2-propen-1-ol,104-54-1,1,1,1,111,1,0
+ICE,3-Phenylprop-2-enal,104-55-2,1,1,1,111,1,0
+ICE,Citronellol,106-22-9,1,0,1,101,1,0
+ICE,Geraniol,106-24-1,0,1,1,011,1,0
+ICE,"1,4-Benzenediamine",106-50-3,1,1,1,111,1,0
+ICE,"1,4-Benzoquinone",106-51-4,1,1,1,111,1,0
+ICE,Glyoxal,107-22-2,1,1,1,111,1,0
+ICE,Hydroxycitronellal,107-75-5,1,1,1,111,1,0
+ICE,"2,5-Furandione",108-31-6,1,1,1,111,1,0
+ICE,Chlorobenzene,108-90-7,0,0,0,000,0,0
+ICE,3-(Dimethylamino)propylamine,109-55-7,0,1,1,011,1,0
+ICE,2-Methylundecanal,110-41-8,1,1,1,111,1,0
+ICE,Methyl 2-octynoate,111-12-6,1,1,1,111,1,0
+ICE,Glutaraldehyde,111-30-8,1,1,1,111,1,0
+ICE,Diethylenetriamine,111-40-0,0,0,0,000,1,1
+ICE,Methyl 2-nonynoate,111-80-8,1,1,1,111,1,0
+ICE,Dipivaloylmethane,1118-71-4,0,0,0,000,1,1
+ICE,Nonanoic acid,112-05-0,0,0,1,001,1,1
+ICE,10-Undecen-1-al,112-45-8,0,1,0,010,1,1
+ICE,"3,5-Dichlorosalicyl-3,4-dichloroanilide",1154-59-2,1,1,1,111,1,0
+ICE,Safranal,116-26-7,1,1,1,111,1,0
+ICE,Lauryl gallate,1166-52-5,1,1,1,111,1,0
+ICE,Benzyl benzoate,120-51-4,0,1,0,010,1,1
+ICE,Methyl styryl ketone,122-57-6,1,1,1,111,1,0
+ICE,Phenylacetaldehyde,122-78-1,1,1,1,111,1,0
+ICE,Hydroquinone,123-31-9,1,1,1,111,1,0
+ICE,Isomethyl-alpha-ionone,127-51-5,0,0,1,001,1,1
+ICE,Chloramine-T,127-65-1,1,1,1,111,1,0
+ICE,Bis(dimethylaminothiocarbonyl) disulfide,137-26-8,1,1,1,111,1,0
+ICE,"5-Methyl-2,3-hexanedione",13706-86-0,1,1,1,111,1,0
+ICE,"N,N-Dimethyl-4-nitrosoaniline",138-89-6,1,1,1,111,1,0
+ICE,Diethyl maleate,141-05-9,1,1,1,111,1,0
+ICE,Butyl acrylate,141-32-2,1,1,1,111,1,0
+ICE,2-Mercaptobenzothiazole,149-30-4,1,1,1,111,1,0
+ICE,Oxazolone,15646-46-5,1,1,1,111,1,0
+ICE,Bisphenol A glycidyl methacrylate,1565-94-2,1,1,0,110,1,0
+ICE,Bisphenol A diglycidyl ether,1675-54-3,1,1,1,111,1,0
+ICE,Chlorothalonil,1897-45-6,1,1,1,111,1,0
+ICE,Bandrowski's base,20048-27-5,1,1,1,111,1,0
+ICE,Perillaldehyde,2111-75-3,1,1,1,111,1,0
+ICE,(Z)-Non-6-enal,2277-19-2,0,1,1,011,1,0
+ICE,4-Acetoxy benzoic acid,2345-34-8,1,0,0,100,1,1
+ICE,Trinitrobenzenesulfonic acid,2508-19-2,1,1,1,111,1,0
+ICE,"Methanesulfonamide, N-[2-[(4-amino-3-methylphenyl)ethylamino]ethyl]-, sulfate (2:3)",25646-71-3,1,1,1,111,1,0
+ICE,"1,2-Benzisothiazolin-3-one",2634-33-5,1,1,1,111,1,0
+ICE,2-Methyl-3(2H)-isothiazolone,2682-20-4,1,1,1,111,1,0
+ICE,5-Amino-2-methylphenol,2835-95-2,1,1,1,111,1,0
+ICE,4-Amino-m-cresol,2835-99-6,1,1,1,111,1,0
+ICE,Squaric acid,2892-51-5,1,0,0,100,1,1
+ICE,4-(4-Hydroxy-4-methylpentyl)cyclohex-3-ene-1-carbaldehyde,31906-04-4,1,1,1,111,1,0
+ICE,"1,2-Dibromo-2,4-dicyanobutane",35691-65-7,1,1,1,111,1,0
+ICE,Streptomycin sulfate (2:3),3810-74-0,0,0,0,000,1,1
+ICE,2-Decenal,3913-71-1,1,1,1,111,1,0
+ICE,Imidazolidinyl urea,39236-46-9,1,1,1,111,1,0
+ICE,"2,3-Butanedione",431-03-8,1,1,1,111,1,0
+ICE,Farnesol,4602-84-0,0,1,1,011,1,0
+ICE,"3-Methyl-1,2-benzenediol",488-17-5,1,1,1,111,1,0
+ICE,alpha-Furil,492-94-4,1,1,0,110,0,1
+ICE,Formaldehyde,50-00-0,1,1,1,111,1,0
+ICE,Lactic acid,50-21-5,0,0,0,000,1,1
+ICE,Squaric acid diethyl ester,5231-87-8,0,0,0,000,1,1
+ICE,"2-Nitro-1,4-phenylenediamine",5307-14-2,1,1,1,111,1,0
+ICE,Tropolone,533-75-5,1,1,1,111,1,0
+ICE,"3,7-Dimethyl-2,6-octadienal",5392-40-5,1,1,1,111,1,0
+ICE,"Phenol, p-(methylamino)-, sulfate (2:1) (salt)",55-55-0,1,1,1,111,1,0
+ICE,3-Iodo-2-propynyl-N-butylcarbamate,55406-53-6,1,1,1,111,1,0
+ICE,"7,12-Dimethylbenz[a]anthracene",57-97-6,0,1,0,010,1,1
+ICE,"1-Phenyl-1,2-propanedione",579-07-7,1,1,1,111,1,0
+ICE,3-Aminophenol,591-27-5,0,0,1,001,1,1
+ICE,"2,4-Heptadienal",5910-85-0,1,1,1,111,1,0
+ICE,D-Limonene,5989-27-5,1,0,1,101,1,0
+ICE,Methylpyruvate,600-22-6,0,0,0,000,1,1
+ICE,Penicillin G,61-33-6,1,0,1,101,1,0
+ICE,"N,N-Dibutylaniline",613-29-6,0,0,0,000,1,1
+ICE,"2,5-Diaminotoluene sulfate",615-50-9,1,1,1,111,1,0
+ICE,Aniline,62-53-3,0,0,1,001,1,1
+ICE,Hexyl salicylate,6259-76-3,0,0,1,001,1,1
+ICE,Sulfanilamide,63-74-1,0,0,0,000,0,0
+ICE,Ethyl sulfate (Et2SO4),64-67-5,1,1,1,111,1,0
+ICE,R-(-)-Carvone,6485-40-1,1,1,1,111,1,0
+ICE,Isopropanol,67-63-0,0,0,0,000,0,0
+ICE,(2E)-2-Hexenal,6728-26-3,1,1,1,111,1,0
+ICE,"N,N-Dimethylformamide",68-12-2,0,0,0,000,1,1
+ICE,1-Butanol,71-36-3,0,0,0,000,1,1
+ICE,Cobalt chloride,7646-79-9,1,1,1,111,1,0
+ICE,Linalool,78-70-6,0,0,1,001,1,1
+ICE,Methyl methacrylate,80-62-6,1,1,1,111,1,0
+ICE,2-Hydroxyethyl acrylate,818-61-1,1,1,1,111,1,0
+ICE,Hexahydrophthalic anhydride,85-42-7,1,0,1,101,1,0
+ICE,Pentachlorophenol,87-86-5,1,0,1,101,1,0
+ICE,"Benzenesulfonic acid, 2,4-dinitro-, sodium salt",885-62-1,1,1,1,111,1,0
+ICE,1-Naphthol,90-15-3,1,1,1,111,1,0
+ICE,Coumarin,91-64-5,0,1,0,010,1,1
+ICE,Hydratropaldehyde,93-53-8,1,1,1,111,1,0
+ICE,Phenyl benzoate,93-99-2,1,0,1,101,1,0
+ICE,Propylparaben,94-13-3,0,1,1,011,1,0
+ICE,2-Aminophenol,95-55-6,1,1,1,111,1,0
+ICE,Methyl acrylate,96-33-3,1,1,1,111,1,0
+ICE,"1-Chloro-2,4-dinitrobenzene",97-00-7,1,1,1,111,1,0
+ICE,Ethylene glycol dimethacrylate,97-90-5,1,1,1,111,1,0

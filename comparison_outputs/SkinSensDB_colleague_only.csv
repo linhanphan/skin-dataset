@@ -1,0 +1,2 @@
+Dataset,Chemical,CAS,KE1_call,KE2_call,KE3_call,Pattern,LLNA_call,Misclassified,our_full_complete_case,our_full_KE1_call,our_full_KE2_call,our_full_KE3_call,our_full_LLNA_call,our_full_KE1_metric,our_full_KE2_metric,our_full_KE3_metric,our_full_LLNA_EC3
+SkinSensDB,2-(4-Amino-2nitro-phenylamino)-ethanol,2871-01-04 00:00:00,1,0,1,101,1,0,0,1.0,,1.0,1.0,55.15,,107.47,2.2

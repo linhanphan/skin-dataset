@@ -1,0 +1,64 @@
+Dataset,Chemical,CAS,KE1_call,KE2_call,KE3_call,Pattern,LLNA_call,Misclassified,our_full_complete_case,our_full_KE1_call,our_full_KE2_call,our_full_KE3_call,our_full_LLNA_call,our_full_KE1_metric,our_full_LLNA_EC3,our_full_KS_call,our_full_LuSens_call,our_full_hCLAT_call,our_full_USENS_call
+ICE,alpha-Bromotoluene,100-39-0,1,1,1,111,1,0,0,1.0,1.0,1.0,,62.05,0.2,Active,,Active,Active
+ICE,2-Methylcinnamic aldehyde,101-39-3,1,1,1,111,1,0,0,1.0,1.0,1.0,,,4.5,Active,,Active,Active
+ICE,1-(4-Methoxyphenyl)-1-pentene-3-one,104-27-8,1,1,1,111,1,0,0,1.0,1.0,1.0,,,9.3,Active,,,Active
+ICE,3-Phenylprop-2-enal,104-55-2,1,1,1,111,1,0,0,1.0,1.0,1.0,,58.7,1.3,Active,Active,Active,Active
+ICE,Citronellol,106-22-9,1,0,1,101,1,0,0,1.0,0.0,1.0,,,43.5,Inactive,,Active,Active
+ICE,Geraniol,106-24-1,0,1,1,011,1,0,0,0.0,1.0,1.0,,2.65,18.7,Active,,Active,Active
+ICE,"1,4-Benzoquinone",106-51-4,1,1,1,111,1,0,0,1.0,1.0,1.0,,93.225,0.0099,Active,Active,Active,Active
+ICE,Glyoxal,107-22-2,1,1,1,111,1,0,0,1.0,1.0,1.0,,54.575,1.4,Active,Active,Active,Active
+ICE,Hydroxycitronellal,107-75-5,1,1,1,111,1,0,0,1.0,1.0,1.0,,21.0,22.0,Active,Active,Active,Active
+ICE,3-(Dimethylamino)propylamine,109-55-7,0,1,1,011,1,0,0,0.0,1.0,1.0,,4.55,2.25,Active,,Active,Active
+ICE,2-Methylundecanal,110-41-8,1,1,1,111,1,0,0,1.0,1.0,1.0,,,10.0,Active,,,Active
+ICE,Methyl 2-octynoate,111-12-6,1,1,1,111,1,0,0,1.0,1.0,1.0,,,0.5,Active,,Active,Active
+ICE,Glutaraldehyde,111-30-8,1,1,1,111,1,0,0,1.0,1.0,1.0,,56.4,0.09,Active,Active,Active,Active
+ICE,Diethylenetriamine,111-40-0,0,0,0,000,1,1,0,0.0,0.0,0.0,,,3.3,Inactive,,Inactive,
+ICE,Methyl 2-nonynoate,111-80-8,1,1,1,111,1,0,0,1.0,1.0,1.0,,51.3,2.5,Active,,Active,Active
+ICE,Dipivaloylmethane,1118-71-4,0,0,0,000,1,1,0,0.0,0.0,0.0,,,27.0,Inactive,,,Inactive
+ICE,10-Undecen-1-al,112-45-8,0,1,0,010,1,1,0,0.0,1.0,0.0,,,6.8,Active,,Inactive,
+ICE,"3,5-Dichlorosalicyl-3,4-dichloroanilide",1154-59-2,1,1,1,111,1,0,0,1.0,1.0,1.0,,22.9,0.04,Active,,Active,Active
+ICE,Safranal,116-26-7,1,1,1,111,1,0,0,1.0,1.0,1.0,,,7.5,Active,,,Active
+ICE,Lauryl gallate,1166-52-5,1,1,1,111,1,0,0,1.0,1.0,1.0,,49.8,0.3,Active,,Active,Active
+ICE,Benzyl benzoate,120-51-4,0,1,0,010,1,1,0,0.0,1.0,0.0,,1.6,17.0,Active,,Inactive,Inactive
+ICE,Methyl styryl ketone,122-57-6,1,1,1,111,1,0,0,1.0,1.0,1.0,,46.0,3.7,Active,Active,Active,Active
+ICE,Hydroquinone,123-31-9,1,1,1,111,1,0,0,1.0,1.0,1.0,,72.1,0.19,Active,,Active,Active
+ICE,Isomethyl-alpha-ionone,127-51-5,0,0,1,001,1,1,0,0.0,0.0,1.0,,,21.8,Inactive,,Active,Active
+ICE,Bis(dimethylaminothiocarbonyl) disulfide,137-26-8,1,1,1,111,1,0,0,1.0,1.0,1.0,,52.1,2.665,Active,Active,Active,Active
+ICE,"5-Methyl-2,3-hexanedione",13706-86-0,1,1,1,111,1,0,0,1.0,1.0,1.0,,16.65,25.8,Active,,Active,Active
+ICE,Diethyl maleate,141-05-9,1,1,1,111,1,0,0,1.0,1.0,1.0,,89.3,3.9,Active,Active,Active,Active
+ICE,Oxazolone,15646-46-5,1,1,1,111,1,0,0,1.0,1.0,1.0,,58.15,0.002,Active,Active,Active,Active
+ICE,Bisphenol A glycidyl methacrylate,1565-94-2,1,1,0,110,1,0,0,1.0,1.0,0.0,,,45.3,Active,,Inactive,
+ICE,Bisphenol A diglycidyl ether,1675-54-3,1,1,1,111,1,0,0,1.0,1.0,1.0,,30.4,1.5,Active,,Active,Active
+ICE,Chlorothalonil,1897-45-6,1,1,1,111,1,0,0,1.0,1.0,1.0,,,0.004,Active,,Active,
+ICE,Bandrowski's base,20048-27-5,1,1,1,111,1,0,0,1.0,1.0,1.0,,45.85,0.04,Active,,Active,Active
+ICE,Perillaldehyde,2111-75-3,1,1,1,111,1,0,0,1.0,1.0,1.0,,22.85,8.1,Active,,Active,Active
+ICE,(Z)-Non-6-enal,2277-19-2,0,1,1,011,1,0,0,0.0,1.0,1.0,,,23.0,Active,,,Active
+ICE,"Methanesulfonamide, N-[2-[(4-amino-3-methylphenyl)ethylamino]ethyl]-, sulfate (2:3)",25646-71-3,1,1,1,111,1,0,0,1.0,1.0,1.0,,51.85,0.6,Active,,Active,Active
+ICE,"1,2-Benzisothiazolin-3-one",2634-33-5,1,1,1,111,1,0,0,1.0,1.0,1.0,,51.85,4.8,Active,,Active,Active
+ICE,4-Amino-m-cresol,2835-99-6,1,1,1,111,1,0,0,1.0,1.0,1.0,,,1.5,Active,,,Active
+ICE,4-(4-Hydroxy-4-methylpentyl)cyclohex-3-ene-1-carbaldehyde,31906-04-4,1,1,1,111,1,0,0,1.0,1.0,1.0,,14.549999999999999,17.0,Active,,Active,Active
+ICE,"1,2-Dibromo-2,4-dicyanobutane",35691-65-7,1,1,1,111,1,0,0,1.0,1.0,1.0,,52.15,0.9,Active,Active,Active,Active
+ICE,Streptomycin sulfate (2:3),3810-74-0,0,0,0,000,1,1,0,0.0,0.0,0.0,,1.125,33.3,Inactive,,Inactive,Inactive
+ICE,2-Decenal,3913-71-1,1,1,1,111,1,0,0,1.0,1.0,1.0,,,2.5,Active,,,Active
+ICE,"2,3-Butanedione",431-03-8,1,1,1,111,1,0,0,1.0,1.0,1.0,,53.0,11.0,Active,Active,Active,Active
+ICE,"2-Nitro-1,4-phenylenediamine",5307-14-2,1,1,1,111,1,0,0,1.0,1.0,1.0,,48.35,0.4,Active,,Active,Active
+ICE,"Phenol, p-(methylamino)-, sulfate (2:1) (salt)",55-55-0,1,1,1,111,1,0,0,1.0,1.0,1.0,,,0.8,Active,Active,Active,Active
+ICE,"7,12-Dimethylbenz[a]anthracene",57-97-6,0,1,0,010,1,1,0,0.0,1.0,0.0,,,0.006,Active,,,Inactive
+ICE,"1-Phenyl-1,2-propanedione",579-07-7,1,1,1,111,1,0,0,1.0,1.0,1.0,,,1.3,Active,,Active,Active
+ICE,"2,4-Heptadienal",5910-85-0,1,1,1,111,1,0,0,1.0,1.0,1.0,,60.6,4.0,Active,,Active,
+ICE,D-Limonene,5989-27-5,1,0,1,101,1,0,0,1.0,0.0,1.0,,,69.0,Inactive,,Active,Active
+ICE,Methylpyruvate,600-22-6,0,0,0,000,1,1,0,0.0,0.0,0.0,,,2.4,Inactive,,Inactive,
+ICE,Penicillin G,61-33-6,1,0,1,101,1,0,0,1.0,0.0,1.0,,7.15,19.8,Inactive,Inactive,Active,Active
+ICE,"N,N-Dibutylaniline",613-29-6,0,0,0,000,1,1,0,0.0,0.0,0.0,,,19.6,Inactive,,Inactive,
+ICE,"2,5-Diaminotoluene sulfate",615-50-9,1,1,1,111,1,0,0,1.0,1.0,1.0,,46.7,0.4,Active,,Active,Active
+ICE,Aniline,62-53-3,0,0,1,001,1,1,0,0.0,1.0,1.0,,0.7,33.3,Active,Inactive,Active,Active
+ICE,Hexyl salicylate,6259-76-3,0,0,1,001,1,1,0,0.0,0.0,1.0,,,0.2,Inactive,,Active,Active
+ICE,Ethyl sulfate (Et2SO4),64-67-5,1,1,1,111,1,0,0,1.0,1.0,1.0,,,3.3,Active,,Active,
+ICE,R-(-)-Carvone,6485-40-1,1,1,1,111,1,0,0,1.0,1.0,1.0,,,12.9,Active,,Active,Active
+ICE,(2E)-2-Hexenal,6728-26-3,1,1,1,111,1,0,0,1.0,1.0,1.0,,53.525,5.5,Active,,Active,Active
+ICE,2-Hydroxyethyl acrylate,818-61-1,1,1,1,111,1,0,0,1.0,1.0,1.0,,93.875,1.4,Active,,Active,Active
+ICE,Pentachlorophenol,87-86-5,1,0,1,101,1,0,0,1.0,0.0,1.0,,7.25,20.0,Inactive,,Active,Active
+ICE,1-Naphthol,90-15-3,1,1,1,111,1,0,0,1.0,1.0,1.0,,30.15,1.3,Active,,Active,Active
+ICE,Coumarin,91-64-5,0,1,0,010,1,1,0,0.0,1.0,1.0,,0.5,32.45,Active,,Inactive,Active
+ICE,Hydratropaldehyde,93-53-8,1,1,1,111,1,0,0,1.0,1.0,1.0,,25.275000000000002,6.3,Active,Active,Active,Active
+ICE,2-Aminophenol,95-55-6,1,1,1,111,1,0,0,1.0,1.0,1.0,,57.15,0.45,Active,,Active,Active
