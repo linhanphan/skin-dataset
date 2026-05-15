@@ -6,6 +6,19 @@ SKIN_FILE = "RAW_SKINSENS_DB_complete.xls"
 OUTPUT_CSV = "Skin_endpoint_presence_from_raw.csv"
 COMPLETE_CASE_CSV = "Skin_complete_cases_from_raw.csv"
 
+# Censored numeric values in the raw file are values such as ">2000" or "<179".
+# Do not edit the raw file by hand. Add exact text mappings here when the team
+# wants a specific replacement value. Values not listed here use the fallback
+# offsets below: ">x" becomes x + 1, and "<x" becomes x - 1.
+CENSORED_VALUE_MAP = {
+    ">2000": 2001,
+    # Add more exact mappings as needed, for example:
+    # "<192": 191,
+}
+
+CENSORED_GREATER_THAN_OFFSET = 1
+CENSORED_LESS_THAN_OFFSET = -1
+
 
 def clean_cols(df):
     df = df.copy()
@@ -35,6 +48,32 @@ def clean_cas(value):
         return f"{prefix}-{month:02d}-{day}"
 
     return s
+
+
+def parse_censored_number(value):
+    if pd.isna(value):
+        return np.nan
+
+    s = str(value).strip()
+    if not s or s.lower() in {"nan", "nd"}:
+        return np.nan
+
+    if s in CENSORED_VALUE_MAP:
+        return CENSORED_VALUE_MAP[s]
+
+    # Keep this intentionally simple and easy to change:
+    # Exact mappings above win first. Otherwise ">2000" becomes 2001,
+    # and "<179" becomes 178.
+    # This lets threshold rules include censored values without editing raw data.
+    m = re.fullmatch(r"([<>]=?)\s*([-+]?\d+(?:\.\d+)?)", s)
+    if m:
+        sign, number = m.groups()
+        number = float(number)
+        if sign.startswith(">"):
+            return number + CENSORED_GREATER_THAN_OFFSET
+        return number + CENSORED_LESS_THAN_OFFSET
+
+    return pd.to_numeric(s, errors="coerce")
 
 
 # -----------------------------
@@ -67,10 +106,14 @@ df["Dataset"] = "SkinSensDB"
 # -----------------------------
 # KE1
 # -----------------------------
-# Typical columns: DPRA_Cys, DPRA_Lys
+# Rule:
+# - KE1_metric is the mean of DPRA_Cys and DPRA_Lys when at least one is present.
+# - KE1_call is 1 when KE1_metric >= 6.38.
+# - KE1_call is 0 when KE1_metric < 6.38.
+# - KE1_call is missing when KE1_metric is missing.
 dpra_cols = [c for c in df.columns if c in ["DPRA_Cys", "DPRA_Lys"]]
 if dpra_cols:
-    df[dpra_cols] = df[dpra_cols].apply(pd.to_numeric, errors="coerce")
+    df[dpra_cols] = df[dpra_cols].apply(lambda col: col.apply(parse_censored_number))
     df["KE1_metric"] = df[dpra_cols].mean(axis=1, skipna=True)
     df["KE1_call"] = np.where(df["KE1_metric"].notna(), (df["KE1_metric"] >= 6.38).astype(int), np.nan)
 else:
@@ -80,9 +123,14 @@ else:
 # -----------------------------
 # KE2
 # -----------------------------
-# Typical column: KeratinoSens_LuSens_EC15
+# Rule:
+# - KE2_metric comes from KeratinoSens_LuSens_EC15.
+# - Censored values such as ">2000" are parsed in code and count as present.
+# - KE2_call is 1 when KE2_metric <= 1000.
+# - KE2_call is 0 when KE2_metric > 1000.
+# - KE2_call is missing when KE2_metric is missing.
 if "KeratinoSens_LuSens_EC15" in df.columns:
-    df["KE2_metric"] = pd.to_numeric(df["KeratinoSens_LuSens_EC15"], errors="coerce")
+    df["KE2_metric"] = df["KeratinoSens_LuSens_EC15"].apply(parse_censored_number)
     df["KE2_call"] = np.where(df["KE2_metric"].notna(), (df["KE2_metric"] <= 1000).astype(int), np.nan)
 else:
     df["KE2_metric"] = np.nan
@@ -91,14 +139,21 @@ else:
 # -----------------------------
 # KE3
 # -----------------------------
-# Typical columns: h-CLAT_U-SENS_EC150, h-CLAT_EC200
+# Rule:
+# - KE3_metric is the minimum of h-CLAT_U-SENS_EC150 and h-CLAT_EC200,
+#   using whichever values are present.
+# - Censored values such as ">922.33" are parsed in code and count as present.
+# - KE3_call is 1 when EC150 <= 150 or EC200 <= 200.
+# - KE3_call is 0 when at least one KE3 metric is present and no positive
+#   threshold is met.
+# - KE3_call is missing when both KE3 metrics are missing.
 ec150_col = "h-CLAT_U-SENS_EC150"
 ec200_col = "h-CLAT_EC200"
 
 if ec150_col in df.columns:
-    df[ec150_col] = pd.to_numeric(df[ec150_col], errors="coerce")
+    df[ec150_col] = df[ec150_col].apply(parse_censored_number)
 if ec200_col in df.columns:
-    df[ec200_col] = pd.to_numeric(df[ec200_col], errors="coerce")
+    df[ec200_col] = df[ec200_col].apply(parse_censored_number)
 
 def ke3_metric(row):
     vals = []
@@ -125,8 +180,13 @@ df["KE3_call"] = df.apply(ke3_call, axis=1)
 # -----------------------------
 # LLNA
 # -----------------------------
+# Rule:
+# - LLNA_EC3 is parsed as a numeric metric.
+# - LLNA_call is 1 when LLNA_EC3 > 0.
+# - LLNA_call is 0 when LLNA_EC3 <= 0.
+# - LLNA_call is missing when LLNA_EC3 is missing.
 if "LLNA_EC3" in df.columns:
-    df["LLNA_EC3"] = pd.to_numeric(df["LLNA_EC3"], errors="coerce")
+    df["LLNA_EC3"] = df["LLNA_EC3"].apply(parse_censored_number)
     df["LLNA_call"] = np.where(df["LLNA_EC3"].notna(), (df["LLNA_EC3"] > 0).astype(int), np.nan)
 else:
     df["LLNA_EC3"] = np.nan
@@ -136,9 +196,9 @@ else:
 for col in ["KE1_metric", "KE2_metric", "KE3_metric", "LLNA_EC3"]:
     df[f"{col}__present"] = df[col].notna().astype(int)
 
-# Complete cases for downstream pattern analysis require all four calls.
-required_calls = ["KE1_call", "KE2_call", "KE3_call", "LLNA_call"]
-df["complete_case"] = df[required_calls].notna().all(axis=1).astype(int)
+# Complete cases require all four metric/evidence columns to be present.
+required_metrics = ["KE1_metric", "KE2_metric", "KE3_metric", "LLNA_EC3"]
+df["complete_case"] = df[required_metrics].notna().all(axis=1).astype(int)
 
 # Final output
 keep = [
