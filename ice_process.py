@@ -3,12 +3,13 @@ import numpy as np
 
 ICE_FILE = "RAW_ICE_skin_sensitization.xlsx"
 
-# Change this to 1, 2, or 3 to choose the ICE complete-case rule.
+# Change this to 1, 2, 3, or 4 to choose the ICE complete-case rule.
 # Option 1: original strict call rule: KE1_call + KE2_call + KE3_call + endpoint LLNA Call.
 # Option 2: metric/source rule: KE1_metric + any KE2 component + any KE3 component + LLNA_EC3.
 # Option 3: broad LLNA priority rule: KE1_call + KE2_call + KE3_call + any LLNA source
 #           where LLNA source priority is Call, then EPA Classification, then EC3.
-ICE_COMPLETE_CASE_OPTION = 1
+# Option 4: conservative final rule: option 3 plus exclude KE2/KE3 component conflicts.
+ICE_COMPLETE_CASE_OPTION = 4
 
 OUTPUT_CSV = f"ICE_endpoint_presence_from_raw_option_{ICE_COMPLETE_CASE_OPTION}.csv"
 COMPLETE_CASE_CSV = f"ICE_complete_cases_from_raw_option_{ICE_COMPLETE_CASE_OPTION}.csv"
@@ -308,8 +309,17 @@ out["complete_case_option_2"] = (
 # Option 3: broad final-LLNA rule with priority Call > EPA Classification > EC3.
 out["complete_case_option_3"] = out[["KE1_call", "KE2_call", "KE3_call", "LLNA_call"]].notna().all(axis=1).astype(int)
 
-if ICE_COMPLETE_CASE_OPTION not in {1, 2, 3}:
-    raise ValueError("ICE_COMPLETE_CASE_OPTION must be 1, 2, or 3.")
+# Option 4: conservative final rule requested by Samantha.
+# It uses the same evidence requirement as option 3, then excludes chemicals
+# where KE2 components disagree or KE3 components disagree.
+out["complete_case_option_4"] = (
+    out["complete_case_option_3"].eq(1)
+    & out["KE2_conflict"].eq(0)
+    & out["KE3_conflict"].eq(0)
+).astype(int)
+
+if ICE_COMPLETE_CASE_OPTION not in {1, 2, 3, 4}:
+    raise ValueError("ICE_COMPLETE_CASE_OPTION must be 1, 2, 3, or 4.")
 
 out["complete_case"] = out[f"complete_case_option_{ICE_COMPLETE_CASE_OPTION}"]
 
@@ -328,7 +338,7 @@ final_cols = [
     "LLNA_EC3", "LLNA_EC3__present",
     "LLNA_EC3_call",
     "LLNA_call_source", "LLNA_call__present",
-    "complete_case_option_1", "complete_case_option_2", "complete_case_option_3",
+    "complete_case_option_1", "complete_case_option_2", "complete_case_option_3", "complete_case_option_4",
     "complete_case",
 ]
 

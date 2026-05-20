@@ -1,0 +1,71 @@
+complete_count,misclassified_count,exclude_conflicts,complete_mode,llna_priority,n_rules,example_rule_id,ke2_modes,ke3_modes
+144,57,False,call_based,call > ec3,1,rule_005,or_positive,or_positive
+144,57,False,call_based,call > epa > ec3,1,rule_004,or_positive,or_positive
+144,58,False,call_based,ec3 > call,1,rule_006,or_positive,or_positive
+144,62,False,call_based,call > ec3,1,rule_069,consensus_negative,or_positive
+144,62,False,call_based,call > epa > ec3,1,rule_068,consensus_negative,or_positive
+144,64,False,call_based,ec3 > call,1,rule_070,consensus_negative,or_positive
+144,65,False,call_based,call > ec3,1,rule_037,or_positive,consensus_negative
+144,65,False,call_based,call > epa > ec3,1,rule_036,or_positive,consensus_negative
+144,67,False,call_based,call > ec3,1,rule_101,consensus_negative,consensus_negative
+144,67,False,call_based,call > epa > ec3,1,rule_100,consensus_negative,consensus_negative
+144,68,False,call_based,ec3 > call,1,rule_038,or_positive,consensus_negative
+144,71,False,call_based,ec3 > call,1,rule_102,consensus_negative,consensus_negative
+137,53,False,call_based,ec3,1,rule_002,or_positive,or_positive
+137,53,False,call_based,epa > ec3,1,rule_008,or_positive,or_positive
+137,59,False,call_based,ec3,1,rule_066,consensus_negative,or_positive
+137,59,False,call_based,epa > ec3,1,rule_072,consensus_negative,or_positive
+137,64,False,call_based,ec3,1,rule_034,or_positive,consensus_negative
+137,64,False,call_based,epa > ec3,1,rule_040,or_positive,consensus_negative
+137,67,False,call_based,ec3,1,rule_098,consensus_negative,consensus_negative
+137,67,False,call_based,epa > ec3,1,rule_104,consensus_negative,consensus_negative
+111,37,True,call_based,call > ec3,4,rule_021,"consensus_negative, or_positive","consensus_negative, or_positive"
+111,37,True,call_based,call > epa > ec3,4,rule_020,"consensus_negative, or_positive","consensus_negative, or_positive"
+111,39,True,call_based,ec3 > call,4,rule_022,"consensus_negative, or_positive","consensus_negative, or_positive"
+108,38,True,call_based,ec3,4,rule_018,"consensus_negative, or_positive","consensus_negative, or_positive"
+108,38,True,call_based,epa > ec3,4,rule_024,"consensus_negative, or_positive","consensus_negative, or_positive"
+90,0,False,metric_source_based,epa,4,rule_011,"consensus_negative, or_positive","consensus_negative, or_positive"
+90,14,False,metric_source_based,call,1,rule_009,or_positive,or_positive
+90,14,False,metric_source_based,call > epa,1,rule_015,or_positive,or_positive
+90,17,False,metric_source_based,call,2,rule_041,"consensus_negative, or_positive","consensus_negative, or_positive"
+90,17,False,metric_source_based,call > epa,2,rule_047,"consensus_negative, or_positive","consensus_negative, or_positive"
+90,18,False,metric_source_based,call,1,rule_105,consensus_negative,consensus_negative
+90,18,False,metric_source_based,call > epa,1,rule_111,consensus_negative,consensus_negative
+90,30,False,metric_source_based,call > ec3,1,rule_013,or_positive,or_positive
+90,30,False,metric_source_based,call > epa > ec3,1,rule_012,or_positive,or_positive
+90,31,False,metric_source_based,ec3,1,rule_010,or_positive,or_positive
+90,31,False,metric_source_based,ec3 > call,1,rule_014,or_positive,or_positive
+90,31,False,metric_source_based,epa > ec3,1,rule_016,or_positive,or_positive
+90,35,False,metric_source_based,call > ec3,1,rule_077,consensus_negative,or_positive
+90,35,False,metric_source_based,call > epa > ec3,1,rule_076,consensus_negative,or_positive
+90,36,False,metric_source_based,ec3,1,rule_074,consensus_negative,or_positive
+90,36,False,metric_source_based,ec3 > call,1,rule_078,consensus_negative,or_positive
+90,36,False,metric_source_based,epa > ec3,1,rule_080,consensus_negative,or_positive
+90,37,False,metric_source_based,call > ec3,1,rule_045,or_positive,consensus_negative
+90,37,False,metric_source_based,call > epa > ec3,1,rule_044,or_positive,consensus_negative
+90,39,False,metric_source_based,call > ec3,1,rule_109,consensus_negative,consensus_negative
+90,39,False,metric_source_based,call > epa > ec3,1,rule_108,consensus_negative,consensus_negative
+90,40,False,metric_source_based,ec3,1,rule_042,or_positive,consensus_negative
+90,40,False,metric_source_based,ec3 > call,1,rule_046,or_positive,consensus_negative
+90,40,False,metric_source_based,epa > ec3,1,rule_048,or_positive,consensus_negative
+90,42,False,metric_source_based,ec3,1,rule_106,consensus_negative,consensus_negative
+90,42,False,metric_source_based,ec3 > call,1,rule_110,consensus_negative,consensus_negative
+90,42,False,metric_source_based,epa > ec3,1,rule_112,consensus_negative,consensus_negative
+68,0,True,metric_source_based,epa,4,rule_027,"consensus_negative, or_positive","consensus_negative, or_positive"
+68,11,True,metric_source_based,call,4,rule_025,"consensus_negative, or_positive","consensus_negative, or_positive"
+68,11,True,metric_source_based,call > epa,4,rule_031,"consensus_negative, or_positive","consensus_negative, or_positive"
+68,19,True,metric_source_based,call > ec3,4,rule_029,"consensus_negative, or_positive","consensus_negative, or_positive"
+68,19,True,metric_source_based,call > epa > ec3,4,rule_028,"consensus_negative, or_positive","consensus_negative, or_positive"
+68,20,True,metric_source_based,ec3,4,rule_026,"consensus_negative, or_positive","consensus_negative, or_positive"
+68,20,True,metric_source_based,ec3 > call,4,rule_030,"consensus_negative, or_positive","consensus_negative, or_positive"
+68,20,True,metric_source_based,epa > ec3,4,rule_032,"consensus_negative, or_positive","consensus_negative, or_positive"
+67,27,False,call_based,call > epa,1,rule_007,or_positive,or_positive
+67,30,False,call_based,call > epa,2,rule_039,"consensus_negative, or_positive","consensus_negative, or_positive"
+67,31,False,call_based,call > epa,1,rule_103,consensus_negative,consensus_negative
+64,27,False,call_based,call,1,rule_001,or_positive,or_positive
+64,30,False,call_based,call,2,rule_033,"consensus_negative, or_positive","consensus_negative, or_positive"
+64,31,False,call_based,call,1,rule_097,consensus_negative,consensus_negative
+50,17,True,call_based,call > epa,4,rule_023,"consensus_negative, or_positive","consensus_negative, or_positive"
+47,17,True,call_based,call,4,rule_017,"consensus_negative, or_positive","consensus_negative, or_positive"
+4,0,False,call_based,epa,4,rule_003,"consensus_negative, or_positive","consensus_negative, or_positive"
+4,0,True,call_based,epa,4,rule_019,"consensus_negative, or_positive","consensus_negative, or_positive"

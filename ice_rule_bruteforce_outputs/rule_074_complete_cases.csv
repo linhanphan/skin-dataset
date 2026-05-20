@@ -1,0 +1,91 @@
+Dataset,Chemical,CAS,KE1_call,KE2_call,KE3_call,LLNA_call,Misclassified,KE2_conflict,KE3_conflict,KE1_metric,KE1_metric__present,KS_call,KS_call__present,LuSens_call,LuSens_call__present,hCLAT_call,hCLAT_call__present,USENS_call,USENS_call__present,LLNA_call_endpoint,LLNA_call_endpoint__present,LLNA_EPA_call,LLNA_EPA_call__present,LLNA_EC3,LLNA_EC3__present,LLNA_EC3_call,LLNA_call_source,LLNA_call__present,complete_case_option_1,complete_case_option_2,complete_case_option_3,complete_case_option_4,complete_case,LLNA_EC3_num,bf_KE2_call,bf_KE3_call,bf_KE2_conflict,bf_KE3_conflict,bf_LLNA_call,bf_LLNA_source,bf_complete_case,bf_misclassified
+ICE,Lactic acid,50-21-5,0.0,0.0,0.0,0.0,0.0,0,0,0.65,1,Inactive,1,Inactive,1,Inactive,1,Inactive,1,0.0,1,,0,25.0,1,1.0,Call,1,1,1,1,1,1,25.0,0.0,0.0,0,0,1.0,EC3,1,1.0
+ICE,Oxazolone,15646-46-5,1.0,1.0,1.0,1.0,0.0,0,0,58.15,1,Active,1,Active,1,Active,1,Active,1,,0,,0,0.002,1,1.0,EC3,1,0,1,1,1,1,0.002,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Butyl acrylate,141-32-2,1.0,1.0,1.0,1.0,0.0,0,0,92.55,1,Active,1,Active,1,Active,1,Active,1,1.0,1,,0,20.0,1,1.0,Call,1,1,1,1,1,1,20.0,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,2-Ethylhexyl acrylate,103-11-7,1.0,1.0,1.0,1.0,0.0,0,1,40.175000000000004,1,Active,1,Active,1,Active,1,Inactive,1,1.0,1,,0,23.25,1,1.0,Call,1,1,1,1,0,0,23.25,1.0,1.0,0,1,1.0,EC3,1,0.0
+ICE,1-Naphthol,90-15-3,1.0,1.0,1.0,1.0,0.0,0,0,30.15,1,Active,1,,0,Active,1,Active,1,,0,,0,1.3,1,1.0,EC3,1,0,1,1,1,1,1.3,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,"1,4-Benzoquinone",106-51-4,1.0,1.0,1.0,1.0,0.0,0,0,93.225,1,Active,1,Active,1,Active,1,Active,1,,0,,0,0.0099,1,1.0,EC3,1,0,1,1,1,1,0.0099,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Benzoyl peroxide,94-36-0,1.0,0.0,1.0,1.0,1.0,0,1,90.65,1,Inactive,1,Inactive,1,Inactive,1,Active,1,,0,,0,0.0137,1,1.0,EC3,1,0,1,1,0,0,0.0137,0.0,1.0,0,1,1.0,EC3,1,1.0
+ICE,Benzyl benzoate,120-51-4,0.0,1.0,0.0,1.0,1.0,0,0,1.6,1,Active,1,,0,Inactive,1,Inactive,1,,0,,0,17.0,1,1.0,EC3,1,0,1,1,1,1,17.0,1.0,0.0,0,0,1.0,EC3,1,1.0
+ICE,Butyl glycidyl ether,2426-08-6,1.0,1.0,1.0,1.0,0.0,0,1,39.4,1,Active,1,Active,1,Inactive,1,Active,1,1.0,1,,0,29.45,1,1.0,Call,1,1,1,1,0,0,29.45,1.0,1.0,0,1,1.0,EC3,1,0.0
+ICE,alpha-Bromotoluene,100-39-0,1.0,1.0,1.0,1.0,0.0,0,0,62.05,1,Active,1,,0,Active,1,Active,1,,0,,0,0.2,1,1.0,EC3,1,0,1,1,1,1,0.2,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Methyl styryl ketone,122-57-6,1.0,1.0,1.0,1.0,0.0,0,0,46.0,1,Active,1,Active,1,Active,1,Active,1,,0,,0,3.7,1,1.0,EC3,1,0,1,1,1,1,3.7,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,3-Phenylprop-2-enal,104-55-2,1.0,1.0,1.0,1.0,0.0,0,0,58.7,1,Active,1,Active,1,Active,1,Active,1,,0,,0,1.3,1,1.0,EC3,1,0,1,1,1,1,1.3,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,"1,2-Benzisothiazolin-3-one",2634-33-5,1.0,1.0,1.0,1.0,0.0,0,0,51.85,1,Active,1,,0,Active,1,Active,1,,0,1.0,1,4.8,1,1.0,EPA Classification,1,0,1,1,1,1,4.8,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Bisphenol A diglycidyl ether,1675-54-3,1.0,1.0,1.0,1.0,0.0,0,0,30.4,1,Active,1,,0,Active,1,Active,1,,0,,0,1.5,1,1.0,EC3,1,0,1,1,1,1,1.5,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,3-Phenyl-2-propen-1-ol,104-54-1,1.0,1.0,1.0,1.0,0.0,0,0,7.6,1,Active,1,Active,1,Active,1,Active,1,1.0,1,,0,21.0,1,1.0,Call,1,1,1,1,1,1,21.0,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,"3,7-Dimethyl-2,6-octadienal",5392-40-5,1.0,1.0,1.0,1.0,0.0,0,0,43.6,1,Active,1,Active,1,Active,1,Active,1,1.0,1,,0,6.449999999999999,1,1.0,Call,1,1,1,1,1,1,6.449999999999999,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Coumarin,91-64-5,0.0,1.0,1.0,1.0,1.0,0,1,0.5,1,Active,1,,0,Inactive,1,Active,1,,0,,0,32.45,1,1.0,EC3,1,0,1,1,0,0,32.45,1.0,1.0,0,1,1.0,EC3,1,1.0
+ICE,Cyclamen aldehyde,103-95-7,1.0,1.0,1.0,1.0,0.0,0,1,9.625,1,Active,1,,0,Inactive,1,Active,1,,0,,0,22.3,1,1.0,EC3,1,0,1,1,0,0,22.3,1.0,1.0,0,1,1.0,EC3,1,0.0
+ICE,2-Ethylbutyraldehyde,97-96-1,1.0,1.0,1.0,1.0,0.0,0,1,57.35,1,Active,1,,0,Active,1,Inactive,1,1.0,1,,0,72.1,1,1.0,Call,1,1,1,1,0,0,72.1,1.0,1.0,0,1,1.0,EC3,1,0.0
+ICE,"1,2-Dibromo-2,4-dicyanobutane",35691-65-7,1.0,1.0,1.0,1.0,0.0,0,0,52.15,1,Active,1,Active,1,Active,1,Active,1,,0,,0,0.9,1,1.0,EC3,1,0,1,1,1,1,0.9,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Diethyl maleate,141-05-9,1.0,1.0,1.0,1.0,0.0,0,0,89.3,1,Active,1,Active,1,Active,1,Active,1,,0,,0,3.9,1,1.0,EC3,1,0,1,1,1,1,3.9,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Ethylene glycol dimethacrylate,97-90-5,1.0,1.0,1.0,1.0,0.0,0,0,56.775000000000006,1,Active,1,Active,1,Active,1,Active,1,1.0,1,,0,28.0,1,1.0,Call,1,1,1,1,1,1,28.0,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Ethylenediamine,107-15-3,1.0,1.0,1.0,1.0,0.0,1,0,1.7,1,Active,1,Inactive,1,Active,1,Active,1,,0,,0,2.2,1,1.0,EC3,1,0,1,1,0,0,2.2,0.0,1.0,1,0,1.0,EC3,1,1.0
+ICE,Eugenol,97-53-0,1.0,1.0,1.0,1.0,0.0,0,0,21.0,1,Active,1,Active,1,Active,1,Active,1,1.0,1,,0,12.9,1,1.0,Call,1,1,1,1,1,1,12.9,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Formaldehyde,50-00-0,1.0,1.0,1.0,1.0,0.0,0,0,24.225,1,Active,1,Active,1,Active,1,Active,1,1.0,1,,0,0.845,1,1.0,Call,1,1,1,1,1,1,0.845,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,"(E,E)-Farnesal",502-67-0,1.0,1.0,1.0,1.0,0.0,1,1,14.525,1,Active,1,Inactive,1,Active,1,Inactive,1,,0,,0,12.0,1,1.0,EC3,1,0,1,1,0,0,12.0,0.0,1.0,1,1,1.0,EC3,1,1.0
+ICE,Glutaraldehyde,111-30-8,1.0,1.0,1.0,1.0,0.0,0,0,56.4,1,Active,1,Active,1,Active,1,Active,1,,0,,0,0.09,1,1.0,EC3,1,0,1,1,1,1,0.09,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Hydroquinone,123-31-9,1.0,1.0,1.0,1.0,0.0,0,0,72.1,1,Active,1,,0,Active,1,Active,1,,0,,0,0.19,1,1.0,EC3,1,0,1,1,1,1,0.19,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Geraniol,106-24-1,0.0,1.0,1.0,1.0,1.0,0,0,2.65,1,Active,1,,0,Active,1,Active,1,,0,,0,18.7,1,1.0,EC3,1,0,1,1,1,1,18.7,1.0,1.0,0,0,1.0,EC3,1,1.0
+ICE,Imidazolidinyl urea,39236-46-9,1.0,1.0,1.0,1.0,0.0,0,0,32.425,1,Active,1,Active,1,Active,1,Active,1,1.0,1,,0,24.0,1,1.0,Call,1,1,1,1,1,1,24.0,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Isoeugenol,97-54-1,1.0,1.0,1.0,1.0,0.0,0,0,50.0,1,Active,1,Active,1,Active,1,Active,1,1.0,1,,0,1.35,1,1.0,Call,1,1,1,1,1,1,1.35,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,2-Aminophenol,95-55-6,1.0,1.0,1.0,1.0,0.0,0,0,57.15,1,Active,1,,0,Active,1,Active,1,,0,,0,0.45,1,1.0,EC3,1,0,1,1,1,1,0.45,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Lauryl gallate,1166-52-5,1.0,1.0,1.0,1.0,0.0,0,0,49.8,1,Active,1,,0,Active,1,Active,1,,0,,0,0.3,1,1.0,EC3,1,0,1,1,1,1,0.3,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,2-(4-Tert-Butylbenzyl)propionaldehyde,80-54-6,1.0,0.0,1.0,1.0,1.0,0,0,3.875,1,Inactive,1,,0,Active,1,Active,1,1.0,1,,0,18.85,1,1.0,Call,1,1,1,1,1,1,18.85,0.0,1.0,0,0,1.0,EC3,1,1.0
+ICE,Linalool,78-70-6,0.0,0.0,1.0,1.0,1.0,0,0,2.6500000000000004,1,Inactive,1,,0,Active,1,Active,1,1.0,1,,0,42.5,1,1.0,Call,1,1,1,1,1,1,42.5,0.0,1.0,0,0,1.0,EC3,1,1.0
+ICE,4-(4-Hydroxy-4-methylpentyl)cyclohex-3-ene-1-carbaldehyde,31906-04-4,1.0,1.0,1.0,1.0,0.0,0,0,14.549999999999999,1,Active,1,,0,Active,1,Active,1,,0,,0,17.0,1,1.0,EC3,1,0,1,1,1,1,17.0,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,"2,5-Furandione",108-31-6,1.0,1.0,1.0,1.0,0.0,0,0,71.75,1,Active,1,,0,Active,1,Active,1,1.0,1,,0,0.16,1,1.0,Call,1,1,1,1,1,1,0.16,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Methyl 2-nonynoate,111-80-8,1.0,1.0,1.0,1.0,0.0,0,0,51.3,1,Active,1,,0,Active,1,Active,1,,0,,0,2.5,1,1.0,EC3,1,0,1,1,1,1,2.5,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Methyl methacrylate,80-62-6,1.0,1.0,1.0,1.0,0.0,0,0,26.75,1,Active,1,Active,1,Active,1,Active,1,1.0,1,,0,90.0,1,1.0,Call,1,1,1,1,1,1,90.0,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,2-Hydroxyethyl acrylate,818-61-1,1.0,1.0,1.0,1.0,0.0,0,0,93.875,1,Active,1,,0,Active,1,Active,1,,0,,0,1.4,1,1.0,EC3,1,0,1,1,1,1,1.4,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Methyl salicylate,119-36-8,1.0,1.0,0.0,0.0,1.0,0,0,3.15,1,Active,1,Active,1,Inactive,1,Inactive,1,0.0,1,,0,18.25,1,1.0,Call,1,1,1,1,1,1,18.25,1.0,0.0,0,0,1.0,EC3,1,1.0
+ICE,2-Methyl-3(2H)-isothiazolone,2682-20-4,1.0,1.0,1.0,1.0,0.0,0,0,48.575,1,Active,1,,0,Active,1,Active,1,1.0,1,1.0,1,1.9,1,1.0,Call,1,1,1,1,1,1,1.9,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Nonanoic acid,112-05-0,0.0,0.0,1.0,0.0,1.0,0,0,0.1,1,Inactive,1,,0,Active,1,Active,1,0.0,1,,0,60.0,1,1.0,Call,1,1,1,1,1,1,60.0,0.0,1.0,0,0,1.0,EC3,1,1.0
+ICE,Oxalic acid,144-62-7,0.0,1.0,1.0,1.0,1.0,0,1,0.225,1,Active,1,,0,Active,1,Inactive,1,,0,,0,6.3,1,1.0,EC3,1,0,1,1,0,0,6.3,1.0,1.0,0,1,1.0,EC3,1,1.0
+ICE,2-(Phenylmethylene)octanal,101-86-0,0.0,1.0,1.0,1.0,1.0,0,0,0.3,1,Active,1,Active,1,Active,1,Active,1,1.0,1,,0,9.55,1,1.0,Call,1,1,1,1,1,1,9.55,1.0,1.0,0,0,1.0,EC3,1,1.0
+ICE,Hydroxycitronellal,107-75-5,1.0,1.0,1.0,1.0,0.0,0,0,21.0,1,Active,1,Active,1,Active,1,Active,1,,0,,0,22.0,1,1.0,EC3,1,0,1,1,1,1,22.0,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Pentachlorophenol,87-86-5,1.0,0.0,1.0,1.0,1.0,0,0,7.25,1,Inactive,1,,0,Active,1,Active,1,,0,,0,20.0,1,1.0,EC3,1,0,1,1,1,1,20.0,0.0,1.0,0,0,1.0,EC3,1,1.0
+ICE,Perillaldehyde,2111-75-3,1.0,1.0,1.0,1.0,0.0,0,0,22.85,1,Active,1,,0,Active,1,Active,1,,0,,0,8.1,1,1.0,EC3,1,0,1,1,1,1,8.1,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Phenyl benzoate,93-99-2,1.0,0.0,1.0,1.0,1.0,0,0,25.275,1,Inactive,1,Inactive,1,Active,1,Active,1,1.0,1,,0,15.350000000000001,1,1.0,Call,1,1,1,1,1,1,15.35,0.0,1.0,0,0,1.0,EC3,1,1.0
+ICE,Phenylacetaldehyde,122-78-1,1.0,1.0,1.0,1.0,0.0,0,0,32.325,1,Active,1,,0,Active,1,Active,1,1.0,1,,0,3.85,1,1.0,Call,1,1,1,1,1,1,3.85,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Hydratropaldehyde,93-53-8,1.0,1.0,1.0,1.0,0.0,0,0,25.275000000000002,1,Active,1,Active,1,Active,1,Active,1,,0,,0,6.3,1,1.0,EC3,1,0,1,1,1,1,6.3,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,2-Mercaptobenzothiazole,149-30-4,1.0,1.0,1.0,1.0,0.0,0,0,50.974999999999994,1,Active,1,Active,1,Active,1,Active,1,1.0,1,,0,1.7,1,1.0,Call,1,1,1,1,1,1,1.7,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Phthalic anhydride,85-44-9,1.0,1.0,1.0,1.0,0.0,1,1,30.75,1,Active,1,Inactive,1,Inactive,1,Active,1,1.0,1,,0,0.16,1,1.0,Call,1,1,1,1,0,0,0.16,0.0,1.0,1,1,1.0,EC3,1,1.0
+ICE,Propylparaben,94-13-3,0.0,1.0,1.0,0.0,1.0,0,0,0.17,1,Active,1,Active,1,Active,1,Active,1,0.0,1,,0,50.0,1,1.0,Call,1,1,1,1,1,1,50.0,1.0,1.0,0,0,1.0,EC3,1,1.0
+ICE,Pyridine,110-86-1,0.0,0.0,1.0,1.0,1.0,0,1,0.375,1,Inactive,1,Inactive,1,Active,1,Inactive,1,,0,,0,72.0,1,1.0,EC3,1,0,1,1,0,0,72.0,0.0,1.0,0,1,1.0,EC3,1,1.0
+ICE,Resorcinol,108-46-3,1.0,0.0,1.0,1.0,1.0,0,0,3.6999999999999997,1,Inactive,1,Inactive,1,Active,1,Active,1,1.0,1,,0,5.71,1,1.0,Call,1,1,1,1,1,1,5.71,0.0,1.0,0,0,1.0,EC3,1,1.0
+ICE,1-Bromohexane,111-25-1,1.0,1.0,0.0,1.0,1.0,0,0,23.175,1,Active,1,,0,Inactive,1,Inactive,1,,0,,0,10.0,1,1.0,EC3,1,0,1,1,1,1,10.0,1.0,0.0,0,0,1.0,EC3,1,1.0
+ICE,Glyoxal,107-22-2,1.0,1.0,1.0,1.0,0.0,0,0,54.575,1,Active,1,Active,1,Active,1,Active,1,,0,,0,1.4,1,1.0,EC3,1,0,1,1,1,1,1.4,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Salicylic acid,69-72-7,1.0,0.0,1.0,0.0,1.0,0,1,4.175,1,Inactive,1,Inactive,1,Active,1,Inactive,1,0.0,1,,0,12.2,1,1.0,Call,1,1,1,1,0,0,12.2,0.0,1.0,0,1,1.0,EC3,1,1.0
+ICE,Streptomycin sulfate (2:3),3810-74-0,0.0,0.0,0.0,1.0,1.0,0,0,1.125,1,Inactive,1,,0,Inactive,1,Inactive,1,,0,,0,33.3,1,1.0,EC3,1,0,1,1,1,1,33.3,0.0,0.0,0,0,1.0,EC3,1,1.0
+ICE,Sodium dodecyl sulfate,151-21-3,1.0,1.0,1.0,1.0,0.0,1,0,24.25,1,Active,1,Inactive,1,Active,1,Active,1,1.0,1,,0,4.2,1,1.0,Call,1,1,1,1,0,0,4.2,0.0,1.0,1,0,1.0,EC3,1,1.0
+ICE,Bis(dimethylaminothiocarbonyl) disulfide,137-26-8,1.0,1.0,1.0,1.0,0.0,0,0,52.1,1,Active,1,Active,1,Active,1,Active,1,,0,1.0,1,2.665,1,1.0,EPA Classification,1,0,1,1,1,1,2.665,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,(2E)-2-Hexenal,6728-26-3,1.0,1.0,1.0,1.0,0.0,0,0,53.525,1,Active,1,,0,Active,1,Active,1,,0,,0,5.5,1,1.0,EC3,1,0,1,1,1,1,5.5,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Trimellitic anhydride,552-30-7,1.0,0.0,1.0,1.0,1.0,0,1,21.85,1,Inactive,1,,0,Active,1,Inactive,1,,0,,0,0.19,1,1.0,EC3,1,0,1,1,0,0,0.19,0.0,1.0,0,1,1.0,EC3,1,1.0
+ICE,alpha-Amylcinnamaldehyde,122-40-7,0.0,1.0,1.0,1.0,1.0,0,0,2.25,1,Active,1,,0,Active,1,Active,1,,0,,0,10.6,1,1.0,EC3,1,0,1,1,1,1,10.6,1.0,1.0,0,0,1.0,EC3,1,1.0
+ICE,2-Methoxy-4-methylphenol,93-51-6,1.0,0.0,1.0,1.0,1.0,0,0,7.225,1,Inactive,1,,0,Active,1,Active,1,1.0,1,,0,5.6,1,1.0,Call,1,1,1,1,1,1,5.6,0.0,1.0,0,0,1.0,EC3,1,1.0
+ICE,"2-Nitro-1,4-phenylenediamine",5307-14-2,1.0,1.0,1.0,1.0,0.0,0,0,48.35,1,Active,1,,0,Active,1,Active,1,,0,,0,0.4,1,1.0,EC3,1,0,1,1,1,1,0.4,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,"2,5-Diaminotoluene sulfate",615-50-9,1.0,1.0,1.0,1.0,0.0,0,0,46.7,1,Active,1,,0,Active,1,Active,1,,0,,0,0.4,1,1.0,EC3,1,0,1,1,1,1,0.4,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,"2,3-Butanedione",431-03-8,1.0,1.0,1.0,1.0,0.0,0,0,53.0,1,Active,1,Active,1,Active,1,Active,1,,0,,0,11.0,1,1.0,EC3,1,0,1,1,1,1,11.0,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,3-(Dimethylamino)propylamine,109-55-7,0.0,1.0,1.0,1.0,1.0,0,0,4.55,1,Active,1,,0,Active,1,Active,1,,0,,0,2.25,1,1.0,EC3,1,0,1,1,1,1,2.25,1.0,1.0,0,0,1.0,EC3,1,1.0
+ICE,"1-Chloro-2,4-dinitrobenzene",97-00-7,1.0,1.0,1.0,1.0,0.0,0,0,60.0,1,Active,1,Active,1,Active,1,Active,1,1.0,1,,0,0.058499999999999996,1,1.0,Call,1,1,1,1,1,1,0.0584999999999999,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,3-Propylidenephthalide,17369-59-4,1.0,0.0,1.0,1.0,1.0,0,1,14.375,1,Inactive,1,,0,Active,1,Inactive,1,,0,,0,3.7,1,1.0,EC3,1,0,1,1,0,0,3.7,0.0,1.0,0,1,1.0,EC3,1,1.0
+ICE,1-Butanol,71-36-3,0.0,0.0,1.0,0.0,1.0,0,1,0.45,1,Inactive,1,Inactive,1,Active,1,Inactive,1,0.0,1,,0,20.0,1,1.0,Call,1,1,1,1,0,0,20.0,0.0,1.0,0,1,1.0,EC3,1,1.0
+ICE,"3,5-Dichlorosalicyl-3,4-dichloroanilide",1154-59-2,1.0,1.0,1.0,1.0,0.0,0,0,22.9,1,Active,1,,0,Active,1,Active,1,,0,,0,0.04,1,1.0,EC3,1,0,1,1,1,1,0.04,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,"2,4-Heptadienal",5910-85-0,1.0,1.0,1.0,1.0,0.0,0,0,60.6,1,Active,1,,0,Active,1,,0,,0,,0,4.0,1,1.0,EC3,1,0,1,1,1,1,4.0,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,"3,4-Dihydrocoumarin",119-84-6,1.0,0.0,1.0,1.0,1.0,0,1,19.85,1,Inactive,1,,0,Active,1,Inactive,1,,0,,0,4.449999999999999,1,1.0,EC3,1,0,1,1,0,0,4.449999999999999,0.0,1.0,0,1,1.0,EC3,1,1.0
+ICE,Trinitrobenzenesulfonic acid,2508-19-2,1.0,1.0,1.0,1.0,0.0,0,0,61.15,1,Active,1,Active,1,Active,1,,0,1.0,1,,0,0.3,1,1.0,Call,1,1,1,1,1,1,0.3,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,"Methanesulfonamide, N-[2-[(4-amino-3-methylphenyl)ethylamino]ethyl]-, sulfate (2:3)",25646-71-3,1.0,1.0,1.0,1.0,0.0,0,0,51.85,1,Active,1,,0,Active,1,Active,1,,0,,0,0.6,1,1.0,EC3,1,0,1,1,1,1,0.6,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Estragole,140-67-0,1.0,1.0,1.0,1.0,0.0,1,1,27.0,1,Active,1,Inactive,1,Active,1,Inactive,1,1.0,1,,0,19.1,1,1.0,Call,1,1,1,1,0,0,19.1,0.0,1.0,1,1,1.0,EC3,1,1.0
+ICE,3-Aminophenol,591-27-5,0.0,0.0,1.0,1.0,1.0,0,0,2.5,1,Inactive,1,,0,Active,1,Active,1,1.0,1,,0,1.8,1,1.0,Call,1,1,1,1,1,1,1.8,0.0,1.0,0,0,1.0,EC3,1,1.0
+ICE,"1,4-Benzenediamine",106-50-3,1.0,1.0,1.0,1.0,0.0,0,0,58.25,1,Active,1,Active,1,Active,1,Active,1,1.0,1,,0,0.14,1,1.0,Call,1,1,1,1,1,1,0.14,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,"5-Methyl-2,3-hexanedione",13706-86-0,1.0,1.0,1.0,1.0,0.0,0,0,16.65,1,Active,1,,0,Active,1,Active,1,,0,,0,25.8,1,1.0,EC3,1,0,1,1,1,1,25.8,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Abietic acid,514-10-3,1.0,1.0,1.0,1.0,0.0,0,1,58.05,1,Active,1,,0,Inactive,1,Active,1,,0,,0,15.0,1,1.0,EC3,1,0,1,1,0,0,15.0,1.0,1.0,0,1,1.0,EC3,1,0.0
+ICE,Aniline,62-53-3,0.0,1.0,1.0,1.0,1.0,1,0,0.7,1,Active,1,Inactive,1,Active,1,Active,1,,0,,0,33.3,1,1.0,EC3,1,0,1,1,0,0,33.3,0.0,1.0,1,0,1.0,EC3,1,1.0
+ICE,Bandrowski's base,20048-27-5,1.0,1.0,1.0,1.0,0.0,0,0,45.85,1,Active,1,,0,Active,1,Active,1,,0,,0,0.04,1,1.0,EC3,1,0,1,1,1,1,0.04,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,Benzalkonium chloride,8001-54-5,0.0,0.0,1.0,0.0,1.0,0,1,1.4,1,Inactive,1,,0,Inactive,1,Active,1,0.0,1,,0,0.1,1,1.0,Call,1,1,1,1,0,0,0.1,0.0,1.0,0,1,1.0,EC3,1,1.0
+ICE,Benzocaine,94-09-7,1.0,1.0,1.0,1.0,0.0,0,0,10.35,1,Active,1,,0,Active,1,Active,1,,0,,0,3.4,1,1.0,EC3,1,0,1,1,1,1,3.4,1.0,1.0,0,0,1.0,EC3,1,0.0
+ICE,4'-Methoxyacetophenone,100-06-1,0.0,1.0,1.0,0.0,1.0,0,0,1.1,1,Active,1,Active,1,Active,1,Active,1,0.0,1,,0,50.0,1,1.0,Call,1,1,1,1,1,1,50.0,1.0,1.0,0,0,1.0,EC3,1,1.0
+ICE,4-Nitrobenzylbromide,100-11-8,1.0,1.0,1.0,1.0,0.0,0,1,61.55,1,Active,1,Active,1,Active,1,Inactive,1,,0,,0,0.05,1,1.0,EC3,1,0,1,1,0,0,0.05,1.0,1.0,0,1,1.0,EC3,1,0.0
+ICE,Penicillin G,61-33-6,1.0,0.0,1.0,1.0,1.0,0,0,7.15,1,Inactive,1,Inactive,1,Active,1,Active,1,,0,,0,19.8,1,1.0,EC3,1,0,1,1,1,1,19.8,0.0,1.0,0,0,1.0,EC3,1,1.0

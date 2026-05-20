@@ -4,10 +4,11 @@ This repository processes ICE and SkinSensDB raw files into assay-level chemical
 
 ## Files
 
-- `ice_process.py`: reads `RAW_ICE_skin_sensitization.xlsx` and writes ICE outputs. The selected complete-case rule is controlled by `ICE_COMPLETE_CASE_OPTION` near the top of the script. Output filenames include `option_1`, `option_2`, or `option_3`; legacy alias files are also written for downstream scripts.
+- `ice_process.py`: reads `RAW_ICE_skin_sensitization.xlsx` and writes ICE outputs. The selected complete-case rule is controlled by `ICE_COMPLETE_CASE_OPTION` near the top of the script. Output filenames include `option_1`, `option_2`, `option_3`, or `option_4`; legacy alias files are also written for downstream scripts.
 - `skinsens.py`: reads `RAW_SKINSENS_DB_complete.xls` and writes `Skin_endpoint_presence_from_raw.csv` plus `Skin_complete_cases_from_raw.csv`.
 - `synthetic.py`: reads the processed CSV files and writes `analysis_outputs.xlsx` and `analysis_quick_view.csv`.
 - `compare_colleague_complete_cases.py`: compares current complete-case outputs with `complete_case_chemical_lists_ICE105_Skin209.xlsx` and writes diagnostics under `comparison_outputs/`.
+- `brute_force_ice_rules.py`: enumerates plausible ICE rule combinations for KE2/KE3 aggregation, LLNA source priority, conflict exclusion, and complete-case definition. It writes summaries under `ice_rule_bruteforce_outputs/`.
 
 ## Rule Writing Guidelines
 
@@ -138,8 +139,9 @@ Set `ICE_COMPLETE_CASE_OPTION` in `ice_process.py` to choose one of these output
 - Option 1: original strict call rule. Complete when `KE1_call`, `KE2_call`, `KE3_call`, and endpoint `LLNA_call_endpoint` are all present.
 - Option 2: metric/source rule. Complete when `KE1_metric`, at least one KE2 component call, at least one KE3 component call, and `LLNA_EC3` are all present.
 - Option 3: broad final-LLNA rule. Complete when `KE1_call`, `KE2_call`, `KE3_call`, and final prioritized `LLNA_call` are all present.
+- Option 4: conservative final rule. Complete when option 3 is true and both `KE2_conflict = 0` and `KE3_conflict = 0`. This excludes chemicals where KeratinoSens/LuSens disagree or h-CLAT/U-SENS disagree.
 
-The script writes `complete_case_option_1`, `complete_case_option_2`, and `complete_case_option_3` columns, plus a `complete_case` column for the selected option.
+The script writes `complete_case_option_1`, `complete_case_option_2`, `complete_case_option_3`, and `complete_case_option_4` columns, plus a `complete_case` column for the selected option.
 
 ## Run Order
 
@@ -148,6 +150,7 @@ python ice_process.py
 python skinsens.py
 python synthetic.py
 python compare_colleague_complete_cases.py
+python brute_force_ice_rules.py
 ```
 
 ## Notes
