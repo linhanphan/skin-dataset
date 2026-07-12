@@ -79,6 +79,33 @@ def binary_epa_classification(series):
     return 0
 
 
+def first_nonnull_value(series):
+    for value in series:
+        if pd.notna(value) and str(value).strip():
+            return str(value).strip()
+    return np.nan
+
+
+def ec3_call_from_value(value, modifier):
+    if pd.isna(value):
+        return np.nan
+
+    # Exact EC3 values below 100 are positive; values >= 100 are negative.
+    # For censored values, assign a call only when the bound proves the result.
+    # For example, >100 is negative, but >20 remains unknown.
+    value = float(value)
+    modifier = "" if pd.isna(modifier) else str(modifier).strip()
+
+    if modifier in {">", ">="}:
+        return 0 if value >= 100 else np.nan
+    if modifier == "<":
+        return 1 if value <= 100 else np.nan
+    if modifier == "<=":
+        return 1 if value < 100 else np.nan
+
+    return 1 if value < 100 else 0
+
+
 # -----------------------------
 # Load raw ICE sheets
 # -----------------------------
@@ -182,12 +209,13 @@ usens_call = (
 # LLNA
 # -----------------------------
 # Rule:
-# - Keep the endpoint LLNA Call separately as LLNA_call_endpoint.
-# - Later, final LLNA_call is assigned by priority:
-#   1. Endpoint = Call, Active -> 1 and Inactive -> 0.
-#   2. If Call is missing, Endpoint = EPA Classification, Sensitizer -> 1 and Non-sensitizer -> 0.
-#   3. If both are missing, Endpoint = EC3, EC3 > 0 -> 1 and EC3 <= 0 -> 0.
-#   4. If all LLNA sources are missing, final LLNA_call remains missing.
+# - Keep each LLNA source separately for auditing.
+# - Final LLNA_call priority is Call, then EPA Classification, then Max
+#   stimulation index, then EC3.
+# - Max stimulation index >= 3 is positive; a value < 3 is negative.
+# - Exact EC3 < 100 is positive; exact EC3 >= 100 is negative.
+# - A censored EC3 value is used only when its bound proves the result.
+# - If all LLNA sources are missing or indeterminate, LLNA_call remains missing.
 llna_call_endpoint = (
     df_invivo[(df_invivo["Assay"] == "LLNA") & (df_invivo["Endpoint"] == "Call")]
     .groupby("CASRN")["Response"]
@@ -204,12 +232,24 @@ llna_epa = (
     .rename(columns={"CASRN": "CAS"})
 )
 
-llna_ec3 = (
-    df_invivo[(df_invivo["Assay"] == "LLNA") & (df_invivo["Endpoint"] == "EC3")]
+llna_max_stimulation_index = (
+    df_invivo[(df_invivo["Assay"] == "LLNA") & (df_invivo["Endpoint"] == "Max stimulation index")]
     .assign(Response_num=lambda d: pd.to_numeric(d["Response"], errors="coerce"))
     .groupby("CASRN")["Response_num"]
     .median()
-    .reset_index(name="LLNA_EC3")
+    .reset_index(name="LLNA_max_stimulation_index")
+    .rename(columns={"CASRN": "CAS"})
+)
+
+llna_ec3 = (
+    df_invivo[(df_invivo["Assay"] == "LLNA") & (df_invivo["Endpoint"] == "EC3")]
+    .assign(Response_num=lambda d: pd.to_numeric(d["Response"], errors="coerce"))
+    .groupby("CASRN")
+    .agg(
+        LLNA_EC3=("Response_num", "median"),
+        LLNA_EC3_modifier=("Response_Modifier", first_nonnull_value),
+    )
+    .reset_index()
     .rename(columns={"CASRN": "CAS"})
 )
 
@@ -218,7 +258,7 @@ llna_ec3 = (
 # -----------------------------
 out = chem.copy()
 
-for tbl in [ke1_call, ke1_metric, ks_call, lusens_call, hclat_call, usens_call, llna_call_endpoint, llna_epa, llna_ec3]:
+for tbl in [ke1_call, ke1_metric, ks_call, lusens_call, hclat_call, usens_call, llna_call_endpoint, llna_epa, llna_max_stimulation_index, llna_ec3]:
     out = out.merge(tbl, on="CAS", how="left")
 
 # -----------------------------
@@ -262,8 +302,18 @@ out["KE3_conflict"] = out.apply(lambda row: component_conflict(row, ["hCLAT_call
 # Rule:
 # - LLNA_call is the final prioritized LLNA call used by Misclassified.
 # - LLNA_call_source records which source was used.
-out["LLNA_EC3_call"] = np.where(out["LLNA_EC3"].notna(), (out["LLNA_EC3"] > 0).astype(int), np.nan)
+out["LLNA_max_stimulation_index_call"] = np.where(
+    out["LLNA_max_stimulation_index"].notna(),
+    (out["LLNA_max_stimulation_index"] >= 3).astype(int),
+    np.nan,
+)
+out["LLNA_EC3_call"] = out.apply(
+    lambda row: ec3_call_from_value(row["LLNA_EC3"], row["LLNA_EC3_modifier"]),
+    axis=1,
+)
 
+# Final LLNA priority: Call, then EPA Classification, then Max stimulation
+# index, then EC3. If all sources are missing, LLNA_call remains missing.
 out["LLNA_call"] = out["LLNA_call_endpoint"]
 out["LLNA_call_source"] = pd.Series(pd.NA, index=out.index, dtype="object")
 out.loc[out["LLNA_call_endpoint"].notna(), "LLNA_call_source"] = "Call"
@@ -272,6 +322,10 @@ missing_llna = out["LLNA_call"].isna() & out["LLNA_EPA_call"].notna()
 out.loc[missing_llna, "LLNA_call"] = out.loc[missing_llna, "LLNA_EPA_call"]
 out.loc[missing_llna, "LLNA_call_source"] = "EPA Classification"
 
+missing_llna = out["LLNA_call"].isna() & out["LLNA_max_stimulation_index_call"].notna()
+out.loc[missing_llna, "LLNA_call"] = out.loc[missing_llna, "LLNA_max_stimulation_index_call"]
+out.loc[missing_llna, "LLNA_call_source"] = "Max stimulation index"
+
 missing_llna = out["LLNA_call"].isna() & out["LLNA_EC3_call"].notna()
 out.loc[missing_llna, "LLNA_call"] = out.loc[missing_llna, "LLNA_EC3_call"]
 out.loc[missing_llna, "LLNA_call_source"] = "EC3"
@@ -279,7 +333,7 @@ out.loc[missing_llna, "LLNA_call_source"] = "EC3"
 # -----------------------------
 # Presence flags
 # -----------------------------
-for col in ["KE1_metric", "KS_call", "LuSens_call", "hCLAT_call", "USENS_call", "LLNA_call_endpoint", "LLNA_EPA_call", "LLNA_EC3", "LLNA_call"]:
+for col in ["KE1_metric", "KS_call", "LuSens_call", "hCLAT_call", "USENS_call", "LLNA_call_endpoint", "LLNA_EPA_call", "LLNA_max_stimulation_index", "LLNA_EC3", "LLNA_call"]:
     out[f"{col}__present"] = out[col].notna().astype(int)
 
 # Optional discordance flag
@@ -306,7 +360,7 @@ out["complete_case_option_2"] = (
     & out["LLNA_EC3"].notna()
 ).astype(int)
 
-# Option 3: broad final-LLNA rule with priority Call > EPA Classification > EC3.
+# Option 3: broad final-LLNA rule with priority Call > EPA Classification > Max stimulation index > EC3.
 out["complete_case_option_3"] = out[["KE1_call", "KE2_call", "KE3_call", "LLNA_call"]].notna().all(axis=1).astype(int)
 
 # Option 4: conservative final rule requested by Samantha.
@@ -335,8 +389,9 @@ final_cols = [
     "USENS_call", "USENS_call__present",
     "LLNA_call_endpoint", "LLNA_call_endpoint__present",
     "LLNA_EPA_call", "LLNA_EPA_call__present",
-    "LLNA_EC3", "LLNA_EC3__present",
-    "LLNA_EC3_call",
+    "LLNA_max_stimulation_index", "LLNA_max_stimulation_index__present",
+    "LLNA_EC3", "LLNA_EC3_modifier", "LLNA_EC3__present",
+    "LLNA_max_stimulation_index_call", "LLNA_EC3_call",
     "LLNA_call_source", "LLNA_call__present",
     "complete_case_option_1", "complete_case_option_2", "complete_case_option_3", "complete_case_option_4",
     "complete_case",

@@ -62,6 +62,8 @@ def llna_by_priority(row, priority):
             return clean_binary_call(row["LLNA_call_endpoint"]), "Call"
         if source == "epa" and has_value(row.get("LLNA_EPA_call", np.nan)):
             return clean_binary_call(row["LLNA_EPA_call"]), "EPA Classification"
+        if source == "max_si" and has_value(row.get("LLNA_max_stimulation_index_call", np.nan)):
+            return clean_binary_call(row["LLNA_max_stimulation_index_call"]), "Max stimulation index"
         if source == "ec3" and has_value(row.get("LLNA_EC3_call", np.nan)):
             return clean_binary_call(row["LLNA_EC3_call"]), "EC3"
     return np.nan, ""
@@ -127,10 +129,22 @@ def apply_rule(df, rule):
 
 df = pd.read_csv(INPUT_CSV, dtype=object)
 
-# Recompute EC3-derived call here so this script can run even if the input was
-# produced by an older ice_process.py.
-df["LLNA_EC3_num"] = pd.to_numeric(df.get("LLNA_EC3", np.nan), errors="coerce")
-df["LLNA_EC3_call"] = np.where(df["LLNA_EC3_num"].notna(), (df["LLNA_EC3_num"] > 0).astype(int), np.nan)
+# Recompute LLNA-derived calls only when the input was produced by an older
+# ice_process.py. Newer output keeps the modifier-aware EC3 call unchanged.
+if "LLNA_EC3_call" not in df.columns:
+    df["LLNA_EC3_num"] = pd.to_numeric(df.get("LLNA_EC3", np.nan), errors="coerce")
+    df["LLNA_EC3_call"] = np.where(
+        df["LLNA_EC3_num"].notna(), (df["LLNA_EC3_num"] < 100).astype(int), np.nan
+    )
+if "LLNA_max_stimulation_index_call" not in df.columns:
+    df["LLNA_max_stimulation_index_num"] = pd.to_numeric(
+        df.get("LLNA_max_stimulation_index", np.nan), errors="coerce"
+    )
+    df["LLNA_max_stimulation_index_call"] = np.where(
+        df["LLNA_max_stimulation_index_num"].notna(),
+        (df["LLNA_max_stimulation_index_num"] >= 3).astype(int),
+        np.nan,
+    )
 
 if "LLNA_call_endpoint" not in df.columns:
     df["LLNA_call_endpoint"] = df.get("LLNA_call", np.nan)
@@ -146,11 +160,14 @@ llna_priorities = [
     ("call",),
     ("ec3",),
     ("epa",),
+    ("max_si",),
+    ("call", "epa", "max_si", "ec3"),
     ("call", "epa", "ec3"),
+    ("call", "max_si", "ec3"),
     ("call", "ec3"),
     ("ec3", "call"),
     ("call", "epa"),
-    ("epa", "ec3"),
+    ("epa", "max_si", "ec3"),
 ]
 
 summary_rows = []

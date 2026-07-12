@@ -55,7 +55,7 @@ def parse_censored_number(value):
         return np.nan
 
     s = str(value).strip()
-    if not s or s.lower() in {"nan", "nd"}:
+    if not s or s.lower() in {"nan", "nd", "nc", "idr", "na", "n/a"}:
         return np.nan
 
     if s in CENSORED_VALUE_MAP:
@@ -182,12 +182,13 @@ df["KE3_call"] = df.apply(ke3_call, axis=1)
 # -----------------------------
 # Rule:
 # - LLNA_EC3 is parsed as a numeric metric.
-# - LLNA_call is 1 when LLNA_EC3 > 0.
-# - LLNA_call is 0 when LLNA_EC3 <= 0.
+# - LLNA_call is 1 when LLNA_EC3 < 100.
+# - LLNA_call is 0 when LLNA_EC3 >= 100.
 # - LLNA_call is missing when LLNA_EC3 is missing.
+# - Censored values use the mapping/fallback rule near the top of this file.
 if "LLNA_EC3" in df.columns:
     df["LLNA_EC3"] = df["LLNA_EC3"].apply(parse_censored_number)
-    df["LLNA_call"] = np.where(df["LLNA_EC3"].notna(), (df["LLNA_EC3"] > 0).astype(int), np.nan)
+    df["LLNA_call"] = np.where(df["LLNA_EC3"].notna(), (df["LLNA_EC3"] < 100).astype(int), np.nan)
 else:
     df["LLNA_EC3"] = np.nan
     df["LLNA_call"] = np.nan

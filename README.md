@@ -32,7 +32,7 @@ Raw SkinSensDB values can contain censored numeric text such as `>2000`, `<179`,
 - The code parses censored values before applying threshold rules.
 - Exact mappings can be added to `CENSORED_VALUE_MAP` near the top of `skinsens.py`, for example `">2000": 2001` or `"<192": 191`.
 - If a censored value is not listed in `CENSORED_VALUE_MAP`, the fallback rule is used: `>x` maps to `x + 1`, and `<x` maps to `x - 1`.
-- `ND`, blank cells, and non-numeric text remain missing.
+- `NaN`, `ND`, `NC`, `IDR`, blank cells, and other non-numeric text remain missing.
 - The original raw file remains unchanged.
 
 ### KE1
@@ -62,9 +62,10 @@ Raw SkinSensDB values can contain censored numeric text such as `>2000`, `<179`,
 ### LLNA
 
 - Input: `LLNA_EC3`.
-- `LLNA_call = 1` when `LLNA_EC3 > 0`.
-- `LLNA_call = 0` when `LLNA_EC3 <= 0`.
-- `LLNA_call` is missing when `LLNA_EC3` is missing.
+- `LLNA_call = 1` when `LLNA_EC3 < 100`.
+- `LLNA_call = 0` when `LLNA_EC3 >= 100`.
+- `LLNA_call` is missing when `LLNA_EC3` is missing or cannot be parsed.
+- Censored values use the mapping and fallback rules described above.
 
 ### Complete Case
 
@@ -119,12 +120,16 @@ The final `LLNA_call` is assigned by priority. Lower-priority sources are used o
 2. Endpoint `EPA Classification`:
    - Sensitizer -> `LLNA_call = 1`
    - Non-sensitizer -> `LLNA_call = 0`
-3. Endpoint `EC3`:
-   - `EC3 > 0` -> `LLNA_call = 1`
-   - `EC3 <= 0` -> `LLNA_call = 0`
-4. If Call, EPA Classification, and EC3 are all missing, `LLNA_call` remains missing.
+3. Endpoint `Max stimulation index`:
+   - value >= 3 -> `LLNA_call = 1`
+   - value < 3 -> `LLNA_call = 0`
+4. Endpoint `EC3`:
+   - exact EC3 value < 100 -> `LLNA_call = 1`
+   - exact EC3 value >= 100 -> `LLNA_call = 0`
+   - censored values are assigned only when their bound proves the result; for example, `>100` is negative, while `>20` remains missing.
+5. If all four LLNA sources are missing or indeterminate, `LLNA_call` remains missing.
 
-The output also keeps `LLNA_call_endpoint`, `LLNA_EPA_call`, `LLNA_EC3`, `LLNA_EC3_call`, and `LLNA_call_source` so the final call can be audited.
+The output also keeps `LLNA_call_endpoint`, `LLNA_EPA_call`, `LLNA_max_stimulation_index`, `LLNA_EC3`, their derived calls, and `LLNA_call_source` so the final call can be audited.
 
 ### Misclassified
 
