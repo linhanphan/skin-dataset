@@ -182,12 +182,14 @@ df["KE3_call"] = df.apply(ke3_call, axis=1)
 # -----------------------------
 # Rule:
 # - LLNA_EC3 is parsed as a numeric metric.
+# - LLNA_EC3 = 0 means not reported, not calculated, or missing data.
 # - LLNA_call is 1 when LLNA_EC3 < 100.
 # - LLNA_call is 0 when LLNA_EC3 >= 100.
 # - LLNA_call is missing when LLNA_EC3 is missing.
 # - Censored values use the mapping/fallback rule near the top of this file.
 if "LLNA_EC3" in df.columns:
     df["LLNA_EC3"] = df["LLNA_EC3"].apply(parse_censored_number)
+    df.loc[df["LLNA_EC3"].eq(0), "LLNA_EC3"] = np.nan
     df["LLNA_call"] = np.where(df["LLNA_EC3"].notna(), (df["LLNA_EC3"] < 100).astype(int), np.nan)
 else:
     df["LLNA_EC3"] = np.nan
@@ -197,9 +199,9 @@ else:
 for col in ["KE1_metric", "KE2_metric", "KE3_metric", "LLNA_EC3"]:
     df[f"{col}__present"] = df[col].notna().astype(int)
 
-# Complete cases require all four metric/evidence columns to be present.
-required_metrics = ["KE1_metric", "KE2_metric", "KE3_metric", "LLNA_EC3"]
-df["complete_case"] = df[required_metrics].notna().all(axis=1).astype(int)
+# Complete cases require all three KE calls and LLNA_EC3 to be present.
+required_complete_values = ["KE1_call", "KE2_call", "KE3_call", "LLNA_EC3"]
+df["complete_case"] = df[required_complete_values].notna().all(axis=1).astype(int)
 
 # Final output
 keep = [

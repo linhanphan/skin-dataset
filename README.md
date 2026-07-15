@@ -62,6 +62,7 @@ Raw SkinSensDB values can contain censored numeric text such as `>2000`, `<179`,
 ### LLNA
 
 - Input: `LLNA_EC3`.
+- `LLNA_EC3 = 0` means not reported, not calculated, or missing data. It is converted to missing before assigning `LLNA_call`.
 - `LLNA_call = 1` when `LLNA_EC3 < 100`.
 - `LLNA_call = 0` when `LLNA_EC3 >= 100`.
 - `LLNA_call` is missing when `LLNA_EC3` is missing or cannot be parsed.
@@ -69,7 +70,7 @@ Raw SkinSensDB values can contain censored numeric text such as `>2000`, `<179`,
 
 ### Complete Case
 
-- `complete_case = 1` when `KE1_metric`, `KE2_metric`, `KE3_metric`, and `LLNA_EC3` are all present.
+- `complete_case = 1` when `KE1_call`, `KE2_call`, `KE3_call`, and `LLNA_EC3` are all present.
 - `complete_case = 0` otherwise.
 
 ## ICE Rules
